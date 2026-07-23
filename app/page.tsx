@@ -1,5 +1,5 @@
 import Header from "@/components/Header";
-import ScholarshipList from "@/components/ScholarshipList";
+import ScholarshipExplorer from "@/components/ScholarshipExplorer";
 import scholarshipsData from "@/data/scholarships.json";
 import type { Scholarship } from "@/types/scholarship";
 
@@ -11,7 +11,7 @@ export default function HomePage() {
       <Header />
 
       <div className="mt-10">
-        <ScholarshipList scholarships={scholarships} />
+        <ScholarshipExplorer scholarships={scholarships} />
       </div>
     </main>
   );
