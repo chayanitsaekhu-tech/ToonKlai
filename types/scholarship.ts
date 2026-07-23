@@ -3,6 +3,8 @@ export type ScholarshipLevel =
   | "Postgraduate"
   | "International";
 
+export type ScholarshipLevelFilter = "All" | ScholarshipLevel;
+
 export type Scholarship = {
   id: number;
   name: string;
