@@ -1,4 +1,5 @@
 import Header from "@/components/Header";
+import ScholarshipCard from "@/components/ScholarshipCard";
 import scholarshipsData from "@/data/scholarships.json";
 import type { Scholarship } from "@/types/scholarship";
 
@@ -14,34 +15,12 @@ export default function HomePage() {
           Available Scholarships
         </h2>
 
-        <div className="mt-6 grid gap-5">
+        <div className="mt-6 grid gap-5 md:grid-cols-2">
           {scholarships.map((scholarship) => (
-            <article
+            <ScholarshipCard
               key={scholarship.id}
-              className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm"
-            >
-              <h3 className="text-xl font-bold text-slate-900">
-                {scholarship.name}
-              </h3>
-
-              <p className="mt-3 leading-7 text-slate-600">
-                {scholarship.description}
-              </p>
-
-              <div className="mt-4 space-y-1 text-slate-700">
-                <p>
-                  <strong>Amount:</strong> {scholarship.amount}
-                </p>
-
-                <p>
-                  <strong>Level:</strong> {scholarship.level}
-                </p>
-
-                <p>
-                  <strong>Deadline:</strong> {scholarship.deadline}
-                </p>
-              </div>
-            </article>
+              scholarship={scholarship}
+            />
           ))}
         </div>
       </section>
