@@ -1,0 +1,67 @@
+[
+  {
+    "id": 1,
+    "name": "Women in Tech Scholarship",
+    "amount": "£2,000",
+    "level": "Undergraduate",
+    "field": "Technology",
+    "deadline": "30 September 2026",
+    "location": "United Kingdom",
+    "description": "A scholarship for women starting a technology-related degree.",
+    "eligibility": "Open to women applying for an undergraduate technology course.",
+    "link": "https://example.com/women-in-tech",
+    "featured": true
+  },
+  {
+    "id": 2,
+    "name": "Future Engineers Grant",
+    "amount": "£1,500",
+    "level": "Undergraduate",
+    "field": "Engineering",
+    "deadline": "15 October 2026",
+    "location": "United Kingdom",
+    "description": "A grant for students interested in engineering careers.",
+    "eligibility": "Open to students applying for engineering-related courses.",
+    "link": "https://example.com/future-engineers",
+    "featured": true
+  },
+  {
+    "id": 3,
+    "name": "Postgraduate STEM Award",
+    "amount": "£3,000",
+    "level": "Postgraduate",
+    "field": "STEM",
+    "deadline": "1 November 2026",
+    "location": "United Kingdom",
+    "description": "Funding support for postgraduate students studying STEM subjects.",
+    "eligibility": "Open to postgraduate students studying science, technology, engineering, or maths.",
+    "link": "https://example.com/stem-award",
+    "featured": false
+  },
+  {
+    "id": 4,
+    "name": "Creative Arts Bursary",
+    "amount": "£1,000",
+    "level": "Undergraduate",
+    "field": "Arts",
+    "deadline": "20 August 2026",
+    "location": "United Kingdom",
+    "description": "A bursary for students studying creative arts subjects.",
+    "eligibility": "Open to students applying for creative arts courses.",
+    "link": "https://example.com/creative-arts",
+    "featured": false
+  },
+  {
+    "id": 5,
+    "name": "International Student Support Fund",
+    "amount": "£2,500",
+    "level": "International",
+    "field": "Any subject",
+    "deadline": "10 December 2026",
+    "location": "United Kingdom",
+    "description": "Support for international students beginning their studies.",
+    "eligibility": "Open to international students applying to UK institutions.",
+    "link": "https://example.com/international-support",
+    "featured": true
+  }
+]
