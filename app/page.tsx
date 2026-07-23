@@ -1,3 +1,4 @@
+import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import ScholarshipExplorer from "@/components/ScholarshipExplorer";
 import scholarshipsData from "@/data/scholarships.json";
@@ -13,6 +14,8 @@ export default function HomePage() {
       <div className="mt-10">
         <ScholarshipExplorer scholarships={scholarships} />
       </div>
+
+      <Footer />
     </main>
   );
 }
