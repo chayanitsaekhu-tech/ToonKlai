@@ -1,11 +1,12 @@
 import type { Metadata } from "next";
-import "./globals.css";
 import { notFound } from "next/navigation";
 
 import {
   isLocale,
   locales,
 } from "@/i18n/config";
+
+import "../globals.css";
 
 import { getDictionary } from "@/i18n/dictionaries";
 
