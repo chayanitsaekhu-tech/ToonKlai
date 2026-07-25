@@ -1,0 +1,60 @@
+{
+  "metadata": {
+    "title": "Scholarship Finder",
+    "description": "Find scholarships that can support your education."
+  },
+
+  "header": {
+    "eyebrow": "Education funding",
+    "title": "Scholarship Finder",
+    "description": "Search scholarships that can help support your education and future career."
+  },
+
+  "search": {
+    "label": "Search scholarships",
+    "placeholder": "Search by name, subject, or keyword"
+  },
+
+  "filters": {
+    "label": "Filter by study level",
+    "all": "All",
+    "undergraduate": "Undergraduate",
+    "postgraduate": "Postgraduate",
+    "international": "International",
+    "clear": "Clear search and filters"
+  },
+
+  "scholarships": {
+    "heading": "Available Scholarships",
+    "description": "Explore the opportunities currently listed.",
+    "showing": "Showing",
+    "singular": "scholarship",
+    "plural": "scholarships",
+    "featured": "Featured",
+    "amount": "Amount",
+    "level": "Level",
+    "field": "Field",
+    "deadline": "Deadline",
+    "location": "Location",
+    "eligibility": "Eligibility",
+    "view": "View scholarship",
+    "visitWebsite": "Visit scholarship website",
+    "back": "Back to all scholarships",
+    "opportunity": "Scholarship opportunity"
+  },
+
+  "empty": {
+    "title": "No scholarships found",
+    "description": "Try changing your search term or selecting a different study level."
+  },
+
+  "language": {
+    "label": "Language",
+    "english": "English",
+    "thai": "ไทย"
+  },
+
+  "footer": {
+    "text": "Scholarship Finder. Built with Next.js, TypeScript, and Tailwind CSS."
+  }
+}
