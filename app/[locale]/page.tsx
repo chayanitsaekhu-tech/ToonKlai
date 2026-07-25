@@ -1,21 +1,47 @@
-import Footer from "@/components/Footer";
+import { notFound } from "next/navigation";
+
 import Header from "@/components/Header";
 import ScholarshipExplorer from "@/components/ScholarshipExplorer";
-import scholarshipsData from "@/data/scholarships.json";
-import type { Scholarship } from "@/types/scholarship";
+import Footer from "@/components/Footer";
+import LanguageSwitcher from "@/components/LanguageSwitcher";
 
-export default function HomePage() {
-  const scholarships = scholarshipsData as Scholarship[];
+import { isLocale } from "@/i18n/config";
+import { getDictionary } from "@/i18n/dictionaries";
+import { getScholarships } from "@/i18n/scholarships";
+
+export default async function HomePage({
+  params,
+}: {
+  params: Promise<{
+    locale: string;
+  }>;
+}) {
+  const { locale } = await params;
+
+  if (!isLocale(locale)) {
+    notFound();
+  }
+
+  const dictionary = getDictionary(locale);
+  const scholarships = getScholarships(locale);
 
   return (
     <main className="mx-auto min-h-screen w-full max-w-6xl px-5 py-10">
-      <Header />
-
-      <div className="mt-10">
-        <ScholarshipExplorer scholarships={scholarships} />
+      <div className="mb-6 flex justify-end">
+        <LanguageSwitcher locale={locale} />
       </div>
 
-      <Footer />
+      <Header dictionary={dictionary.header} />
+
+      <div className="mt-10">
+        <ScholarshipExplorer
+          locale={locale}
+          scholarships={scholarships}
+          dictionary={dictionary}
+        />
+      </div>
+
+      <Footer text={dictionary.footer.text} />
     </main>
   );
 }
