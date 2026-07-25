@@ -1,42 +1,139 @@
+import type { Metadata } from "next";
+
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import scholarshipsData from "@/data/scholarships.json";
-import type { Scholarship } from "@/types/scholarship";
 
-type ScholarshipPageProps = {
-  params: Promise<{
-    id: string;
-  }>;
-};
+import {
+  isLocale,
+  locales,
+  routeSegments,
+} from "@/i18n/config";
 
-const scholarships = scholarshipsData as Scholarship[];
+import {
+  getDictionary,
+} from "@/i18n/dictionaries";
+
+import {
+  getScholarshipBySlug,
+  getScholarships,
+} from "@/i18n/scholarships";
+
+import {
+  getHomePath,
+} from "@/i18n/routes";
+
+export const dynamicParams = false;
 
 export function generateStaticParams() {
-  return scholarships.map((scholarship) => ({
-    id: scholarship.id.toString(),
-  }));
+  return locales.flatMap((locale) => {
+    const scholarships =
+      getScholarships(locale);
+
+    return scholarships.map(
+      (scholarship) => ({
+        locale,
+        scholarshipsSegment:
+          routeSegments[locale]
+            .scholarships,
+        slug: scholarship.slug,
+      }),
+    );
+  });
+}
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{
+    locale: string;
+    scholarshipsSegment: string;
+    slug: string;
+  }>;
+}): Promise<Metadata> {
+  const {
+    locale,
+    scholarshipsSegment,
+    slug,
+  } = await params;
+
+  if (!isLocale(locale)) {
+    return {};
+  }
+
+  if (
+    scholarshipsSegment !==
+    routeSegments[locale].scholarships
+  ) {
+    return {};
+  }
+
+  const scholarship =
+    getScholarshipBySlug(
+      locale,
+      slug,
+    );
+
+  if (!scholarship) {
+    return {};
+  }
+
+  return {
+    title: scholarship.name,
+    description:
+      scholarship.description,
+  };
 }
 
 export default async function ScholarshipPage({
   params,
-}: ScholarshipPageProps) {
-  const { id } = await params;
+}: {
+  params: Promise<{
+    locale: string;
+    scholarshipsSegment: string;
+    slug: string;
+  }>;
+}) {
+  const {
+    locale,
+    scholarshipsSegment,
+    slug,
+  } = await params;
 
-  const scholarship = scholarships.find(
-    (item) => item.id.toString() === id,
-  );
+  if (!isLocale(locale)) {
+    notFound();
+  }
+
+  const expectedSegment =
+    routeSegments[locale]
+      .scholarships;
+
+  if (
+    scholarshipsSegment !==
+    expectedSegment
+  ) {
+    notFound();
+  }
+
+  const scholarship =
+    getScholarshipBySlug(
+      locale,
+      slug,
+    );
 
   if (!scholarship) {
     notFound();
   }
 
+  const dictionary =
+    getDictionary(locale);
+
   return (
     <main className="mx-auto min-h-screen w-full max-w-4xl px-5 py-10">
       <Link
-        href="/"
-        className="inline-flex items-center font-semibold text-sky-700 transition hover:text-sky-900"
+        href={getHomePath(locale)}
+        className="inline-flex font-semibold text-sky-700 hover:text-sky-900"
       >
-        ← Back to all scholarships
+        ← {dictionary.scholarships.back}
       </Link>
 
       <article className="mt-8 overflow-hidden rounded-3xl border border-slate-200 bg-white shadow-sm">
@@ -44,7 +141,11 @@ export default async function ScholarshipPage({
           <div className="flex flex-wrap items-start justify-between gap-4">
             <div>
               <p className="text-sm font-semibold uppercase tracking-[0.2em] text-sky-300">
-                Scholarship opportunity
+                {
+                  dictionary
+                    .scholarships
+                    .opportunity
+                }
               </p>
 
               <h1 className="mt-3 text-3xl font-bold tracking-tight sm:text-4xl">
@@ -54,7 +155,11 @@ export default async function ScholarshipPage({
 
             {scholarship.featured && (
               <span className="rounded-full bg-amber-300 px-3 py-1 text-sm font-bold text-amber-950">
-                Featured
+                {
+                  dictionary
+                    .scholarships
+                    .featured
+                }
               </span>
             )}
           </div>
@@ -68,8 +173,13 @@ export default async function ScholarshipPage({
           <dl className="grid gap-6 sm:grid-cols-2">
             <div className="rounded-xl bg-slate-50 p-4">
               <dt className="text-sm font-semibold text-slate-500">
-                Amount
+                {
+                  dictionary
+                    .scholarships
+                    .amount
+                }
               </dt>
+
               <dd className="mt-1 text-lg font-bold text-slate-900">
                 {scholarship.amount}
               </dd>
@@ -77,8 +187,13 @@ export default async function ScholarshipPage({
 
             <div className="rounded-xl bg-slate-50 p-4">
               <dt className="text-sm font-semibold text-slate-500">
-                Study level
+                {
+                  dictionary
+                    .scholarships
+                    .level
+                }
               </dt>
+
               <dd className="mt-1 text-lg font-bold text-slate-900">
                 {scholarship.level}
               </dd>
@@ -86,8 +201,13 @@ export default async function ScholarshipPage({
 
             <div className="rounded-xl bg-slate-50 p-4">
               <dt className="text-sm font-semibold text-slate-500">
-                Subject
+                {
+                  dictionary
+                    .scholarships
+                    .field
+                }
               </dt>
+
               <dd className="mt-1 text-lg font-bold text-slate-900">
                 {scholarship.field}
               </dd>
@@ -95,8 +215,13 @@ export default async function ScholarshipPage({
 
             <div className="rounded-xl bg-slate-50 p-4">
               <dt className="text-sm font-semibold text-slate-500">
-                Deadline
+                {
+                  dictionary
+                    .scholarships
+                    .deadline
+                }
               </dt>
+
               <dd className="mt-1 text-lg font-bold text-slate-900">
                 {scholarship.deadline}
               </dd>
@@ -104,8 +229,13 @@ export default async function ScholarshipPage({
 
             <div className="rounded-xl bg-slate-50 p-4 sm:col-span-2">
               <dt className="text-sm font-semibold text-slate-500">
-                Location
+                {
+                  dictionary
+                    .scholarships
+                    .location
+                }
               </dt>
+
               <dd className="mt-1 text-lg font-bold text-slate-900">
                 {scholarship.location}
               </dd>
@@ -114,7 +244,11 @@ export default async function ScholarshipPage({
 
           <section className="mt-8">
             <h2 className="text-2xl font-bold text-slate-900">
-              Eligibility
+              {
+                dictionary
+                  .scholarships
+                  .eligibility
+              }
             </h2>
 
             <p className="mt-3 leading-7 text-slate-600">
@@ -127,9 +261,13 @@ export default async function ScholarshipPage({
               href={scholarship.link}
               target="_blank"
               rel="noreferrer"
-              className="inline-flex rounded-lg bg-sky-600 px-5 py-3 font-bold text-white transition hover:bg-sky-700 focus:outline-none focus:ring-2 focus:ring-sky-500 focus:ring-offset-2"
+              className="inline-flex rounded-lg bg-sky-600 px-5 py-3 font-bold text-white hover:bg-sky-700"
             >
-              Visit scholarship website
+              {
+                dictionary
+                  .scholarships
+                  .visitWebsite
+              }
             </a>
           </div>
         </div>
