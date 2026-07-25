@@ -9,6 +9,7 @@ import { isLocale } from "@/i18n/config";
 import { getDictionary } from "@/i18n/dictionaries";
 import { getScholarships } from "@/i18n/scholarships";
 
+
 export default async function HomePage({
   params,
 }: {

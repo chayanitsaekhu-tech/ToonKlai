@@ -15,12 +15,14 @@ import {
 } from "@/i18n/dictionaries";
 
 import {
+  getScholarshipById,
   getScholarshipBySlug,
   getScholarships,
 } from "@/i18n/scholarships";
 
 import {
   getHomePath,
+  getScholarshipPath,
 } from "@/i18n/routes";
 
 export const dynamicParams = false;
@@ -78,11 +80,43 @@ export async function generateMetadata({
     return {};
   }
 
-  return {
-    title: scholarship.name,
-    description:
-      scholarship.description,
-  };
+  const englishScholarship =
+  getScholarshipById(
+    "en",
+    scholarship.id,
+  );
+
+const thaiScholarship =
+  getScholarshipById(
+    "th",
+    scholarship.id,
+  );
+
+return {
+  title: scholarship.name,
+
+  description:
+    scholarship.description,
+
+  alternates: {
+    languages: {
+      en: englishScholarship
+        ? getScholarshipPath(
+            "en",
+            englishScholarship,
+          )
+        : undefined,
+
+      th: thaiScholarship
+        ? getScholarshipPath(
+            "th",
+            thaiScholarship,
+          )
+        : undefined,
+    },
+  },
+};
+
 }
 
 export default async function ScholarshipPage({
