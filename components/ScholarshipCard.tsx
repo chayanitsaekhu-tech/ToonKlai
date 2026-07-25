@@ -1,15 +1,58 @@
 import Link from "next/link";
-import type { Scholarship } from "@/types/scholarship";
+
+import { getScholarshipPath } from "@/i18n/routes";
+
+import type { Locale } from "@/i18n/config";
+import type {
+  Scholarship,
+  ScholarshipLevel,
+} from "@/types/scholarship";
+
+type ScholarshipCardDictionary = {
+  featured: string;
+  amount: string;
+  level: string;
+  field: string;
+  deadline: string;
+  view: string;
+};
+
+type FilterDictionary = {
+  undergraduate: string;
+  postgraduate: string;
+  international: string;
+};
 
 type ScholarshipCardProps = {
+  locale: Locale;
   scholarship: Scholarship;
+  dictionary: ScholarshipCardDictionary;
+  filterDictionary: FilterDictionary;
 };
 
 export default function ScholarshipCard({
+  locale,
   scholarship,
+  dictionary,
+  filterDictionary,
 }: ScholarshipCardProps) {
+  function getLevelLabel(
+    level: ScholarshipLevel,
+  ) {
+    switch (level) {
+      case "Undergraduate":
+        return filterDictionary.undergraduate;
+
+      case "Postgraduate":
+        return filterDictionary.postgraduate;
+
+      case "International":
+        return filterDictionary.international;
+    }
+  }
+
   return (
-    <article className="flex h-full flex-col rounded-2xl border border-slate-200 bg-white p-6 shadow-sm transition hover:-translate-y-1 hover:shadow-md">
+    <article className="flex h-full flex-col rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
       <div className="flex flex-wrap items-start justify-between gap-3">
         <h3 className="text-xl font-bold text-slate-900">
           {scholarship.name}
@@ -17,7 +60,7 @@ export default function ScholarshipCard({
 
         {scholarship.featured && (
           <span className="rounded-full bg-amber-100 px-3 py-1 text-xs font-bold text-amber-800">
-            Featured
+            {dictionary.featured}
           </span>
         )}
       </div>
@@ -28,34 +71,71 @@ export default function ScholarshipCard({
 
       <dl className="mt-5 grid gap-3 text-sm text-slate-700 sm:grid-cols-2">
         <div>
-          <dt className="font-semibold text-slate-900">Amount</dt>
-          <dd className="mt-1">{scholarship.amount}</dd>
+          <dt className="font-semibold text-slate-900">
+            {dictionary.amount}
+          </dt>
+
+          <dd className="mt-1">
+            {scholarship.amount}
+          </dd>
         </div>
 
         <div>
-          <dt className="font-semibold text-slate-900">Level</dt>
-          <dd className="mt-1">{scholarship.level}</dd>
+          <dt className="font-semibold text-slate-900">
+            {dictionary.level}
+          </dt>
+
+          <dd className="mt-1">
+            {getLevelLabel(
+              scholarship.level,
+            )}
+          </dd>
         </div>
 
         <div>
-          <dt className="font-semibold text-slate-900">Field</dt>
-          <dd className="mt-1">{scholarship.field}</dd>
+          <dt className="font-semibold text-slate-900">
+            {dictionary.field}
+          </dt>
+
+          <dd className="mt-1">
+            {scholarship.field}
+          </dd>
         </div>
 
         <div>
-          <dt className="font-semibold text-slate-900">Deadline</dt>
-          <dd className="mt-1">{scholarship.deadline}</dd>
+          <dt className="font-semibold text-slate-900">
+            {dictionary.deadline}
+          </dt>
+
+          <dd className="mt-1">
+            {scholarship.deadline}
+          </dd>
         </div>
       </dl>
 
       <div className="mt-auto pt-6">
         <Link
-          href={`/scholarships/${scholarship.id}`}
-          className="inline-flex rounded-lg bg-slate-900 px-4 py-2 font-semibold text-white transition hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-slate-500 focus:ring-offset-2"
+          href={getScholarshipPath(
+            locale,
+            scholarship,
+          )}
+          className="inline-flex rounded-lg bg-slate-900 px-4 py-2 font-semibold text-white"
         >
-          View scholarship
+          {dictionary.view}
         </Link>
       </div>
     </article>
   );
 }
+Notice the URL:
+
+getScholarshipPath(
+  locale,
+  scholarship,
+)
+For English scholarship 1, this produces:
+
+/en/scholarships/women-in-tech-scholarship
+For Thai scholarship 1:
+
+/th/ทุนการศึกษา/ทุนการศึกษาสำหรับผู้หญิงสายเทคโนโลยี
