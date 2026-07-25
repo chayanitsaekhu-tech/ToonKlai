@@ -1,6 +1,7 @@
 [
   {
     "id": 1,
+    "slug": "women-in-tech-scholarship",
     "name": "Women in Tech Scholarship",
     "amount": "£2,000",
     "level": "Undergraduate",
@@ -14,6 +15,7 @@
   },
   {
     "id": 2,
+    "slug": "future-engineers-grant",
     "name": "Future Engineers Grant",
     "amount": "£1,500",
     "level": "Undergraduate",
@@ -27,6 +29,7 @@
   },
   {
     "id": 3,
+    "slug": "postgraduate-stem-award",
     "name": "Postgraduate STEM Award",
     "amount": "£3,000",
     "level": "Postgraduate",
@@ -40,6 +43,7 @@
   },
   {
     "id": 4,
+    "slug": "creative-arts-bursary",
     "name": "Creative Arts Bursary",
     "amount": "£1,000",
     "level": "Undergraduate",
@@ -53,6 +57,7 @@
   },
   {
     "id": 5,
+    "slug": "international-student-support-fund",
     "name": "International Student Support Fund",
     "amount": "£2,500",
     "level": "International",

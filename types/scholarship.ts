@@ -7,6 +7,7 @@ export type ScholarshipLevelFilter = "All" | ScholarshipLevel;
 
 export type Scholarship = {
   id: number;
+  slug: string;
   name: string;
   amount: string;
   level: ScholarshipLevel;
