@@ -15,11 +15,5 @@ export function getScholarshipPath(
 
   return `/${locale}/${section}/${scholarship.slug}`;
 }
-Now components do not need to manually build paths.
 
-Instead of:
 
-href={`/en/scholarships/${scholarship.slug}`}
-we use:
-
-href={getScholarshipPath(locale, scholarship)}

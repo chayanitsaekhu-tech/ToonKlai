@@ -139,13 +139,11 @@ export default async function ScholarshipPage({
   }
 
   const expectedSegment =
-    routeSegments[locale]
-      .scholarships;
+  routeSegments[locale].scholarships;
 
-  if (
-    scholarshipsSegment !==
-    expectedSegment
-  ) {
+  const decodedSegment = decodeURIComponent(scholarshipsSegment);
+
+  if (decodedSegment !== expectedSegment) {
     notFound();
   }
 

@@ -27,15 +27,5 @@ export const routeSegments = {
 export function isLocale(value: string): value is Locale {
   return locales.includes(value as Locale);
 }
-Now we can get a translated route like this:
 
-routeSegments.en.scholarships
-which returns:
 
-scholarships
-And:
-
-routeSegments.th.scholarships
-returns:
-
-ทุนการศึกษา

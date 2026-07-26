@@ -127,15 +127,5 @@ export default function ScholarshipCard({
     </article>
   );
 }
-Notice the URL:
 
-getScholarshipPath(
-  locale,
-  scholarship,
-)
-For English scholarship 1, this produces:
 
-/en/scholarships/women-in-tech-scholarship
-For Thai scholarship 1:
-
-/th/ทุนการศึกษา/ทุนการศึกษาสำหรับผู้หญิงสายเทคโนโลยี
