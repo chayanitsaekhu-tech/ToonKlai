@@ -55,6 +55,6 @@
   },
 
   "footer": {
-    "text": "Scholarship Finder. Built with Next.js, TypeScript, and Tailwind CSS."
+    "text": "Scholarship Finder."
   }
 }

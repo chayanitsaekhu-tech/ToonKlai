@@ -55,6 +55,6 @@
   },
 
   "footer": {
-    "text": "Scholarship Finder สร้างด้วย Next.js, TypeScript และ Tailwind CSS"
+    "text": "ค้นหาทุนการศึกษา"
   }
 }
