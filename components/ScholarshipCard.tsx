@@ -11,6 +11,9 @@ import type {
 type ScholarshipCardDictionary = {
   featured: string;
   amount: string;
+  funding: string;
+  fullScholarship: string;
+  partialScholarship: string;
   level: string;
   field: string;
   deadline: string;
@@ -79,6 +82,18 @@ export default function ScholarshipCard({
             {scholarship.amount}
           </dd>
         </div>
+
+          <div>
+      <dt className="font-semibold text-slate-900">
+        {dictionary.funding}
+      </dt>
+
+      <dd className="mt-1">
+        {scholarship.isFullScholarship
+          ? dictionary.fullScholarship
+          : dictionary.partialScholarship}
+      </dd>
+    </div>
 
         <div>
           <dt className="font-semibold text-slate-900">

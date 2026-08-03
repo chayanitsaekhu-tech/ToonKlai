@@ -11,6 +11,9 @@ type ScholarshipDictionary = {
   plural: string;
   featured: string;
   amount: string;
+  funding: string;
+  fullScholarship: string;
+  partialScholarship: string;
   level: string;
   field: string;
   deadline: string;
