@@ -11,7 +11,8 @@
     "description": "A scholarship for women starting a technology-related degree.",
     "eligibility": "Open to women applying for an undergraduate technology course.",
     "link": "https://example.com/women-in-tech",
-    "featured": true
+    "featured": true,
+    "isFullScholarship": true
   },
   {
     "id": 2,
@@ -25,7 +26,8 @@
     "description": "A grant for students interested in engineering careers.",
     "eligibility": "Open to students applying for engineering-related courses.",
     "link": "https://example.com/future-engineers",
-    "featured": true
+    "featured": true,
+    "isFullScholarship": false
   },
   {
     "id": 3,
@@ -39,7 +41,8 @@
     "description": "Funding support for postgraduate students studying STEM subjects.",
     "eligibility": "Open to postgraduate students studying science, technology, engineering, or maths.",
     "link": "https://example.com/stem-award",
-    "featured": false
+    "featured": false,
+    "isFullScholarship": false
   },
   {
     "id": 4,
@@ -53,7 +56,8 @@
     "description": "A bursary for students studying creative arts subjects.",
     "eligibility": "Open to students applying for creative arts courses.",
     "link": "https://example.com/creative-arts",
-    "featured": false
+    "featured": false,
+    "isFullScholarship": false
   },
   {
     "id": 5,
@@ -67,6 +71,7 @@
     "description": "Support for international students beginning their studies.",
     "eligibility": "Open to international students applying to UK institutions.",
     "link": "https://example.com/international-support",
-    "featured": true
+    "featured": true,
+    "isFullScholarship": false
   }
 ]

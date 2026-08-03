@@ -24,6 +24,13 @@
     "clear": "Clear search and filters"
   },
 
+  "funding": {
+  "label": "Funding",
+  "all": "All",
+  "full": "Full Scholarship",
+  "partial": "Partial Scholarship"
+  },
+
   "scholarships": {
     "heading": "Available Scholarships",
     "description": "Explore the opportunities currently listed.",
@@ -40,7 +47,10 @@
     "view": "View scholarship",
     "visitWebsite": "Visit scholarship website",
     "back": "Back to all scholarships",
-    "opportunity": "Scholarship opportunity"
+    "opportunity": "Scholarship opportunity",
+    "funding": "Funding",
+    "fullScholarship": "Full Scholarship",
+    "partialScholarship": "Partial Scholarship"
   },
 
   "empty": {
@@ -57,4 +67,6 @@
   "footer": {
     "text": "Scholarship Finder."
   }
+
+
 }

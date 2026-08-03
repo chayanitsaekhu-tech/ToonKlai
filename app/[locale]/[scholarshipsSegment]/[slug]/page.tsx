@@ -229,6 +229,24 @@ export default async function ScholarshipPage({
 
             <div className="rounded-xl bg-slate-50 p-4">
               <dt className="text-sm font-semibold text-slate-500">
+                {dictionary.scholarships.funding}
+              </dt>
+
+              <dd className="mt-1 text-lg font-bold">
+                {scholarship.isFullScholarship ? (
+                  <span className="text-emerald-600">
+                    {dictionary.scholarships.fullScholarship}
+                  </span>
+                ) : (
+                  <span className="text-amber-600">
+                    {dictionary.scholarships.partialScholarship}
+                  </span>
+                )}
+              </dd>
+            </div>
+
+            <div className="rounded-xl bg-slate-50 p-4">
+              <dt className="text-sm font-semibold text-slate-500">
                 {
                   dictionary
                     .scholarships

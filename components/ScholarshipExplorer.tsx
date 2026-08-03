@@ -5,6 +5,7 @@ import { useState } from "react";
 import FilterButtons from "@/components/FilterButtons";
 import ScholarshipList from "@/components/ScholarshipList";
 import SearchBar from "@/components/SearchBar";
+import FundingFilterButtons from "@/components/FundingFilterButtons";
 
 import type { Dictionary } from "@/i18n/dictionaries";
 import type { Locale } from "@/i18n/config";
@@ -12,6 +13,7 @@ import type { Locale } from "@/i18n/config";
 import type {
   Scholarship,
   ScholarshipLevelFilter,
+  ScholarshipFundingFilter,
 } from "@/types/scholarship";
 
 type ScholarshipExplorerProps = {
@@ -34,6 +36,12 @@ export default function ScholarshipExplorer({
   ] =
     useState<ScholarshipLevelFilter>("All");
 
+  const [
+    selectedFunding,
+    setSelectedFunding,
+  ] =
+  useState<ScholarshipFundingFilter>("All");
+
   const normalisedSearchTerm =
     searchTerm.trim().toLowerCase();
 
@@ -51,23 +59,33 @@ export default function ScholarshipExplorer({
           .includes(normalisedSearchTerm);
 
       const matchesLevel =
-        selectedLevel === "All" ||
-        scholarship.level === selectedLevel;
+  selectedLevel === "All" ||
+  scholarship.level === selectedLevel;
+
+      const matchesFunding =
+  selectedFunding === "All" ||
+  (selectedFunding === "Full" &&
+    scholarship.isFullScholarship) ||
+  (selectedFunding === "Partial" &&
+    !scholarship.isFullScholarship);
 
       return (
-        matchesSearch &&
-        matchesLevel
-      );
+  matchesSearch &&
+  matchesLevel &&
+  matchesFunding
+    );
     });
 
-  const hasActiveFilters =
-    searchTerm.trim() !== "" ||
-    selectedLevel !== "All";
+ const hasActiveFilters =
+  searchTerm.trim() !== "" ||
+  selectedLevel !== "All" ||
+  selectedFunding !== "All";
 
-  function clearFilters() {
-    setSearchTerm("");
-    setSelectedLevel("All");
-  }
+ function clearFilters() {
+  setSearchTerm("");
+  setSelectedLevel("All");
+  setSelectedFunding("All");
+}
 
   return (
     <div>
@@ -90,6 +108,11 @@ export default function ScholarshipExplorer({
             dictionary.filters
           }
         />
+      <FundingFilterButtons
+        selectedFunding={selectedFunding}
+        onFundingChange={setSelectedFunding}
+        dictionary={dictionary.funding}
+      />
 
         {hasActiveFilters && (
           <div>

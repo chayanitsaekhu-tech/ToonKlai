@@ -11,7 +11,8 @@
     "description": "ทุนการศึกษาสำหรับผู้หญิงที่กำลังเริ่มศึกษาระดับปริญญาในสาขาที่เกี่ยวข้องกับเทคโนโลยี",
     "eligibility": "เปิดรับผู้หญิงที่สมัครเข้าเรียนหลักสูตรระดับปริญญาตรีด้านเทคโนโลยี",
     "link": "https://example.com/women-in-tech",
-    "featured": true
+    "featured": true,
+    "isFullScholarship": true
   },
   {
     "id": 2,
@@ -25,7 +26,8 @@
     "description": "ทุนสนับสนุนสำหรับนักเรียนที่สนใจเส้นทางอาชีพด้านวิศวกรรมศาสตร์",
     "eligibility": "เปิดรับนักเรียนที่สมัครเข้าเรียนหลักสูตรที่เกี่ยวข้องกับวิศวกรรมศาสตร์",
     "link": "https://example.com/future-engineers",
-    "featured": true
+    "featured": true,
+    "isFullScholarship": false
   },
   {
     "id": 3,
@@ -39,7 +41,8 @@
     "description": "ทุนสนับสนุนสำหรับนักศึกษาระดับบัณฑิตศึกษาที่เรียนในสาขา STEM",
     "eligibility": "เปิดรับนักศึกษาระดับบัณฑิตศึกษาด้านวิทยาศาสตร์ เทคโนโลยี วิศวกรรมศาสตร์ หรือคณิตศาสตร์",
     "link": "https://example.com/stem-award",
-    "featured": false
+    "featured": false,
+    "isFullScholarship": false
   },
   {
     "id": 4,
@@ -53,7 +56,8 @@
     "description": "ทุนสำหรับนักเรียนที่ศึกษาสาขาวิชาด้านศิลปะสร้างสรรค์",
     "eligibility": "เปิดรับนักเรียนที่สมัครเรียนหลักสูตรด้านศิลปะสร้างสรรค์",
     "link": "https://example.com/creative-arts",
-    "featured": false
+    "featured": false,
+    "isFullScholarship": false
   },
   {
     "id": 5,
@@ -67,6 +71,7 @@
     "description": "ทุนสนับสนุนสำหรับนักศึกษาต่างชาติที่กำลังเริ่มต้นการศึกษา",
     "eligibility": "เปิดรับนักศึกษาต่างชาติที่สมัครเข้าศึกษาในสถาบันในสหราชอาณาจักร",
     "link": "https://example.com/international-support",
-    "featured": true
+    "featured": true,
+    "isFullScholarship": false
   }
 ]
