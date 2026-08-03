@@ -73,5 +73,20 @@
     "link": "https://example.com/international-support",
     "featured": true,
     "isFullScholarship": false
-  }
+  },
+  {
+  "id": 6,
+  "slug": "chevening-scholarship",
+  "name": "Chevening Scholarship",
+  "amount": "Fully Funded",
+  "isFullScholarship": true,
+  "level": "Postgraduate",
+  "field": "Any subject",
+  "deadline": "6 October 2026",
+  "location": "United Kingdom",
+  "description": "A fully funded UK Government scholarship for outstanding future leaders to study a one-year master's degree at a UK university.",
+  "eligibility": "Open to applicants from eligible countries with an undergraduate degree, at least two years of work experience, and a commitment to return to their home country after completing their studies.",
+  "link": "https://www.chevening.org/scholarships/",
+  "featured": true
+}
 ]
