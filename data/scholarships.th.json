@@ -4,419 +4,726 @@
   "slug": "ทุน-chevening",
   "name": "ทุน Chevening",
   "amount": "ทุนเต็มจำนวน",
+  "isFullScholarship": true,
+  "coverage": [
+    "Tuition",
+    "MonthlyStipend",
+    "Airfare",
+    "Visa"
+  ],
+  "languages": [
+    "English"
+  ],
   "level": "Postgraduate",
   "field": "ทุกสาขาวิชา",
   "deadline": "6 ตุลาคม 2026",
   "location": "สหราชอาณาจักร",
-  "description": "ทุนรัฐบาลสหราชอาณาจักรแบบเต็มจำนวน สำหรับผู้ที่มีศักยภาพด้านความเป็นผู้นำ เพื่อศึกษาระดับปริญญาโท 1 ปีในมหาวิทยาลัยของสหราชอาณาจักร",
-  "eligibility": "เปิดรับผู้สมัครจากประเทศที่มีสิทธิ์สมัคร ซึ่งสำเร็จการศึกษาระดับปริญญาตรี มีประสบการณ์การทำงานอย่างน้อย 2 ปี และตั้งใจกลับไปพัฒนาประเทศของตนหลังสำเร็จการศึกษา",
+  "countryCode": "GB",
+  "continent": "Europe",
+  "description": "ทุนเต็มจำนวนจากรัฐบาลสหราชอาณาจักรสำหรับผู้นำรุ่นใหม่ที่มีศักยภาพ เพื่อศึกษาต่อระดับปริญญาโทเป็นระยะเวลา 1 ปีในมหาวิทยาลัยในสหราชอาณาจักร",
+  "eligibility": "เปิดรับผู้สมัครจากประเทศที่มีสิทธิ์ โดยต้องสำเร็จการศึกษาระดับปริญญาตรี มีประสบการณ์การทำงานอย่างน้อย 2 ปี และมีความมุ่งมั่นที่จะกลับประเทศของตนหลังสำเร็จการศึกษา",
   "link": "https://www.chevening.org/scholarships/",
-  "featured": true,
-  "isFullScholarship": true
+  "featured": true
 },
 {
   "id": 7,
-  "slug": "ทุน-erasmus-mundus",
+  "slug": "ทุน-erasmus-mundus-joint-masters",
   "name": "ทุน Erasmus Mundus Joint Masters",
   "amount": "ทุนเต็มจำนวน",
+  "isFullScholarship": true,
+  "coverage": [
+    "Tuition",
+    "MonthlyStipend",
+    "Airfare"
+  ],
+  "languages": [
+    "English"
+  ],
   "level": "Postgraduate",
   "field": "ทุกสาขาวิชา",
   "deadline": "แตกต่างกันตามหลักสูตร",
   "location": "ยุโรป",
-  "description": "ทุนเต็มจำนวนจากสหภาพยุโรปสำหรับนักศึกษาต่างชาติ เพื่อศึกษาระดับปริญญาโทในหลักสูตรร่วมของมหาวิทยาลัยหลายแห่งในยุโรป",
-  "eligibility": "เปิดรับนักศึกษาจากทั่วโลกที่สมัครในหลักสูตร Erasmus Mundus Joint Master's ที่เข้าร่วมโครงการ",
+  "countryCode": "EU",
+  "continent": "Europe",
+  "description": "ทุนเต็มจำนวนจากสหภาพยุโรปสำหรับนักศึกษาต่างชาติเพื่อศึกษาหลักสูตรปริญญาโทแบบร่วมในมหาวิทยาลัยหลายแห่งในยุโรป",
+  "eligibility": "เปิดรับนักศึกษาจากทั่วโลกที่สมัครหลักสูตร Erasmus Mundus Joint Master's ที่เข้าร่วมโครงการ",
   "link": "https://erasmus-plus.ec.europa.eu/opportunities/opportunities-for-individuals/students/erasmus-mundus-joint-masters",
-  "featured": true,
-  "isFullScholarship": true
+  "featured": true
 },
 {
   "id": 8,
   "slug": "ทุน-mext",
   "name": "ทุนรัฐบาลญี่ปุ่น MEXT",
   "amount": "ทุนเต็มจำนวน",
+  "isFullScholarship": true,
+  "coverage": [
+    "Tuition",
+    "MonthlyStipend",
+    "Airfare"
+  ],
+  "languages": [
+    "Japanese",
+    "English"
+  ],
   "level": "International",
   "field": "ทุกสาขาวิชา",
   "deadline": "แตกต่างกันตามประเทศ",
   "location": "ญี่ปุ่น",
-  "description": "ทุนเต็มจำนวนจากรัฐบาลญี่ปุ่นสำหรับนักศึกษาต่างชาติที่ต้องการศึกษาระดับปริญญาตรี ปริญญาโท ปริญญาเอก หรือวิจัย",
-  "eligibility": "เปิดรับผู้สมัครที่ยื่นผ่านสถานเอกอัครราชทูตญี่ปุ่นหรือมหาวิทยาลัยที่เข้าร่วมโครงการในแต่ละประเทศ",
+  "countryCode": "JP",
+  "continent": "Asia",
+  "description": "ทุนเต็มจำนวนจากรัฐบาลญี่ปุ่นสำหรับนักศึกษาต่างชาติที่ต้องการศึกษาระดับปริญญาตรี ปริญญาโท หรือทำวิจัยในประเทศญี่ปุ่น",
+  "eligibility": "เปิดรับผู้สมัครผ่านสถานเอกอัครราชทูตญี่ปุ่นหรือมหาวิทยาลัยที่เข้าร่วมโครงการในประเทศที่มีสิทธิ์",
   "link": "https://www.studyinjapan.go.jp/en/planning/scholarships/mext-scholarships/",
-  "featured": true,
-  "isFullScholarship": true
+  "featured": true
 },
 {
   "id": 9,
   "slug": "ทุน-gks",
-  "name": "ทุนรัฐบาลเกาหลีใต้ GKS",
+  "name": "ทุนรัฐบาลเกาหลี Global Korea Scholarship (GKS)",
   "amount": "ทุนเต็มจำนวน",
+  "isFullScholarship": true,
+  "coverage": [
+    "Tuition",
+    "MonthlyStipend",
+    "Airfare",
+    "HealthInsurance"
+  ],
+  "languages": [
+    "Korean",
+    "English"
+  ],
   "level": "International",
   "field": "ทุกสาขาวิชา",
   "deadline": "แตกต่างกันตามประเทศ",
   "location": "เกาหลีใต้",
+  "countryCode": "KR",
+  "continent": "Asia",
   "description": "ทุนเต็มจำนวนจากรัฐบาลเกาหลีใต้สำหรับนักศึกษาต่างชาติที่ต้องการศึกษาระดับปริญญาตรีหรือบัณฑิตศึกษาในประเทศเกาหลีใต้",
-  "eligibility": "เปิดรับผู้สมัครผ่านสถานเอกอัครราชทูตเกาหลีหรือมหาวิทยาลัยที่เข้าร่วมโครงการ",
+  "eligibility": "เปิดรับผู้สมัครต่างชาติผ่านสถานเอกอัครราชทูตเกาหลีหรือมหาวิทยาลัยที่เข้าร่วมโครงการ",
   "link": "https://www.studyinkorea.go.kr/",
-  "featured": true,
-  "isFullScholarship": true
+  "featured": true
 },
 {
   "id": 11,
-  "slug": "ทุน-fulbright",
+  "slug": "ทุน-fulbright-foreign-student-program",
   "name": "ทุน Fulbright Foreign Student Program",
   "amount": "ทุนเต็มจำนวน",
+  "isFullScholarship": true,
+  "coverage": [
+    "Tuition",
+    "MonthlyStipend",
+    "Airfare",
+    "HealthInsurance"
+  ],
+  "languages": [
+    "English"
+  ],
   "level": "Postgraduate",
   "field": "ทุกสาขาวิชา",
   "deadline": "แตกต่างกันตามประเทศ",
   "location": "สหรัฐอเมริกา",
-  "description": "ทุนเต็มจำนวนจากรัฐบาลสหรัฐอเมริกาสำหรับนักศึกษาต่างชาติที่ต้องการศึกษาระดับปริญญาโทหรือปริญญาเอกในมหาวิทยาลัยของสหรัฐอเมริกา",
-  "eligibility": "เปิดรับผู้สมัครจากประเทศที่เข้าร่วมโครงการ โดยคุณสมบัติและกำหนดการรับสมัครแตกต่างกันในแต่ละประเทศ",
+  "countryCode": "US",
+  "continent": "NorthAmerica",
+  "description": "ทุนการศึกษาชื่อดังที่ได้รับการสนับสนุนจากรัฐบาลสหรัฐอเมริกาสำหรับนักศึกษาต่างชาติที่ต้องการศึกษาระดับปริญญาโทหรือปริญญาเอกในสหรัฐอเมริกา",
+  "eligibility": "เปิดรับผู้สมัครจากประเทศที่เข้าร่วมโครงการ โดยคุณสมบัติและขั้นตอนการสมัครแตกต่างกันตามประเทศ",
   "link": "https://foreign.fulbrightonline.org/",
-  "featured": true,
-  "isFullScholarship": true
+  "featured": true
 },
 {
   "id": 12,
   "slug": "ทุน-stipendium-hungaricum",
-  "name": "ทุนรัฐบาลฮังการี Stipendium Hungaricum",
+  "name": "ทุน Stipendium Hungaricum",
   "amount": "ทุนเต็มจำนวน",
+  "isFullScholarship": true,
+  "coverage": [
+    "Tuition",
+    "MonthlyStipend",
+    "Accommodation",
+    "HealthInsurance"
+  ],
+  "languages": [
+    "Hungarian",
+    "English"
+  ],
   "level": "International",
   "field": "ทุกสาขาวิชา",
   "deadline": "15 มกราคม",
   "location": "ฮังการี",
-  "description": "ทุนเต็มจำนวนจากรัฐบาลฮังการี ครอบคลุมค่าเล่าเรียน ค่าครองชีพ ค่าที่พัก และประกันสุขภาพ",
-  "eligibility": "เปิดรับผู้สมัครจากประเทศที่เข้าร่วมโครงการ โดยสมัครผ่านหน่วยงานที่ได้รับการแต่งตั้งของแต่ละประเทศ",
+  "countryCode": "HU",
+  "continent": "Europe",
+  "description": "ทุนเต็มจำนวนจากรัฐบาลฮังการีที่ครอบคลุมค่าเล่าเรียน เงินสนับสนุนค่าที่พัก เงินรายเดือน และประกันสุขภาพสำหรับนักศึกษาต่างชาติ",
+  "eligibility": "เปิดรับผู้สมัครจากประเทศคู่สัญญาที่มีสิทธิ์และสมัครผ่านกระบวนการเสนอชื่ออย่างเป็นทางการ",
   "link": "https://stipendiumhungaricum.hu/",
-  "featured": true,
-  "isFullScholarship": true
+  "featured": true
 },
 {
   "id": 13,
-  "slug": "ทุน-banach-nawa",
-  "name": "ทุนรัฐบาลโปแลนด์ Stefan Banach NAWA",
+  "slug": "ทุน-stefan-banach-nawa",
+  "name": "ทุน Stefan Banach NAWA",
   "amount": "ทุนเต็มจำนวน",
+  "isFullScholarship": true,
+  "coverage": [
+    "Tuition",
+    "MonthlyStipend"
+  ],
+  "languages": [
+    "Polish",
+    "English"
+  ],
   "level": "Postgraduate",
   "field": "ทุกสาขาวิชา",
-  "deadline": "แตกต่างกันในแต่ละรอบ",
+  "deadline": "แตกต่างกันในแต่ละปี",
   "location": "โปแลนด์",
-  "description": "ทุนเต็มจำนวนจากรัฐบาลโปแลนด์สำหรับนักศึกษาต่างชาติที่ศึกษาต่อระดับปริญญาโท",
-  "eligibility": "เปิดรับผู้สมัครจากประเทศที่มีสิทธิ์เข้าร่วมโครงการตามที่ NAWA กำหนด",
+  "countryCode": "PL",
+  "continent": "Europe",
+  "description": "ทุนรัฐบาลโปแลนด์สำหรับนักศึกษาต่างชาติที่ต้องการศึกษาต่อระดับปริญญาโทในประเทศโปแลนด์",
+  "eligibility": "เปิดรับผู้สมัครจากประเทศกำลังพัฒนาที่อยู่ในรายชื่อประเทศที่โครงการ NAWA กำหนด",
   "link": "https://www.nawa.gov.pl/en/students/foreign-students/the-banach-scholarship-programme/landing",
-  "featured": true,
-  "isFullScholarship": true
+  "featured": true
 },
 {
   "id": 14,
   "slug": "ทุน-swedish-institute",
-  "name": "ทุนรัฐบาลสวีเดน Swedish Institute",
+  "name": "ทุน Swedish Institute สำหรับผู้เชี่ยวชาญระดับโลก",
   "amount": "ทุนเต็มจำนวน",
+  "isFullScholarship": true,
+  "coverage": [
+    "Tuition",
+    "MonthlyStipend",
+    "Airfare",
+    "HealthInsurance"
+  ],
+  "languages": [
+    "English"
+  ],
   "level": "Postgraduate",
   "field": "ทุกสาขาวิชา",
-  "deadline": "แตกต่างกันในแต่ละรอบ",
+  "deadline": "แตกต่างกันในแต่ละปี",
   "location": "สวีเดน",
-  "description": "ทุนเต็มจำนวนจากรัฐบาลสวีเดนสำหรับนักศึกษาต่างชาติที่ศึกษาต่อระดับปริญญาโท",
-  "eligibility": "เปิดรับผู้สมัครจากประเทศที่มีสิทธิ์ พร้อมคุณสมบัติด้านภาวะผู้นำและได้รับการตอบรับจากหลักสูตรที่เข้าร่วม",
+  "countryCode": "SE",
+  "continent": "Europe",
+  "description": "ทุนรัฐบาลสวีเดนสำหรับนักศึกษาต่างชาติที่ต้องการศึกษาต่อระดับปริญญาโทในประเทศสวีเดน",
+  "eligibility": "เปิดรับผู้สมัครจากประเทศที่มีสิทธิ์ โดยต้องมีประสบการณ์ด้านความเป็นผู้นำและได้รับการตอบรับจากหลักสูตรปริญญาโทที่เข้าร่วมโครงการ",
   "link": "https://si.se/en/apply/scholarships/swedish-institute-scholarships-for-global-professionals/",
-  "featured": true,
-  "isFullScholarship": true
+  "featured": true
 },
 {
   "id": 15,
   "slug": "ทุน-daad",
-  "name": "ทุน DAAD เยอรมนี",
+  "name": "ทุน DAAD",
   "amount": "ทุนเต็มจำนวน",
+  "isFullScholarship": true,
+  "coverage": [
+    "Tuition",
+    "MonthlyStipend",
+    "Airfare",
+    "HealthInsurance"
+  ],
+  "languages": [
+    "German",
+    "English"
+  ],
   "level": "Postgraduate",
   "field": "ทุกสาขาวิชา",
-  "deadline": "แตกต่างกันตามโครงการ",
+  "deadline": "แตกต่างกันตามหลักสูตร",
   "location": "เยอรมนี",
-  "description": "ทุนจาก German Academic Exchange Service (DAAD) สำหรับนักศึกษาต่างชาติและนักวิจัยที่ต้องการศึกษาต่อในประเทศเยอรมนี",
-  "eligibility": "เปิดรับผู้สำเร็จการศึกษาและนักวิจัยจากต่างประเทศที่สมัครในโครงการ DAAD ที่กำหนด",
+  "countryCode": "DE",
+  "continent": "Europe",
+  "description": "โครงการทุนจาก German Academic Exchange Service (DAAD) ที่สนับสนุนนักศึกษาต่างชาติและนักวิจัยที่ต้องการศึกษาในประเทศเยอรมนี",
+  "eligibility": "เปิดรับผู้สำเร็จการศึกษาระดับปริญญาตรีและนักวิจัยนานาชาติที่สมัครโครงการ DAAD ที่มีสิทธิ์",
   "link": "https://www.daad.de/en/",
-  "featured": true,
-  "isFullScholarship": true
+  "featured": true
 },
 {
   "id": 16,
-  "slug": "ทุน-eiffel-france",
-  "name": "ทุนรัฐบาลฝรั่งเศส Eiffel Excellence",
+  "slug": "ทุน-eiffel-excellence",
+  "name": "ทุน Eiffel Excellence Scholarship Programme",
   "amount": "ทุนเต็มจำนวน",
+  "isFullScholarship": true,
+  "coverage": [
+    "MonthlyStipend",
+    "Airfare",
+    "HealthInsurance"
+  ],
+  "languages": [
+    "French",
+    "English"
+  ],
   "level": "Postgraduate",
   "field": "ทุกสาขาวิชา",
   "deadline": "แตกต่างกันตามสถาบัน",
   "location": "ฝรั่งเศส",
-  "description": "ทุนรัฐบาลฝรั่งเศสสำหรับนักศึกษาต่างชาติที่มีความโดดเด่น เพื่อศึกษาระดับปริญญาโทและปริญญาเอกในประเทศฝรั่งเศส",
-  "eligibility": "เปิดรับนักศึกษาต่างชาติที่ได้รับการเสนอชื่อจากสถาบันอุดมศึกษาของฝรั่งเศส",
+  "countryCode": "FR",
+  "continent": "Europe",
+  "description": "ทุนรัฐบาลฝรั่งเศสสำหรับนักศึกษาต่างชาติที่มีผลการเรียนโดดเด่นและต้องการศึกษาต่อระดับปริญญาโทหรือปริญญาเอกในประเทศฝรั่งเศส",
+  "eligibility": "เปิดรับนักศึกษาต่างชาติที่ได้รับการเสนอชื่อโดยสถาบันอุดมศึกษาในประเทศฝรั่งเศส",
   "link": "https://www.campusfrance.org/en/eiffel-scholarship-program-of-excellence",
-  "featured": true,
-  "isFullScholarship": true
+  "featured": true
 },
 {
   "id": 17,
-  "slug": "ทุนรัฐบาลสวิตเซอร์แลนด์",
-  "name": "ทุนรัฐบาลสวิตเซอร์แลนด์ Swiss Government Excellence",
+  "slug": "ทุน-swiss-government-excellence",
+  "name": "ทุน Swiss Government Excellence Scholarships",
   "amount": "ทุนเต็มจำนวน",
+  "isFullScholarship": true,
+  "coverage": [
+    "Tuition",
+    "MonthlyStipend",
+    "HealthInsurance"
+  ],
+  "languages": [
+    "German",
+    "French",
+    "Italian",
+    "English"
+  ],
   "level": "Postgraduate",
-  "field": "งานวิจัยและระดับบัณฑิตศึกษา",
+  "field": "การวิจัยและการศึกษาระดับบัณฑิตศึกษา",
   "deadline": "แตกต่างกันตามประเทศ",
   "location": "สวิตเซอร์แลนด์",
-  "description": "ทุนรัฐบาลสวิตเซอร์แลนด์สำหรับนักวิจัยและนักศึกษาระดับบัณฑิตศึกษาจากต่างประเทศ",
-  "eligibility": "เปิดรับผู้สำเร็จการศึกษาและนักวิจัยต่างชาติที่สมัครผ่านช่องทางที่กำหนด",
+  "countryCode": "CH",
+  "continent": "Europe",
+  "description": "โครงการทุนรัฐบาลสวิตเซอร์แลนด์สำหรับนักวิจัยและผู้สำเร็จการศึกษาระดับบัณฑิตศึกษาจากต่างประเทศ",
+  "eligibility": "เปิดรับผู้สำเร็จการศึกษาระดับปริญญาตรีและนักวิจัยนานาชาติที่สมัครผ่านหน่วยงานทางการทูตของสวิตเซอร์แลนด์",
   "link": "https://www.sbfi.admin.ch/en/swiss-government-excellence-scholarships",
-  "featured": true,
-  "isFullScholarship": true
+  "featured": true
 },
 {
   "id": 18,
   "slug": "ทุนรัฐบาลไอร์แลนด์",
-  "name": "ทุนรัฐบาลไอร์แลนด์ International Education Scholarship",
+  "name": "ทุน Government of Ireland International Education Scholarship",
   "amount": "ทุนเต็มจำนวน",
+  "isFullScholarship": true,
+  "coverage": [
+    "Tuition",
+    "MonthlyStipend"
+  ],
+  "languages": [
+    "English"
+  ],
   "level": "Postgraduate",
   "field": "ทุกสาขาวิชา",
   "deadline": "แตกต่างกันในแต่ละปี",
   "location": "ไอร์แลนด์",
-  "description": "ทุนรัฐบาลไอร์แลนด์สำหรับนักศึกษาต่างชาติที่ต้องการศึกษาต่อในสถาบันอุดมศึกษาที่เข้าร่วมโครงการ",
-  "eligibility": "เปิดรับนักศึกษาต่างชาติที่ได้รับการตอบรับจากสถาบันการศึกษาที่เข้าร่วมโครงการ",
+  "countryCode": "IE",
+  "continent": "Europe",
+  "description": "ทุนรัฐบาลไอร์แลนด์สำหรับนักศึกษาต่างชาติที่ต้องการศึกษาต่อในสถาบันอุดมศึกษาที่เข้าร่วมโครงการในประเทศไอร์แลนด์",
+  "eligibility": "เปิดรับนักศึกษาต่างชาติที่ได้รับการตอบรับจากสถาบันอุดมศึกษาของไอร์แลนด์ที่เข้าร่วมโครงการ",
   "link": "https://hea.ie/policy/internationalisation/goi-ies/",
-  "featured": true,
-  "isFullScholarship": true
+  "featured": true
 },
 {
   "id": 20,
   "slug": "ทุนรัฐบาลโรมาเนีย",
   "name": "ทุนรัฐบาลโรมาเนีย",
   "amount": "ทุนเต็มจำนวน",
+  "isFullScholarship": true,
+  "coverage": [
+    "Tuition",
+    "MonthlyStipend",
+    "Accommodation"
+  ],
+  "languages": [
+    "Romanian",
+    "English"
+  ],
   "level": "International",
   "field": "ทุกสาขาวิชา",
   "deadline": "แตกต่างกันในแต่ละปี",
   "location": "โรมาเนีย",
+  "countryCode": "RO",
+  "continent": "Europe",
   "description": "ทุนรัฐบาลโรมาเนียสำหรับนักศึกษาต่างชาติที่ต้องการศึกษาระดับปริญญาตรี ปริญญาโท หรือปริญญาเอกในประเทศโรมาเนีย",
-  "eligibility": "เปิดรับนักศึกษาต่างชาติจากประเทศที่มีสิทธิ์สมัครผ่านโครงการทุนรัฐบาลโรมาเนีย",
+  "eligibility": "เปิดรับผู้สมัครชาวต่างชาติจากประเทศที่มีสิทธิ์ตามโครงการทุนการศึกษาอย่างเป็นทางการ",
   "link": "https://studyinromania.gov.ro/scholarships",
-  "featured": true,
-  "isFullScholarship": true
+  "featured": true
 },
-{
+  {
   "id": 22,
-  "slug": "ทุนรัฐบาลตุรกี",
+  "slug": "turkiye-scholarships",
   "name": "ทุนรัฐบาลตุรกี Türkiye Scholarships",
   "amount": "ทุนเต็มจำนวน",
+  "isFullScholarship": true,
+  "coverage": [
+    "Tuition",
+    "MonthlyStipend",
+    "Accommodation",
+    "Airfare",
+    "HealthInsurance"
+  ],
+  "languages": [
+    "Turkish",
+    "English"
+  ],
   "level": "International",
   "field": "ทุกสาขาวิชา",
   "deadline": "แตกต่างกันในแต่ละปี",
   "location": "ตุรกี",
-  "description": "ทุนเต็มจำนวนจากรัฐบาลตุรกีสำหรับนักศึกษาต่างชาติที่ต้องการศึกษาระดับปริญญาตรี ปริญญาโท และปริญญาเอก",
-  "eligibility": "เปิดรับนักศึกษาต่างชาติจากทั่วโลกสำหรับหลักสูตรที่เข้าร่วมในมหาวิทยาลัยตุรกี",
+  "countryCode": "TR",
+  "continent": "Europe",
+  "description": "ทุนการศึกษาเต็มจำนวนจากรัฐบาลตุรกีสำหรับนักศึกษาต่างชาติที่ต้องการศึกษาระดับปริญญาตรี ปริญญาโท หรือปริญญาเอกในประเทศตุรกี",
+  "eligibility": "เปิดรับนักศึกษาต่างชาติจากประเทศที่มีสิทธิ์สมัครหลักสูตรระดับปริญญาตรี ปริญญาโท หรือปริญญาเอกในมหาวิทยาลัยของตุรกี",
   "link": "https://www.turkiyeburslari.gov.tr/",
-  "featured": true,
-  "isFullScholarship": true
+  "featured": true
 },
 {
   "id": 23,
-  "slug": "ทุนรัฐบาลจีน-csc",
-  "name": "ทุนรัฐบาลจีน Chinese Government Scholarship (CSC)",
+  "slug": "chinese-government-scholarship",
+  "name": "ทุนรัฐบาลจีน (CSC)",
   "amount": "ทุนเต็มจำนวน",
+  "isFullScholarship": true,
+  "coverage": [
+    "Tuition",
+    "MonthlyStipend",
+    "Accommodation",
+    "HealthInsurance"
+  ],
+  "languages": [
+    "Chinese",
+    "English"
+  ],
   "level": "International",
   "field": "ทุกสาขาวิชา",
   "deadline": "แตกต่างกันตามมหาวิทยาลัย",
   "location": "จีน",
-  "description": "ทุนจากรัฐบาลจีนสำหรับนักศึกษาต่างชาติที่ต้องการศึกษาต่อในมหาวิทยาลัยของประเทศจีน",
-  "eligibility": "เปิดรับนักศึกษาต่างชาติสำหรับหลักสูตรปริญญาตรี ปริญญาโท ปริญญาเอก และงานวิจัย",
+  "countryCode": "CN",
+  "continent": "Asia",
+  "description": "ทุนจากรัฐบาลจีนสำหรับนักศึกษาต่างชาติที่ต้องการศึกษาในมหาวิทยาลัยของประเทศจีน",
+  "eligibility": "เปิดรับผู้สมัครจากต่างประเทศสำหรับหลักสูตรระดับปริญญาตรี ปริญญาโท ปริญญาเอก หรือหลักสูตรวิจัยที่เข้าร่วมโครงการ",
   "link": "https://www.campuschina.org/",
-  "featured": true,
-  "isFullScholarship": true
+  "featured": true
 },
 {
   "id": 24,
-  "slug": "ทุนรัฐบาลไต้หวัน",
-  "name": "ทุนรัฐบาลไต้หวัน Taiwan Scholarship",
+  "slug": "taiwan-scholarship",
+  "name": "ทุนรัฐบาลไต้หวัน",
   "amount": "ทุนเต็มจำนวน",
+  "isFullScholarship": true,
+  "coverage": [
+    "Tuition",
+    "MonthlyStipend"
+  ],
+  "languages": [
+    "Chinese",
+    "English"
+  ],
   "level": "International",
   "field": "ทุกสาขาวิชา",
   "deadline": "แตกต่างกันตามประเทศ",
   "location": "ไต้หวัน",
-  "description": "ทุนรัฐบาลไต้หวันสำหรับนักศึกษาต่างชาติที่ต้องการศึกษาต่อในมหาวิทยาลัยของไต้หวัน",
-  "eligibility": "เปิดรับนักศึกษาต่างชาติที่สมัครเข้าเรียนหลักสูตรปริญญาในมหาวิทยาลัยไต้หวัน",
+  "countryCode": "TW",
+  "continent": "Asia",
+  "description": "โครงการทุนการศึกษาจากรัฐบาลไต้หวันสำหรับนักศึกษาต่างชาติที่ต้องการศึกษาในประเทศไต้หวัน",
+  "eligibility": "เปิดรับนักศึกษาต่างชาติที่สมัครหลักสูตรระดับปริญญาที่มีสิทธิ์ในมหาวิทยาลัยของไต้หวัน",
   "link": "https://www.studyintaiwan.org/",
-  "featured": true,
-  "isFullScholarship": true
+  "featured": true
 },
 {
   "id": 25,
-  "slug": "ทุน-manaaki-new-zealand",
-  "name": "ทุนรัฐบาลนิวซีแลนด์ Manaaki New Zealand Scholarships",
+  "slug": "manaaki-new-zealand-scholarships",
+  "name": "ทุน Manaaki New Zealand",
   "amount": "ทุนเต็มจำนวน",
+  "isFullScholarship": true,
+  "coverage": [
+    "Tuition",
+    "MonthlyStipend",
+    "Airfare",
+    "Visa",
+    "HealthInsurance",
+    "Accommodation"
+  ],
+  "languages": [
+    "English"
+  ],
   "level": "International",
   "field": "ทุกสาขาวิชา",
   "deadline": "แตกต่างกันตามประเทศ",
   "location": "นิวซีแลนด์",
-  "description": "ทุนรัฐบาลนิวซีแลนด์สำหรับนักศึกษาต่างชาติจากประเทศที่มีสิทธิ์ เพื่อศึกษาต่อในสถาบันการศึกษาของนิวซีแลนด์",
-  "eligibility": "เปิดรับผู้สมัครจากประเทศที่เข้าร่วมโครงการ โดยต้องผ่านเกณฑ์ด้านการศึกษา ภาษาอังกฤษ และคุณสมบัติตามโครงการ",
+  "countryCode": "NZ",
+  "continent": "Oceania",
+  "description": "โครงการทุนรัฐบาลนิวซีแลนด์สำหรับนักศึกษาจากประเทศที่มีสิทธิ์ เพื่อศึกษาต่อในสถาบันการศึกษาของนิวซีแลนด์",
+  "eligibility": "เปิดรับพลเมืองจากประเทศที่มีสิทธิ์และมีคุณสมบัติตามเกณฑ์ด้านการศึกษา ภาษาอังกฤษ และการพัฒนาประเทศ",
   "link": "https://www.nzscholarships.govt.nz/",
-  "featured": true,
-  "isFullScholarship": true
+  "featured": true
 },
 {
   "id": 26,
-  "slug": "ทุน-singapore-international-graduate-award",
+  "slug": "singapore-international-graduate-award",
   "name": "ทุน Singapore International Graduate Award (SINGA)",
   "amount": "ทุนเต็มจำนวน",
+  "isFullScholarship": true,
+  "coverage": [
+    "Tuition",
+    "MonthlyStipend",
+    "Airfare"
+  ],
+  "languages": [
+    "English"
+  ],
   "level": "Postgraduate",
   "field": "วิทยาศาสตร์และวิศวกรรมศาสตร์",
   "deadline": "แตกต่างกันตามรอบรับสมัคร",
   "location": "สิงคโปร์",
-  "description": "ทุนเต็มจำนวนสำหรับศึกษาระดับปริญญาเอกด้านงานวิจัยในประเทศสิงคโปร์ โดยได้รับการสนับสนุนจากหน่วยงานวิจัยของสิงคโปร์",
-  "eligibility": "เปิดรับนักศึกษาต่างชาติที่มีผลการเรียนดีและสมัครหลักสูตรวิจัยระดับปริญญาเอกในสิงคโปร์",
+  "countryCode": "SG",
+  "continent": "Asia",
+  "description": "ทุนระดับปริญญาเอกจากหน่วยงานของสิงคโปร์สำหรับนักศึกษาต่างชาติที่ต้องการศึกษาวิจัยในสิงคโปร์",
+  "eligibility": "เปิดรับผู้สำเร็จการศึกษาจากต่างประเทศที่มีผลการเรียนดีและสมัครหลักสูตรวิจัยระดับปริญญาเอกในสิงคโปร์",
   "link": "https://www.a-star.edu.sg/singa",
-  "featured": true,
-  "isFullScholarship": true
+  "featured": true
 },
 {
   "id": 27,
-  "slug": "ทุนรัฐบาลบรูไน",
-  "name": "ทุนรัฐบาลบรูไน Darussalam Government Scholarship",
+  "slug": "brunei-government-scholarship",
+  "name": "ทุนรัฐบาลบรูไนดารุสซาลาม",
   "amount": "ทุนเต็มจำนวน",
+  "isFullScholarship": true,
+  "coverage": [
+    "Tuition",
+    "MonthlyStipend",
+    "Airfare",
+    "HealthInsurance",
+    "Accommodation"
+  ],
+  "languages": [
+    "English"
+  ],
   "level": "International",
   "field": "ทุกสาขาวิชา",
   "deadline": "แตกต่างกันในแต่ละปี",
   "location": "บรูไน",
-  "description": "ทุนรัฐบาลบรูไนสำหรับนักศึกษาต่างชาติที่ต้องการศึกษาต่อในมหาวิทยาลัยของประเทศบรูไน",
-  "eligibility": "เปิดรับนักศึกษาต่างชาติสำหรับหลักสูตรปริญญาตรี ปริญญาโท และปริญญาเอกในมหาวิทยาลัยที่เข้าร่วม",
+  "countryCode": "BN",
+  "continent": "Asia",
+  "description": "โครงการทุนรัฐบาลบรูไนดารุสซาลามสำหรับนักศึกษาต่างชาติที่ต้องการศึกษาในสถาบันอุดมศึกษาของบรูไน",
+  "eligibility": "เปิดรับผู้สมัครจากต่างประเทศสำหรับหลักสูตรระดับปริญญาตรี ปริญญาโท หรือปริญญาเอกที่เข้าร่วมโครงการ",
   "link": "https://www.mfa.gov.bn/Pages/online-bdgs.aspx",
-  "featured": true,
-  "isFullScholarship": true
+  "featured": true
 },
 {
   "id": 28,
-  "slug": "ทุน-knb-indonesia",
-  "name": "ทุนรัฐบาลอินโดนีเซีย KNB Scholarship",
+  "slug": "knb-scholarship-indonesia",
+  "name": "ทุน KNB Scholarship",
   "amount": "ทุนเต็มจำนวน",
+  "isFullScholarship": true,
+  "coverage": [
+    "Tuition",
+    "MonthlyStipend",
+    "Airfare",
+    "HealthInsurance",
+    "Accommodation"
+  ],
+  "languages": [
+    "Indonesian",
+    "English"
+  ],
   "level": "Postgraduate",
   "field": "ทุกสาขาวิชา",
   "deadline": "แตกต่างกันในแต่ละปี",
   "location": "อินโดนีเซีย",
-  "description": "ทุนรัฐบาลอินโดนีเซียสำหรับนักศึกษาต่างชาติที่ต้องการศึกษาระดับปริญญาตรี ปริญญาโท หรือปริญญาเอก",
-  "eligibility": "เปิดรับผู้สมัครจากประเทศที่มีสิทธิ์สำหรับหลักสูตรในมหาวิทยาลัยอินโดนีเซีย",
+  "countryCode": "ID",
+  "continent": "Asia",
+  "description": "โครงการทุนรัฐบาลอินโดนีเซียสำหรับนักศึกษาต่างชาติที่ต้องการศึกษาระดับปริญญาตรี ปริญญาโท หรือปริญญาเอกในอินโดนีเซีย",
+  "eligibility": "เปิดรับผู้สมัครจากประเทศที่มีสิทธิ์สำหรับหลักสูตรที่เข้าร่วมโครงการในมหาวิทยาลัยของอินโดนีเซีย",
   "link": "https://knb.kemdikbud.go.id/",
-  "featured": true,
-  "isFullScholarship": true
+  "featured": true
 },
 {
   "id": 29,
-  "slug": "ทุน-malaysia-international-scholarship",
-  "name": "ทุนรัฐบาลมาเลเซีย Malaysia International Scholarship (MIS)",
+  "slug": "malaysia-international-scholarship",
+  "name": "ทุน Malaysia International Scholarship (MIS)",
   "amount": "ทุนเต็มจำนวน",
+  "isFullScholarship": true,
+  "coverage": [
+    "Tuition",
+    "MonthlyStipend"
+  ],
+  "languages": [
+    "English"
+  ],
   "level": "Postgraduate",
   "field": "ทุกสาขาวิชา",
   "deadline": "แตกต่างกันในแต่ละปี",
   "location": "มาเลเซีย",
-  "description": "ทุนรัฐบาลมาเลเซียสำหรับนักศึกษาต่างชาติที่ต้องการศึกษาต่อระดับบัณฑิตศึกษาในมหาวิทยาลัยมาเลเซีย",
-  "eligibility": "เปิดรับผู้สำเร็จการศึกษาจากต่างประเทศที่สมัครหลักสูตรปริญญาโทหรือปริญญาเอกที่เข้าร่วม",
+  "countryCode": "MY",
+  "continent": "Asia",
+  "description": "ทุนรัฐบาลมาเลเซียสำหรับนักศึกษาต่างชาติที่ต้องการศึกษาต่อระดับบัณฑิตศึกษาในประเทศมาเลเซีย",
+  "eligibility": "เปิดรับผู้สำเร็จการศึกษาจากต่างประเทศที่สมัครหลักสูตรปริญญาโทหรือปริญญาเอกที่มีสิทธิ์ในมหาวิทยาลัยของมาเลเซีย",
   "link": "https://biasiswa.mohe.gov.my/INTER/",
-  "featured": true,
-  "isFullScholarship": true
+  "featured": true
 },
 {
   "id": 30,
-  "slug": "ทุน-vanier-canada",
-  "name": "ทุนรัฐบาลแคนาดา Vanier Canada Graduate Scholarships",
+  "slug": "vanier-canada-graduate-scholarships",
+  "name": "ทุน Vanier Canada Graduate Scholarships",
   "amount": "ทุนเต็มจำนวน",
+  "isFullScholarship": true,
+  "coverage": [
+    "MonthlyStipend"
+  ],
+  "languages": [
+    "English",
+    "French"
+  ],
   "level": "Postgraduate",
-  "field": "หลักสูตรวิจัย",
+  "field": "หลักสูตรที่เน้นการวิจัย",
   "deadline": "แตกต่างกันในแต่ละปี",
   "location": "แคนาดา",
-  "description": "ทุนรัฐบาลแคนาดาสำหรับนักศึกษาปริญญาเอกที่มีความโดดเด่นด้านการวิจัยในมหาวิทยาลัยของแคนาดา",
-  "eligibility": "เปิดรับนักศึกษาปริญญาเอกต่างชาติที่ได้รับการเสนอชื่อจากสถาบันในแคนาดา",
+  "countryCode": "CA",
+  "continent": "NorthAmerica",
+  "description": "โครงการทุนรัฐบาลแคนาดาสำหรับนักศึกษาระดับปริญญาเอกที่มีผลงานโดดเด่นและทำการวิจัยในประเทศแคนาดา",
+  "eligibility": "เปิดรับนักศึกษาปริญญาเอกจากต่างประเทศที่ได้รับการเสนอชื่อโดยสถาบันของแคนาดาที่มีสิทธิ์",
   "link": "https://vanier.gc.ca/",
-  "featured": true,
-  "isFullScholarship": true
+  "featured": true
 },
 {
   "id": 32,
-  "slug": "ทุน-hubert-humphrey",
-  "name": "ทุนรัฐบาลสหรัฐ Hubert H. Humphrey Fellowship",
+  "slug": "hubert-humphrey-fellowship",
+  "name": "ทุน Hubert H. Humphrey Fellowship Program",
   "amount": "ทุนเต็มจำนวน",
+  "isFullScholarship": true,
+  "coverage": [
+    "Tuition",
+    "MonthlyStipend",
+    "Airfare",
+    "HealthInsurance"
+  ],
+  "languages": [
+    "English"
+  ],
   "level": "Postgraduate",
-  "field": "พัฒนาวิชาชีพ",
+  "field": "การพัฒนาวิชาชีพ",
   "deadline": "แตกต่างกันตามประเทศ",
   "location": "สหรัฐอเมริกา",
-  "description": "ทุนจากรัฐบาลสหรัฐสำหรับผู้มีประสบการณ์ทำงานและต้องการพัฒนาทักษะความเป็นผู้นำ",
-  "eligibility": "เปิดรับผู้เชี่ยวชาญและผู้ทำงานที่มีประสบการณ์จากประเทศที่เข้าร่วมโครงการ",
+  "countryCode": "US",
+  "continent": "NorthAmerica",
+  "description": "โครงการทุนรัฐบาลสหรัฐฯ สำหรับผู้เชี่ยวชาญที่มีประสบการณ์เพื่อพัฒนาความรู้และทักษะด้านวิชาชีพ",
+  "eligibility": "เปิดรับผู้เชี่ยวชาญจากประเทศที่มีสิทธิ์และมีประสบการณ์ด้านความเป็นผู้นำ",
   "link": "https://www.humphreyfellowship.org/",
-  "featured": true,
-  "isFullScholarship": true
+  "featured": true
 },
 {
   "id": 33,
-  "slug": "ทุน-aauw",
+  "slug": "aauw-international-fellowships",
   "name": "ทุน AAUW International Fellowships",
   "amount": "ทุนเต็มจำนวน",
+  "isFullScholarship": true,
+  "coverage": [
+    "MonthlyStipend"
+  ],
+  "languages": [
+    "English"
+  ],
   "level": "Postgraduate",
   "field": "ทุกสาขาวิชา",
   "deadline": "แตกต่างกันในแต่ละปี",
   "location": "สหรัฐอเมริกา",
-  "description": "ทุนสำหรับผู้หญิงจากทั่วโลกที่ต้องการศึกษาต่อระดับบัณฑิตศึกษาในสหรัฐอเมริกา",
-  "eligibility": "เปิดรับผู้สมัครหญิงที่ไม่ได้ถือสัญชาติหรือถิ่นพำนักถาวรในสหรัฐอเมริกา",
+  "countryCode": "US",
+  "continent": "NorthAmerica",
+  "description": "โครงการทุนสำหรับผู้หญิงจากทั่วโลกที่ต้องการศึกษาต่อระดับบัณฑิตศึกษาในสหรัฐอเมริกา",
+  "eligibility": "เปิดรับผู้หญิงที่ไม่ได้เป็นพลเมืองหรือผู้พำนักถาวรของสหรัฐฯ และสมัครหลักสูตรบัณฑิตศึกษาที่มีสิทธิ์",
   "link": "https://www.aauw.org/resources/programs/fellowships-grants/current-opportunities/international/",
-  "featured": true,
-  "isFullScholarship": true
+  "featured": true
 },
 {
   "id": 34,
-  "slug": "ทุนรัฐบาลสเปน-maec-aecid",
-  "name": "ทุนรัฐบาลสเปน MAEC-AECID",
+  "slug": "maec-aecid-scholarship",
+  "name": "ทุน MAEC-AECID",
   "amount": "ทุนเต็มจำนวน",
+  "isFullScholarship": true,
+  "coverage": [
+    "Tuition",
+    "MonthlyStipend",
+    "Airfare",
+    "HealthInsurance"
+  ],
+  "languages": [
+    "Spanish",
+    "English"
+  ],
   "level": "Postgraduate",
   "field": "หลากหลายสาขา",
   "deadline": "แตกต่างกันในแต่ละปี",
   "location": "สเปน",
-  "description": "ทุนรัฐบาลสเปนสำหรับนักศึกษาต่างชาติและนักวิจัยที่ต้องการศึกษาต่อในประเทศสเปน",
-  "eligibility": "เปิดรับผู้สมัครต่างชาติที่ผ่านเงื่อนไขของโครงการ",
+  "countryCode": "ES",
+  "continent": "Europe",
+  "description": "โครงการทุนรัฐบาลสเปนสำหรับนักศึกษาต่างชาติและนักวิจัยที่ต้องการศึกษาในประเทศสเปน",
+  "eligibility": "เปิดรับผู้สมัครจากต่างประเทศที่มีคุณสมบัติตามข้อกำหนดของโครงการทุนที่เปิดรับ",
   "link": "https://www.aecid.es/",
-  "featured": true,
-  "isFullScholarship": true
+  "featured": true
 },
 {
   "id": 35,
-  "slug": "ทุนรัฐบาลอิตาลี",
-  "name": "ทุนรัฐบาลอิตาลี Italian Government Scholarship",
+  "slug": "italian-government-scholarship",
+  "name": "ทุนรัฐบาลอิตาลี",
   "amount": "ทุนเต็มจำนวน",
+  "isFullScholarship": true,
+  "coverage": [
+    "Tuition",
+    "MonthlyStipend",
+    "HealthInsurance"
+  ],
+  "languages": [
+    "Italian",
+    "English"
+  ],
   "level": "Postgraduate",
   "field": "หลากหลายสาขา",
   "deadline": "แตกต่างกันในแต่ละปี",
   "location": "อิตาลี",
-  "description": "ทุนรัฐบาลอิตาลีสำหรับนักศึกษาต่างชาติที่ต้องการศึกษาระดับปริญญาโท ปริญญาเอก หรือทำวิจัยในอิตาลี",
-  "eligibility": "เปิดรับนักศึกษาต่างชาติสำหรับหลักสูตรและโครงการที่กำหนด",
+  "countryCode": "IT",
+  "continent": "Europe",
+  "description": "โครงการทุนรัฐบาลอิตาลีสำหรับนักศึกษาต่างชาติและนักวิจัยที่ต้องการศึกษาในประเทศอิตาลี",
+  "eligibility": "เปิดรับผู้สมัครจากต่างประเทศสำหรับหลักสูตรปริญญาโท ปริญญาเอก หรือหลักสูตรวิจัยที่มีสิทธิ์",
   "link": "https://studyinitaly.esteri.it/",
-  "featured": true,
-  "isFullScholarship": true
+  "featured": true
 },
 {
   "id": 37,
-  "slug": "ทุนรัฐบาลเดนมาร์ก",
-  "name": "ทุนรัฐบาลเดนมาร์ก Danish Government Scholarships",
+  "slug": "danish-government-scholarship",
+  "name": "ทุนรัฐบาลเดนมาร์ก",
   "amount": "ทุนเต็มจำนวน",
+  "isFullScholarship": true,
+  "coverage": [
+    "Tuition",
+    "MonthlyStipend"
+  ],
+  "languages": [
+    "English"
+  ],
   "level": "Postgraduate",
   "field": "หลากหลายสาขา",
   "deadline": "แตกต่างกันตามมหาวิทยาลัย",
   "location": "เดนมาร์ก",
-  "description": "ทุนรัฐบาลเดนมาร์กที่มอบผ่านมหาวิทยาลัยของรัฐให้กับนักศึกษาต่างชาติที่มีผลการเรียนดี",
-  "eligibility": "เปิดรับนักศึกษาต่างชาติจากนอก EU/EEA ที่สมัครหลักสูตรปริญญาโทในมหาวิทยาลัยที่เข้าร่วม",
+  "countryCode": "DK",
+  "continent": "Europe",
+  "description": "ทุนรัฐบาลเดนมาร์กที่เปิดให้ผ่านมหาวิทยาลัยที่เข้าร่วมโครงการสำหรับนักศึกษาต่างชาติที่มีคุณสมบัติโดดเด่น",
+  "eligibility": "เปิดรับผู้สมัครจากนอกสหภาพยุโรปและเขตเศรษฐกิจยุโรปที่สมัครหลักสูตรปริญญาโทที่มีสิทธิ์ในมหาวิทยาลัยที่เข้าร่วม",
   "link": "https://studyindenmark.dk/",
-  "featured": true,
-  "isFullScholarship": true
+  "featured": true
 },
 {
   "id": 38,
-  "slug": "ทุนรัฐบาลอินเดีย-iccr",
-  "name": "ทุนรัฐบาลอินเดีย ICCR Scholarship",
+  "slug": "iccr-scholarship",
+  "name": "ทุน ICCR",
   "amount": "ทุนเต็มจำนวน",
+  "isFullScholarship": true,
+  "coverage": [
+    "Tuition",
+    "MonthlyStipend",
+    "Accommodation",
+    "HealthInsurance"
+  ],
+  "languages": [
+    "English"
+  ],
   "level": "International",
   "field": "ทุกสาขาวิชา",
   "deadline": "แตกต่างกันในแต่ละปี",
   "location": "อินเดีย",
-  "description": "ทุนรัฐบาลอินเดียภายใต้ Indian Council for Cultural Relations (ICCR) สำหรับนักศึกษาต่างชาติ รวมถึงผู้สมัครจากประเทศไทย",
-  "eligibility": "เปิดรับนักศึกษาชาวไทยและประเทศที่มีสิทธิ์สมัครผ่านระบบ ICCR หรือสถานเอกอัครราชทูตอินเดีย",
+  "countryCode": "IN",
+  "continent": "Asia",
+  "description": "โครงการทุนรัฐบาลอินเดียที่บริหารโดย Indian Council for Cultural Relations (ICCR) สำหรับนักศึกษาต่างชาติ",
+  "eligibility": "เปิดรับผู้สมัครชาวไทยและผู้สมัครจากประเทศอื่นที่มีสิทธิ์ผ่านระบบ ICCR Scholarship Portal หรือสถานทูตอินเดีย",
   "link": "https://a2ascholarships.iccr.gov.in/",
-  "featured": true,
-  "isFullScholarship": true
+  "featured": true
 }
 ]

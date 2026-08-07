@@ -1,86 +1,113 @@
 {
-  "metadata": {
-    "title": "ค้นหาทุนการศึกษา",
-    "description": "ค้นหาทุนการศึกษาที่ช่วยสนับสนุนการเรียนของคุณ"
-  },
+"metadata": {
+"title": "ค้นหาทุนการศึกษา",
+"description": "ค้นหาทุนการศึกษาที่ช่วยสนับสนุนการเรียนของคุณ"
+},
 
-  "header": {
-    "eyebrow": "ทุนเพื่อการศึกษา",
-    "title": "ค้นหาทุนการศึกษา",
-    "description": "ค้นหาทุนการศึกษาที่สามารถช่วยสนับสนุนการเรียนและเส้นทางอาชีพในอนาคตของคุณ"
-  },
+"header": {
+"eyebrow": "ทุนเพื่อการศึกษา",
+"title": "ค้นหาทุนการศึกษา",
+"description": "ค้นหาทุนการศึกษาที่สามารถช่วยสนับสนุนการเรียนและเส้นทางอาชีพในอนาคตของคุณ"
+},
 
-  "search": {
-    "label": "ค้นหาทุนการศึกษา",
-    "placeholder": "ค้นหาตามชื่อ สาขาวิชา หรือคำสำคัญ"
-  },
+"search": {
+"label": "ค้นหาทุนการศึกษา",
+"placeholder": "ค้นหาตามชื่อ สาขาวิชา หรือคำสำคัญ"
+},
 
-  "filters": {
-    "label": "กรองตามระดับการศึกษา",
-    "all": "ทั้งหมด",
-    "undergraduate": "ปริญญาตรี",
-    "postgraduate": "บัณฑิตศึกษา",
-    "international": "นักศึกษาต่างชาติ",
-    "clear": "ล้างการค้นหาและตัวกรอง"
-  },
+"filters": {
+"label": "กรองตามระดับการศึกษา",
+"all": "ทั้งหมด",
+"undergraduate": "ปริญญาตรี",
+"postgraduate": "บัณฑิตศึกษา",
+"international": "นักศึกษาต่างชาติ",
+"clear": "ล้างการค้นหาและตัวกรอง"
+},
 
-  "funding": {
-  "label": "ประเภททุน",
-  "all": "ทั้งหมด",
-  "full": "ทุนเต็มจำนวน",
-  "partial": "ทุนบางส่วน"
- },
+"funding": {
+"label": "ประเภททุน",
+"all": "ทั้งหมด",
+"full": "ทุนเต็มจำนวน",
+"partial": "ทุนบางส่วน"
+},
 
-  "scholarships": {
-    "heading": "ทุนการศึกษาที่เปิดรับ",
-    "description": "สำรวจทุนการศึกษาที่มีอยู่ในขณะนี้",
-    "showing": "แสดง",
-    "singular": "ทุน",
-    "plural": "ทุน",
-    "featured": "แนะนำ",
-    "amount": "จำนวนเงิน",
-    "level": "ระดับการศึกษา",
-    "field": "สาขาวิชา",
-    "deadline": "วันปิดรับสมัคร",
-    "location": "สถานที่",
-    "language": "ภาษาที่เปิดสอน",
-    "eligibility": "คุณสมบัติผู้สมัคร",
-    "view": "ดูรายละเอียดทุน",
-    "visitWebsite": "ไปยังเว็บไซต์ทุนการศึกษา",
-    "back": "กลับไปยังทุนการศึกษาทั้งหมด",
-    "opportunity": "โอกาสรับทุนการศึกษา",
-    "funding": "ประเภททุน",
-    "fullScholarship": "ทุนเต็มจำนวน",
-    "partialScholarship": "ทุนบางส่วน",
-    "coverage": "สิทธิประโยชน์ของทุน",
+"scholarships": {
+"heading": "ทุนการศึกษาที่เปิดรับ",
+"description": "สำรวจทุนการศึกษาที่มีอยู่ในขณะนี้",
+"showing": "แสดง",
+"singular": "ทุน",
+"plural": "ทุน",
+"featured": "แนะนำ",
+"amount": "จำนวนเงิน",
+"level": "ระดับการศึกษา",
+"field": "สาขาวิชา",
+"deadline": "วันปิดรับสมัคร",
+"location": "ประเทศ",
+"language": "ภาษาที่เปิดสอน",
+"eligibility": "คุณสมบัติผู้สมัคร",
+"view": "ดูรายละเอียดทุน",
+"visitWebsite": "ไปยังเว็บไซต์ทุนการศึกษา",
+"back": "กลับไปยังทุนการศึกษาทั้งหมด",
+"opportunity": "โอกาสรับทุนการศึกษา",
+"funding": "ประเภททุน",
+"fullScholarship": "ทุนเต็มจำนวน",
+"partialScholarship": "ทุนบางส่วน",
+"coverage": "สิทธิประโยชน์ของทุน",
 
-    "coverageItems": {
-      "Tuition": "ค่าเล่าเรียน",
-      "MonthlyStipend": "ค่าครองชีพรายเดือน",
-      "Airfare": "ตั๋วเครื่องบิน",
-      "Visa": "ค่าวีซ่า",
-      "HealthInsurance": "ประกันสุขภาพ",
-      "Accommodation": "ที่พัก",
-      "ResearchGrant": "ทุนวิจัย"
-    }
+"coverageItems": {
+  "Tuition": "ค่าเล่าเรียน",
+  "MonthlyStipend": "ค่าครองชีพรายเดือน",
+  "Airfare": "ตั๋วเครื่องบิน",
+  "Visa": "ค่าวีซ่า",
+  "HealthInsurance": "ประกันสุขภาพ",
+  "Accommodation": "ที่พัก",
+  "ResearchGrant": "ทุนวิจัย"
+},
 
-  },
+"levelOptions": {
+  "Undergraduate": "ปริญญาตรี",
+  "Postgraduate": "บัณฑิตศึกษา",
+  "International": "นักศึกษาต่างชาติ"
+},
 
-  "empty": {
-    "title": "ไม่พบทุนการศึกษา",
-    "description": "ลองเปลี่ยนคำค้นหาหรือเลือกระดับการศึกษาอื่น"
-  },
+"languageOptions": {
+  "English": "อังกฤษ",
+  "Japanese": "ญี่ปุ่น",
+  "German": "เยอรมัน",
+  "French": "ฝรั่งเศส",
+  "Korean": "เกาหลี",
+  "Chinese": "จีน",
+  "Spanish": "สเปน",
+  "Italian": "อิตาลี",
+  "Portuguese": "โปรตุเกส",
+  "Dutch": "ดัตช์",
+  "Swedish": "สวีเดน",
+  "Danish": "เดนมาร์ก",
+  "Finnish": "ฟินแลนด์",
+  "Norwegian": "นอร์เวย์",
+  "Polish": "โปแลนด์",
+  "Turkish": "ตุรกี",
+  "Thai": "ไทย",
+  "Indonesian": "อินโดนีเซีย",
+  "Malay": "มาเลเซีย",
+  "Arabic": "อาหรับ"
+}
 
-  "language": {
-    "label": "ภาษา",
-    "english": "English",
-    "thai": "ไทย"
-  },
 
-  "footer": {
-    "text": "ค้นหาทุนการศึกษา"
-  }
+},
 
+"empty": {
+"title": "ไม่พบทุนการศึกษา",
+"description": "ลองเปลี่ยนคำค้นหาหรือเลือกระดับการศึกษาอื่น"
+},
 
+"language": {
+"label": "ภาษา",
+"english": "English",
+"thai": "ไทย"
+},
 
+"footer": {
+"text": "ค้นหาทุนการศึกษา"
+}
 }

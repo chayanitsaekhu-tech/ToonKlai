@@ -1,7 +1,16 @@
 import ScholarshipCard from "@/components/ScholarshipCard";
 
 import type { Locale } from "@/i18n/config";
-import type { Scholarship } from "@/types/scholarship";
+
+import type {
+  Scholarship,
+  ScholarshipLanguage,
+} from "@/types/scholarship";
+
+import type {
+  Scholarship,
+  ScholarshipLanguage,
+} from "@/types/scholarship";
 
 type ScholarshipDictionary = {
   heading: string;
@@ -18,6 +27,12 @@ type ScholarshipDictionary = {
   field: string;
   deadline: string;
   view: string;
+  language: string;
+  languageOptions: Record<
+    ScholarshipLanguage,
+    string
+  >;
+  location: string;
 };
 
 type EmptyDictionary = {
@@ -88,12 +103,8 @@ export default function ScholarshipList({
               <ScholarshipCard
                 key={scholarship.id}
                 locale={locale}
-                scholarship={
-                  scholarship
-                }
-                dictionary={
-                  dictionary
-                }
+                scholarship={scholarship}
+                dictionary={dictionary}
                 filterDictionary={
                   filterDictionary
                 }

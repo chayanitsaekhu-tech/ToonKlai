@@ -1,84 +1,114 @@
 {
-  "metadata": {
-    "title": "Scholarship Finder",
-    "description": "Find scholarships that can support your education."
-  },
+"metadata": {
+"title": "Scholarship Finder",
+"description": "Find scholarships that can support your education."
+},
 
-  "header": {
-    "eyebrow": "Education funding",
-    "title": "Scholarship Finder",
-    "description": "Search scholarships that can help support your education and future career."
-  },
+"header": {
+"eyebrow": "Education funding",
+"title": "Scholarship Finder",
+"description": "Search scholarships that can help support your education and future career."
+},
 
-  "search": {
-    "label": "Search scholarships",
-    "placeholder": "Search by name, subject, or keyword"
-  },
+"search": {
+"label": "Search scholarships",
+"placeholder": "Search by name, subject, or keyword"
+},
 
-  "filters": {
-    "label": "Filter by study level",
-    "all": "All",
-    "undergraduate": "Undergraduate",
-    "postgraduate": "Postgraduate",
-    "international": "International",
-    "clear": "Clear search and filters"
-  },
+"filters": {
+"label": "Filter by study level",
+"all": "All",
+"undergraduate": "Undergraduate",
+"postgraduate": "Postgraduate",
+"international": "International",
+"clear": "Clear search and filters"
+},
 
-  "funding": {
-  "label": "Funding",
-  "all": "All",
-  "full": "Full Scholarship",
-  "partial": "Partial Scholarship"
-  },
+"funding": {
+"label": "Funding",
+"all": "All",
+"full": "Full Scholarship",
+"partial": "Partial Scholarship"
+},
 
-  "scholarships": {
-    "heading": "Available Scholarships",
-    "description": "Explore the opportunities currently listed.",
-    "showing": "Showing",
-    "singular": "scholarship",
-    "plural": "scholarships",
-    "featured": "Featured",
-    "amount": "Amount",
-    "level": "Level",
-    "field": "Field",
-    "deadline": "Deadline",
-    "location": "Location",
-    "language": "Language",
-    "eligibility": "Eligibility",
-    "view": "View scholarship",
-    "visitWebsite": "Visit scholarship website",
-    "back": "Back to all scholarships",
-    "opportunity": "Scholarship opportunity",
-    "funding": "Funding",
-    "fullScholarship": "Full Scholarship",
-    "partialScholarship": "Partial Scholarship",
-    "coverage": "Coverage",
-
-    "coverageItems": {
-      "Tuition": "Tuition fees",
-      "MonthlyStipend": "Monthly stipend",
-      "Airfare": "Airfare",
-      "Visa": "Visa support",
-      "HealthInsurance": "Health insurance",
-      "Accommodation": "Accommodation",
-      "ResearchGrant": "Research grant"
-    }
-  },
-
-  "empty": {
-    "title": "No scholarships found",
-    "description": "Try changing your search term or selecting a different study level."
-  },
-
-  "language": {
-    "label": "Language",
-    "english": "English",
-    "thai": "ไทย"
-  },
-
-  "footer": {
-    "text": "Scholarship Finder."
-  }
+"scholarships": {
+"heading": "Available Scholarships",
+"description": "Explore the opportunities currently listed.",
+"showing": "Showing",
+"singular": "scholarship",
+"plural": "scholarships",
+"featured": "Featured",
+"amount": "Amount",
+"level": "Level",
+"field": "Field",
+"deadline": "Deadline",
+"location": "Location",
+"language": "Language",
+"eligibility": "Eligibility",
+"view": "View scholarship",
+"visitWebsite": "Visit scholarship website",
+"back": "Back to all scholarships",
+"opportunity": "Scholarship opportunity",
+"funding": "Funding",
+"fullScholarship": "Full Scholarship",
+"partialScholarship": "Partial Scholarship",
+"coverage": "Coverage",
 
 
+"coverageItems": {
+  "Tuition": "Tuition fees",
+  "MonthlyStipend": "Monthly stipend",
+  "Airfare": "Airfare",
+  "Visa": "Visa support",
+  "HealthInsurance": "Health insurance",
+  "Accommodation": "Accommodation",
+  "ResearchGrant": "Research grant"
+},
+
+"levelOptions": {
+  "Undergraduate": "Undergraduate",
+  "Postgraduate": "Postgraduate",
+  "International": "International"
+},
+
+"languageOptions": {
+  "English": "English",
+  "Japanese": "Japanese",
+  "German": "German",
+  "French": "French",
+  "Korean": "Korean",
+  "Chinese": "Chinese",
+  "Spanish": "Spanish",
+  "Italian": "Italian",
+  "Portuguese": "Portuguese",
+  "Dutch": "Dutch",
+  "Swedish": "Swedish",
+  "Danish": "Danish",
+  "Finnish": "Finnish",
+  "Norwegian": "Norwegian",
+  "Polish": "Polish",
+  "Turkish": "Turkish",
+  "Thai": "Thai",
+  "Indonesian": "Indonesian",
+  "Malay": "Malay",
+  "Arabic": "Arabic"
+}
+
+
+},
+
+"empty": {
+"title": "No scholarships found",
+"description": "Try changing your search term or selecting a different study level."
+},
+
+"language": {
+"label": "Language",
+"english": "English",
+"thai": "ไทย"
+},
+
+"footer": {
+"text": "Scholarship Finder."
+}
 }

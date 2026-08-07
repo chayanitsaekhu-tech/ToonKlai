@@ -233,7 +233,12 @@ export default async function ScholarshipPage({
         </dt>
 
         <dd className="mt-1 text-lg font-bold text-slate-900">
-          {scholarship.languages.join(" / ")}
+                  {scholarship.languages
+          .map(
+            (language) =>
+              dictionary.scholarships.languageOptions[language]
+          )
+          .join(" / ")}
         </dd>
       </div>
 
@@ -266,7 +271,11 @@ export default async function ScholarshipPage({
               </dt>
 
               <dd className="mt-1 text-lg font-bold text-slate-900">
-                {scholarship.level}
+                                {
+                  dictionary.scholarships.levelOptions[
+                    scholarship.level
+                  ]
+                }
               </dd>
             </div>
 

@@ -3,9 +3,11 @@ import Link from "next/link";
 import { getScholarshipPath } from "@/i18n/routes";
 
 import type { Locale } from "@/i18n/config";
+
 import type {
   Scholarship,
   ScholarshipLevel,
+  ScholarshipLanguage,
 } from "@/types/scholarship";
 
 type ScholarshipCardDictionary = {
@@ -19,6 +21,10 @@ type ScholarshipCardDictionary = {
   deadline: string;
   view: string;
   language: string;
+  languageOptions: Record<
+    ScholarshipLanguage,
+    string
+  >;
   location: string;
 };
 
@@ -125,7 +131,12 @@ export default function ScholarshipCard({
           </dt>
 
           <dd className="mt-1">
-           {scholarship.languages.join(" / ")}
+                    {scholarship.languages
+            .map(
+              (language) =>
+                dictionary.languageOptions[language],
+            )
+            .join(" / ")}
           </dd>
         </div>
         <div>
