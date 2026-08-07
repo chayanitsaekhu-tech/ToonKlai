@@ -12,17 +12,39 @@ export type ScholarshipFundingFilter =
   | "Full"
   | "Partial";
 
+  export type ScholarshipLanguageFilter =
+  | "All"
+  | ScholarshipLanguage;
+
+export type ScholarshipContinentFilter =
+  | "All"
+  | ScholarshipContinent;
+
+export type ScholarshipCountryFilter =
+  | "All"
+  | string;
+
   export type ScholarshipLanguage =
   | "English"
+  | "Japanese"
   | "German"
   | "French"
+  | "Korean"
+  | "Chinese"
   | "Spanish"
   | "Italian"
-  | "Japanese"
-  | "Chinese"
-  | "Korean"
-  | "Hungarian"
-  | "Turkish";
+  | "Portuguese"
+  | "Dutch"
+  | "Swedish"
+  | "Danish"
+  | "Finnish"
+  | "Norwegian"
+  | "Polish"
+  | "Turkish"
+  | "Thai"
+  | "Indonesian"
+  | "Malay"
+  | "Arabic";
 
   export type ScholarshipCoverage =
   | "Tuition"

@@ -5,11 +5,7 @@ import type { Locale } from "@/i18n/config";
 import type {
   Scholarship,
   ScholarshipLanguage,
-} from "@/types/scholarship";
-
-import type {
-  Scholarship,
-  ScholarshipLanguage,
+  ScholarshipContinent,
 } from "@/types/scholarship";
 
 type ScholarshipDictionary = {
@@ -44,6 +40,22 @@ type FilterDictionary = {
   undergraduate: string;
   postgraduate: string;
   international: string;
+
+  language: string;
+  country: string;
+  continent: string;
+
+  all: string;
+
+  languageOptions: Record<
+    ScholarshipLanguage,
+    string
+  >;
+
+  continentOptions: Record<
+    ScholarshipContinent,
+    string
+  >;
 };
 
 type ScholarshipListProps = {

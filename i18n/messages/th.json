@@ -16,12 +16,29 @@
 },
 
 "filters": {
-"label": "กรองตามระดับการศึกษา",
-"all": "ทั้งหมด",
-"undergraduate": "ปริญญาตรี",
-"postgraduate": "บัณฑิตศึกษา",
-"international": "นักศึกษาต่างชาติ",
-"clear": "ล้างการค้นหาและตัวกรอง"
+  "label": "กรองตามระดับการศึกษา",
+  "all": "ทั้งหมด",
+  "undergraduate": "ปริญญาตรี",
+  "postgraduate": "บัณฑิตศึกษา",
+  "international": "นักศึกษาต่างชาติ",
+
+  "language": "ภาษาที่เปิดสอน",
+  "country": "ประเทศ",
+  "continent": "ทวีป",
+
+  "clear": "ล้างการค้นหาและตัวกรอง",
+  "hide": "ซ่อนตัวกรอง",
+  "show": "แสดงตัวกรอง",
+
+  "continentOptions": {
+    "Europe": "ยุโรป",
+    "Asia": "เอเชีย",
+    "NorthAmerica": "อเมริกาเหนือ",
+    "SouthAmerica": "อเมริกาใต้",
+    "Africa": "แอฟริกา",
+    "Oceania": "โอเชียเนีย",
+    "MiddleEast": "ตะวันออกกลาง"
+  }
 },
 
 "funding": {
@@ -82,6 +99,8 @@
   "Portuguese": "โปรตุเกส",
   "Dutch": "ดัตช์",
   "Swedish": "สวีเดน",
+  "Hungarian": "ฮังการี",
+  "Romanian": "โรมาเนีย",
   "Danish": "เดนมาร์ก",
   "Finnish": "ฟินแลนด์",
   "Norwegian": "นอร์เวย์",

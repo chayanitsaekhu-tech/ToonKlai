@@ -16,12 +16,29 @@
 },
 
 "filters": {
-"label": "Filter by study level",
-"all": "All",
-"undergraduate": "Undergraduate",
-"postgraduate": "Postgraduate",
-"international": "International",
-"clear": "Clear search and filters"
+  "label": "Filter by study level",
+  "all": "All",
+  "undergraduate": "Undergraduate",
+  "postgraduate": "Postgraduate",
+  "international": "International",
+
+  "language": "Language of instruction",
+  "country": "Country",
+  "continent": "Continent",
+
+  "clear": "Clear search and filters",
+  "hide": "Hide search and filters",
+  "show": "Show search and filters",
+
+  "continentOptions": {
+    "Europe": "Europe",
+    "Asia": "Asia",
+    "NorthAmerica": "North America",
+    "SouthAmerica": "South America",
+    "Africa": "Africa",
+    "Oceania": "Oceania",
+    "MiddleEast": "Middle East"
+  }
 },
 
 "funding": {
@@ -83,6 +100,8 @@
   "Portuguese": "Portuguese",
   "Dutch": "Dutch",
   "Swedish": "Swedish",
+   "Hungarian": "Hungarian",
+  "Romanian": "Romanian",
   "Danish": "Danish",
   "Finnish": "Finnish",
   "Norwegian": "Norwegian",
