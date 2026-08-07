@@ -43,6 +43,7 @@
     "field": "Field",
     "deadline": "Deadline",
     "location": "Location",
+    "language": "Language",
     "eligibility": "Eligibility",
     "view": "View scholarship",
     "visitWebsite": "Visit scholarship website",
@@ -50,7 +51,18 @@
     "opportunity": "Scholarship opportunity",
     "funding": "Funding",
     "fullScholarship": "Full Scholarship",
-    "partialScholarship": "Partial Scholarship"
+    "partialScholarship": "Partial Scholarship",
+    "coverage": "Coverage",
+
+    "coverageItems": {
+      "Tuition": "Tuition fees",
+      "MonthlyStipend": "Monthly stipend",
+      "Airfare": "Airfare",
+      "Visa": "Visa support",
+      "HealthInsurance": "Health insurance",
+      "Accommodation": "Accommodation",
+      "ResearchGrant": "Research grant"
+    }
   },
 
   "empty": {

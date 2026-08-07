@@ -227,6 +227,17 @@ export default async function ScholarshipPage({
               </dd>
             </div>
 
+              <div className="rounded-xl bg-slate-50 p-4">
+                <dt className="text-sm font-semibold text-slate-500">
+          {dictionary.scholarships.language}
+        </dt>
+
+        <dd className="mt-1 text-lg font-bold text-slate-900">
+          {scholarship.languages.join(" / ")}
+        </dd>
+      </div>
+
+
             <div className="rounded-xl bg-slate-50 p-4">
               <dt className="text-sm font-semibold text-slate-500">
                 {dictionary.scholarships.funding}
@@ -314,6 +325,29 @@ export default async function ScholarshipPage({
             <p className="mt-3 leading-7 text-slate-600">
               {scholarship.eligibility}
             </p>
+          </section>
+
+          <section className="mt-8">
+           <h2 className="text-2xl font-bold text-slate-900">
+            {dictionary.scholarships.coverage}
+          </h2>
+
+                      <ul className="mt-4 space-y-3">
+            {scholarship.coverage.map((item) => (
+              <li
+                key={item}
+                className="flex items-center gap-3"
+              >
+                <span className="font-bold text-emerald-600">
+                  ✓
+                </span>
+
+                <span>
+                  {dictionary.scholarships.coverageItems[item]}
+                </span>
+              </li>
+            ))}
+          </ul>
           </section>
 
           <div className="mt-8 border-t border-slate-200 pt-8">

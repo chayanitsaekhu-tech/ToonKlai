@@ -18,6 +18,8 @@ type ScholarshipCardDictionary = {
   field: string;
   deadline: string;
   view: string;
+  language: string;
+  location: string;
 };
 
 type FilterDictionary = {
@@ -73,15 +75,6 @@ export default function ScholarshipCard({
       </p>
 
       <dl className="mt-5 grid gap-3 text-sm text-slate-700 sm:grid-cols-2">
-        <div>
-          <dt className="font-semibold text-slate-900">
-            {dictionary.amount}
-          </dt>
-
-          <dd className="mt-1">
-            {scholarship.amount}
-          </dd>
-        </div>
 
           <div>
       <dt className="font-semibold text-slate-900">
@@ -124,6 +117,24 @@ export default function ScholarshipCard({
 
           <dd className="mt-1">
             {scholarship.deadline}
+          </dd>
+        </div>
+        <div>
+          <dt className="font-semibold text-slate-900">
+            {dictionary.language}
+          </dt>
+
+          <dd className="mt-1">
+           {scholarship.languages.join(" / ")}
+          </dd>
+        </div>
+        <div>
+          <dt className="font-semibold text-slate-900">
+            {dictionary.location}
+          </dt>
+
+          <dd className="mt-1">
+            {scholarship.location}
           </dd>
         </div>
       </dl>

@@ -43,6 +43,7 @@
     "field": "สาขาวิชา",
     "deadline": "วันปิดรับสมัคร",
     "location": "สถานที่",
+    "language": "ภาษาที่เปิดสอน",
     "eligibility": "คุณสมบัติผู้สมัคร",
     "view": "ดูรายละเอียดทุน",
     "visitWebsite": "ไปยังเว็บไซต์ทุนการศึกษา",
@@ -50,7 +51,19 @@
     "opportunity": "โอกาสรับทุนการศึกษา",
     "funding": "ประเภททุน",
     "fullScholarship": "ทุนเต็มจำนวน",
-    "partialScholarship": "ทุนบางส่วน"
+    "partialScholarship": "ทุนบางส่วน",
+    "coverage": "สิทธิประโยชน์ของทุน",
+
+    "coverageItems": {
+      "Tuition": "ค่าเล่าเรียน",
+      "MonthlyStipend": "ค่าครองชีพรายเดือน",
+      "Airfare": "ตั๋วเครื่องบิน",
+      "Visa": "ค่าวีซ่า",
+      "HealthInsurance": "ประกันสุขภาพ",
+      "Accommodation": "ที่พัก",
+      "ResearchGrant": "ทุนวิจัย"
+    }
+
   },
 
   "empty": {

@@ -5,10 +5,21 @@
   "name": "Chevening Scholarship",
   "amount": "Fully Funded",
   "isFullScholarship": true,
+  "coverage": [
+    "Tuition",
+    "MonthlyStipend",
+    "Airfare",
+    "Visa"
+  ],
+  "languages": [
+    "English"
+  ],
   "level": "Postgraduate",
   "field": "Any subject",
   "deadline": "6 October 2026",
   "location": "United Kingdom",
+  "countryCode": "GB",
+  "continent": "Europe",
   "description": "A fully funded UK Government scholarship for outstanding future leaders to study a one-year master's degree at a UK university.",
   "eligibility": "Open to applicants from eligible countries with an undergraduate degree, at least two years of work experience, and a commitment to return to their home country after completing their studies.",
   "link": "https://www.chevening.org/scholarships/",
@@ -19,419 +30,700 @@
   "slug": "erasmus-mundus-joint-masters",
   "name": "Erasmus Mundus Joint Masters",
   "amount": "Fully Funded",
+  "isFullScholarship": true,
+  "coverage": [
+    "Tuition",
+    "MonthlyStipend",
+    "Airfare"
+  ],
+  "languages": [
+    "English"
+  ],
   "level": "Postgraduate",
   "field": "Any subject",
   "deadline": "Varies by programme",
   "location": "Europe",
+  "countryCode": "EU",
+  "continent": "Europe",
   "description": "A fully funded European Union scholarship for international students to study a joint master's programme across multiple European universities.",
   "eligibility": "Open to students worldwide applying for eligible Erasmus Mundus Joint Master's programmes.",
   "link": "https://erasmus-plus.ec.europa.eu/opportunities/opportunities-for-individuals/students/erasmus-mundus-joint-masters",
-  "featured": true,
-  "isFullScholarship": true
+  "featured": true
 },
 {
   "id": 8,
   "slug": "mext-scholarship",
   "name": "MEXT Scholarship",
   "amount": "Fully Funded",
+  "isFullScholarship": true,
+  "coverage": [
+    "Tuition",
+    "MonthlyStipend",
+    "Airfare"
+  ],
+  "languages": [
+    "Japanese",
+    "English"
+  ],
   "level": "International",
   "field": "Any subject",
   "deadline": "Varies by country",
   "location": "Japan",
+  "countryCode": "JP",
+  "continent": "Asia",
   "description": "A fully funded scholarship provided by the Government of Japan for international students pursuing undergraduate, postgraduate, or research studies.",
   "eligibility": "Open to applicants nominated through the Japanese Embassy or participating universities in eligible countries.",
   "link": "https://www.studyinjapan.go.jp/en/planning/scholarships/mext-scholarships/",
-  "featured": true,
-  "isFullScholarship": true
+  "featured": true
 },
 {
   "id": 9,
   "slug": "gks-scholarship",
   "name": "Global Korea Scholarship (GKS)",
   "amount": "Fully Funded",
+  "isFullScholarship": true,
+  "coverage": [
+    "Tuition",
+    "MonthlyStipend",
+    "Airfare",
+    "HealthInsurance"
+  ],
+  "languages": [
+    "Korean",
+    "English"
+  ],
   "level": "International",
   "field": "Any subject",
   "deadline": "Varies by country",
   "location": "South Korea",
+  "countryCode": "KR",
+  "continent": "Asia",
   "description": "A fully funded scholarship provided by the Korean Government for international students studying undergraduate or postgraduate programmes in South Korea.",
   "eligibility": "Open to international applicants applying through Korean Embassies or participating universities.",
   "link": "https://www.studyinkorea.go.kr/",
-  "featured": true,
-  "isFullScholarship": true
+  "featured": true
 },
 {
   "id": 11,
   "slug": "fulbright-foreign-student-program",
   "name": "Fulbright Foreign Student Program",
   "amount": "Fully Funded",
+  "isFullScholarship": true,
+  "coverage": [
+    "Tuition",
+    "MonthlyStipend",
+    "Airfare",
+    "HealthInsurance"
+  ],
+  "languages": [
+    "English"
+  ],
   "level": "Postgraduate",
   "field": "Any subject",
   "deadline": "Varies by country",
   "location": "United States",
+  "countryCode": "US",
+  "continent": "NorthAmerica",
   "description": "A prestigious scholarship funded by the U.S. Government for international students pursuing master's or doctoral studies in the United States.",
   "eligibility": "Open to applicants from participating countries. Eligibility and application procedures vary by country.",
   "link": "https://foreign.fulbrightonline.org/",
-  "featured": true,
-  "isFullScholarship": true
+  "featured": true
 },
 {
   "id": 12,
   "slug": "stipendium-hungaricum",
   "name": "Stipendium Hungaricum Scholarship",
   "amount": "Fully Funded",
+  "isFullScholarship": true,
+  "coverage": [
+    "Tuition",
+    "MonthlyStipend",
+    "Accommodation",
+    "HealthInsurance"
+  ],
+  "languages": [
+    "Hungarian",
+    "English"
+  ],
   "level": "International",
   "field": "Any subject",
   "deadline": "15 January",
   "location": "Hungary",
+  "countryCode": "HU",
+  "continent": "Europe",
   "description": "A fully funded Hungarian Government scholarship covering tuition fees, accommodation support, a monthly stipend, and medical insurance for international students.",
   "eligibility": "Open to applicants from eligible partner countries applying through the official nomination process.",
   "link": "https://stipendiumhungaricum.hu/",
-  "featured": true,
-  "isFullScholarship": true
+  "featured": true
 },
 {
   "id": 13,
   "slug": "stefan-banach-nawa-scholarship",
   "name": "Stefan Banach NAWA Scholarship",
   "amount": "Fully Funded",
+  "isFullScholarship": true,
+  "coverage": [
+    "Tuition",
+    "MonthlyStipend"
+  ],
+  "languages": [
+    "Polish",
+    "English"
+  ],
   "level": "Postgraduate",
   "field": "Any subject",
   "deadline": "Varies by annual call",
   "location": "Poland",
+  "countryCode": "PL",
+  "continent": "Europe",
   "description": "A fully funded Polish Government scholarship supporting international students pursuing master's degrees in Poland.",
   "eligibility": "Open to applicants from eligible developing countries listed by the NAWA programme.",
   "link": "https://www.nawa.gov.pl/en/students/foreign-students/the-banach-scholarship-programme/landing",
-  "featured": true,
-  "isFullScholarship": true
+  "featured": true
 },
 {
   "id": 14,
   "slug": "swedish-institute-scholarship",
   "name": "Swedish Institute Scholarship for Global Professionals",
   "amount": "Fully Funded",
+  "isFullScholarship": true,
+  "coverage": [
+    "Tuition",
+    "MonthlyStipend",
+    "Airfare",
+    "HealthInsurance"
+  ],
+  "languages": [
+    "English"
+  ],
   "level": "Postgraduate",
   "field": "Any subject",
   "deadline": "Varies by annual call",
   "location": "Sweden",
+  "countryCode": "SE",
+  "continent": "Europe",
   "description": "A fully funded Swedish Government scholarship for international students pursuing master's studies in Sweden.",
   "eligibility": "Open to applicants from eligible countries with leadership experience and admission to a participating master's programme.",
   "link": "https://si.se/en/apply/scholarships/swedish-institute-scholarships-for-global-professionals/",
-  "featured": true,
-  "isFullScholarship": true
+  "featured": true
 },
 {
   "id": 15,
   "slug": "daad-scholarships",
   "name": "DAAD Scholarships",
   "amount": "Fully Funded",
+  "isFullScholarship": true,
+  "coverage": [
+    "Tuition",
+    "MonthlyStipend",
+    "Airfare",
+    "HealthInsurance"
+  ],
+  "languages": [
+    "German",
+    "English"
+  ],
   "level": "Postgraduate",
   "field": "Any subject",
   "deadline": "Varies by programme",
   "location": "Germany",
+  "countryCode": "DE",
+  "continent": "Europe",
   "description": "A scholarship programme funded by the German Academic Exchange Service (DAAD) supporting international students and researchers studying in Germany.",
   "eligibility": "Open to international graduates and researchers applying for eligible DAAD programmes.",
   "link": "https://www.daad.de/en/",
-  "featured": true,
-  "isFullScholarship": true
+  "featured": true
 },
 {
   "id": 16,
   "slug": "eiffel-excellence-scholarship",
   "name": "Eiffel Excellence Scholarship Programme",
   "amount": "Fully Funded",
+  "isFullScholarship": true,
+  "coverage": [
+    "MonthlyStipend",
+    "Airfare",
+    "HealthInsurance"
+  ],
+  "languages": [
+    "French",
+    "English"
+  ],
   "level": "Postgraduate",
   "field": "Any subject",
   "deadline": "Varies by institution",
   "location": "France",
+  "countryCode": "FR",
+  "continent": "Europe",
   "description": "A French Government scholarship supporting outstanding international students pursuing master's and doctoral studies in France.",
   "eligibility": "Open to international students nominated by French higher education institutions.",
   "link": "https://www.campusfrance.org/en/eiffel-scholarship-program-of-excellence",
-  "featured": true,
-  "isFullScholarship": true
+  "featured": true
 },
 {
   "id": 17,
   "slug": "swiss-government-excellence-scholarships",
   "name": "Swiss Government Excellence Scholarships",
   "amount": "Fully Funded",
+  "isFullScholarship": true,
+  "coverage": [
+    "Tuition",
+    "MonthlyStipend",
+    "HealthInsurance"
+  ],
+  "languages": [
+    "German",
+    "French",
+    "Italian",
+    "English"
+  ],
   "level": "Postgraduate",
   "field": "Research and postgraduate studies",
   "deadline": "Varies by country",
   "location": "Switzerland",
+  "countryCode": "CH",
+  "continent": "Europe",
   "description": "A Swiss Government scholarship programme supporting international researchers and postgraduate students.",
   "eligibility": "Open to international graduates and researchers applying through Swiss diplomatic representations.",
   "link": "https://www.sbfi.admin.ch/en/swiss-government-excellence-scholarships",
-  "featured": true,
-  "isFullScholarship": true
+  "featured": true
 },
 {
   "id": 18,
   "slug": "government-of-ireland-scholarship",
   "name": "Government of Ireland International Education Scholarship",
   "amount": "Fully Funded",
+  "isFullScholarship": true,
+  "coverage": [
+    "Tuition",
+    "MonthlyStipend"
+  ],
+  "languages": [
+    "English"
+  ],
   "level": "Postgraduate",
   "field": "Any subject",
   "deadline": "Varies by annual call",
   "location": "Ireland",
+  "countryCode": "IE",
+  "continent": "Europe",
   "description": "An Irish Government scholarship supporting international students studying at eligible higher education institutions in Ireland.",
   "eligibility": "Open to international students with an offer from an eligible Irish higher education institution.",
   "link": "https://hea.ie/policy/internationalisation/goi-ies/",
-  "featured": true,
-  "isFullScholarship": true
+  "featured": true
 },
 {
   "id": 20,
   "slug": "romanian-government-scholarship",
   "name": "Romanian Government Scholarship",
   "amount": "Fully Funded",
+  "isFullScholarship": true,
+  "coverage": [
+    "Tuition",
+    "MonthlyStipend",
+    "Accommodation"
+  ],
+  "languages": [
+    "Romanian",
+    "English"
+  ],
   "level": "International",
   "field": "Any subject",
   "deadline": "Varies by annual call",
   "location": "Romania",
+  "countryCode": "RO",
+  "continent": "Europe",
   "description": "A Romanian Government scholarship supporting international students pursuing undergraduate, master's, and doctoral studies in Romania.",
   "eligibility": "Open to foreign citizens from eligible countries applying through the official scholarship programme.",
   "link": "https://studyinromania.gov.ro/scholarships",
-  "featured": true,
-  "isFullScholarship": true
+  "featured": true
 },
 {
   "id": 22,
   "slug": "turkiye-scholarships",
   "name": "Türkiye Scholarships",
   "amount": "Fully Funded",
+  "isFullScholarship": true,
+  "coverage": [
+    "Tuition",
+    "MonthlyStipend",
+    "Accommodation",
+    "Airfare",
+    "HealthInsurance"
+  ],
+  "languages": [
+    "Turkish",
+    "English"
+  ],
   "level": "International",
   "field": "Any subject",
   "deadline": "Varies by annual call",
   "location": "Türkiye",
+  "countryCode": "TR",
+  "continent": "Europe",
   "description": "A fully funded scholarship programme provided by the Government of Türkiye for international students studying undergraduate, master's, and doctoral programmes.",
-  "eligibility": "Open to international students from all countries applying for eligible programmes in Turkish universities.",
+  "eligibility": "Open to international students from eligible countries applying for undergraduate, master's, or doctoral programmes at Turkish universities.",
   "link": "https://www.turkiyeburslari.gov.tr/",
-  "featured": true,
-  "isFullScholarship": true
+  "featured": true
 },
 {
   "id": 23,
   "slug": "chinese-government-scholarship",
   "name": "Chinese Government Scholarship (CSC)",
   "amount": "Fully Funded",
+  "isFullScholarship": true,
+  "coverage": [
+    "Tuition",
+    "MonthlyStipend",
+    "Accommodation",
+    "HealthInsurance"
+  ],
+  "languages": [
+    "Chinese",
+    "English"
+  ],
   "level": "International",
   "field": "Any subject",
   "deadline": "Varies by university",
   "location": "China",
+  "countryCode": "CN",
+  "continent": "Asia",
   "description": "A scholarship funded by the Chinese Government supporting international students studying at Chinese universities.",
   "eligibility": "Open to international applicants applying for eligible undergraduate, master's, doctoral, or research programmes.",
   "link": "https://www.campuschina.org/",
-  "featured": true,
-  "isFullScholarship": true
+  "featured": true
 },
 {
   "id": 24,
   "slug": "taiwan-scholarship",
   "name": "Taiwan Scholarship",
   "amount": "Fully Funded",
+  "isFullScholarship": true,
+  "coverage": [
+    "Tuition",
+    "MonthlyStipend"
+  ],
+  "languages": [
+    "Chinese",
+    "English"
+  ],
   "level": "International",
   "field": "Any subject",
   "deadline": "Varies by country",
   "location": "Taiwan",
+  "countryCode": "TW",
+  "continent": "Asia",
   "description": "A scholarship programme provided by the Taiwan Government supporting international students studying in Taiwan.",
-  "eligibility": "Open to international students applying for degree programmes at Taiwanese universities.",
+  "eligibility": "Open to international students applying for eligible degree programmes at Taiwanese universities.",
   "link": "https://www.studyintaiwan.org/",
-  "featured": true,
-  "isFullScholarship": true
+  "featured": true
 },
 {
   "id": 25,
   "slug": "manaaki-new-zealand-scholarships",
   "name": "Manaaki New Zealand Scholarships",
   "amount": "Fully Funded",
+  "isFullScholarship": true,
+  "coverage": [
+    "Tuition",
+    "MonthlyStipend",
+    "Airfare",
+    "Visa",
+    "HealthInsurance",
+    "Accommodation"
+  ],
+  "languages": [
+    "English"
+  ],
   "level": "International",
   "field": "Any subject",
   "deadline": "Varies by country",
   "location": "New Zealand",
+  "countryCode": "NZ",
+  "continent": "Oceania",
   "description": "A New Zealand Government scholarship programme supporting international students from eligible countries to study at New Zealand education institutions.",
   "eligibility": "Open to citizens of eligible countries who meet academic, English language, and development criteria.",
   "link": "https://www.nzscholarships.govt.nz/",
-  "featured": true,
-  "isFullScholarship": true
+  "featured": true
 },
 {
   "id": 26,
   "slug": "singapore-international-graduate-award",
   "name": "Singapore International Graduate Award (SINGA)",
   "amount": "Fully Funded",
+  "isFullScholarship": true,
+  "coverage": [
+    "Tuition",
+    "MonthlyStipend",
+    "Airfare"
+  ],
+  "languages": [
+    "English"
+  ],
   "level": "Postgraduate",
   "field": "Science and Engineering",
   "deadline": "Varies by intake",
   "location": "Singapore",
+  "countryCode": "SG",
+  "continent": "Asia",
   "description": "A fully funded PhD scholarship programme supported by Singapore agencies for international students pursuing research degrees.",
   "eligibility": "Open to international graduates with strong academic results applying for PhD research programmes in Singapore.",
   "link": "https://www.a-star.edu.sg/singa",
-  "featured": true,
-  "isFullScholarship": true
+  "featured": true
 },
 {
   "id": 27,
   "slug": "brunei-government-scholarship",
   "name": "Brunei Darussalam Government Scholarship",
   "amount": "Fully Funded",
+  "isFullScholarship": true,
+  "coverage": [
+    "Tuition",
+    "MonthlyStipend",
+    "Airfare",
+    "HealthInsurance",
+    "Accommodation"
+  ],
+  "languages": [
+    "English"
+  ],
   "level": "International",
   "field": "Any subject",
   "deadline": "Varies by annual call",
   "location": "Brunei",
+  "countryCode": "BN",
+  "continent": "Asia",
   "description": "A scholarship programme provided by the Government of Brunei Darussalam for international students studying at Brunei higher education institutions.",
-  "eligibility": "Open to international applicants applying for undergraduate, master's, or doctoral programmes at participating universities.",
+  "eligibility": "Open to international applicants applying for eligible undergraduate, master's, or doctoral programmes at participating universities.",
   "link": "https://www.mfa.gov.bn/Pages/online-bdgs.aspx",
-  "featured": true,
-  "isFullScholarship": true
+  "featured": true
 },
 {
   "id": 28,
   "slug": "knb-scholarship-indonesia",
   "name": "KNB Scholarship",
   "amount": "Fully Funded",
+  "isFullScholarship": true,
+  "coverage": [
+    "Tuition",
+    "MonthlyStipend",
+    "Airfare",
+    "HealthInsurance",
+    "Accommodation"
+  ],
+  "languages": [
+    "Indonesian",
+    "English"
+  ],
   "level": "Postgraduate",
   "field": "Any subject",
   "deadline": "Varies by annual call",
   "location": "Indonesia",
+  "countryCode": "ID",
+  "continent": "Asia",
   "description": "An Indonesian Government scholarship programme supporting international students pursuing bachelor's, master's, and doctoral studies in Indonesia.",
-  "eligibility": "Open to applicants from eligible countries applying for study programmes at Indonesian universities.",
+  "eligibility": "Open to applicants from eligible countries applying for eligible study programmes at Indonesian universities.",
   "link": "https://knb.kemdikbud.go.id/",
-  "featured": true,
-  "isFullScholarship": true
+  "featured": true
 },
 {
   "id": 29,
   "slug": "malaysia-international-scholarship",
   "name": "Malaysia International Scholarship (MIS)",
   "amount": "Fully Funded",
+  "isFullScholarship": true,
+  "coverage": [
+    "Tuition",
+    "MonthlyStipend"
+  ],
+  "languages": [
+    "English"
+  ],
   "level": "Postgraduate",
   "field": "Any subject",
   "deadline": "Varies by annual call",
   "location": "Malaysia",
+  "countryCode": "MY",
+  "continent": "Asia",
   "description": "A Malaysian Government scholarship programme supporting international students pursuing postgraduate studies in Malaysia.",
   "eligibility": "Open to international graduates applying for eligible master's and doctoral programmes at Malaysian universities.",
   "link": "https://biasiswa.mohe.gov.my/INTER/",
-  "featured": true,
-  "isFullScholarship": true
+  "featured": true
 },
 {
   "id": 30,
   "slug": "vanier-canada-graduate-scholarships",
   "name": "Vanier Canada Graduate Scholarships",
   "amount": "Fully Funded",
+  "isFullScholarship": true,
+  "coverage": [
+    "MonthlyStipend"
+  ],
+  "languages": [
+    "English",
+    "French"
+  ],
   "level": "Postgraduate",
   "field": "Research-based programmes",
   "deadline": "Varies annually",
   "location": "Canada",
+  "countryCode": "CA",
+  "continent": "NorthAmerica",
   "description": "A Canadian Government scholarship programme supporting outstanding doctoral students conducting research in Canada.",
   "eligibility": "Open to international doctoral students nominated by eligible Canadian institutions.",
   "link": "https://vanier.gc.ca/",
-  "featured": true,
-  "isFullScholarship": true
+  "featured": true
 },
 {
   "id": 32,
   "slug": "hubert-humphrey-fellowship",
   "name": "Hubert H. Humphrey Fellowship Program",
   "amount": "Fully Funded",
+  "isFullScholarship": true,
+  "coverage": [
+    "Tuition",
+    "MonthlyStipend",
+    "Airfare",
+    "HealthInsurance"
+  ],
+  "languages": [
+    "English"
+  ],
   "level": "Postgraduate",
   "field": "Professional development",
   "deadline": "Varies by country",
   "location": "United States",
+  "countryCode": "US",
+  "continent": "NorthAmerica",
   "description": "A US Government fellowship programme providing professional development opportunities for experienced professionals.",
   "eligibility": "Open to professionals with leadership experience from eligible countries.",
   "link": "https://www.humphreyfellowship.org/",
-  "featured": true,
-  "isFullScholarship": true
+  "featured": true
 },
 {
   "id": 33,
   "slug": "aauw-international-fellowships",
   "name": "AAUW International Fellowships",
   "amount": "Fully Funded",
+  "isFullScholarship": true,
+  "coverage": [
+    "MonthlyStipend"
+  ],
+  "languages": [
+    "English"
+  ],
   "level": "Postgraduate",
   "field": "Any subject",
   "deadline": "Varies annually",
   "location": "United States",
+  "countryCode": "US",
+  "continent": "NorthAmerica",
   "description": "A fellowship programme supporting women from around the world pursuing graduate and postgraduate study in the United States.",
-  "eligibility": "Open to women who are not US citizens or permanent residents applying for graduate programmes.",
+  "eligibility": "Open to women who are not US citizens or permanent residents applying for eligible graduate programmes.",
   "link": "https://www.aauw.org/resources/programs/fellowships-grants/current-opportunities/international/",
-  "featured": true,
-  "isFullScholarship": true
+  "featured": true
 },
 {
   "id": 34,
   "slug": "maec-aecid-scholarship",
   "name": "MAEC-AECID Scholarships",
   "amount": "Fully Funded",
+  "isFullScholarship": true,
+  "coverage": [
+    "Tuition",
+    "MonthlyStipend",
+    "Airfare",
+    "HealthInsurance"
+  ],
+  "languages": [
+    "Spanish",
+    "English"
+  ],
   "level": "Postgraduate",
   "field": "Various fields",
   "deadline": "Varies annually",
   "location": "Spain",
+  "countryCode": "ES",
+  "continent": "Europe",
   "description": "A Spanish Government scholarship programme supporting international students and researchers studying in Spain.",
-  "eligibility": "Open to international applicants meeting programme requirements.",
+  "eligibility": "Open to international applicants meeting the requirements of eligible scholarship programmes.",
   "link": "https://www.aecid.es/",
-  "featured": true,
-  "isFullScholarship": true
+  "featured": true
 },
 {
   "id": 35,
   "slug": "italian-government-scholarship",
   "name": "Italian Government Scholarship",
   "amount": "Fully Funded",
+  "isFullScholarship": true,
+  "coverage": [
+    "Tuition",
+    "MonthlyStipend",
+    "HealthInsurance"
+  ],
+  "languages": [
+    "Italian",
+    "English"
+  ],
   "level": "Postgraduate",
   "field": "Various fields",
   "deadline": "Varies annually",
   "location": "Italy",
+  "countryCode": "IT",
+  "continent": "Europe",
   "description": "An Italian Government scholarship programme supporting international students and researchers studying in Italy.",
-  "eligibility": "Open to international applicants applying for eligible master's, PhD, and research programmes.",
+  "eligibility": "Open to international applicants applying for eligible master's, PhD, or research programmes.",
   "link": "https://studyinitaly.esteri.it/",
-  "featured": true,
-  "isFullScholarship": true
-},
-{
-  "id": 36,
-  "slug": "oead-austria-scholarships",
-  "name": "OeAD Austria Scholarships",
-  "amount": "Fully Funded",
-  "level": "Postgraduate",
-  "field": "Various fields",
-  "deadline": "Varies by programme",
-  "location": "Austria",
-  "description": "Scholarship opportunities supported by the Austrian Government for international students and researchers.",
-  "eligibility": "Open to international students and researchers applying for eligible programmes.",
-  "link": "https://grants.at/en/",
-  "featured": true,
-  "isFullScholarship": true
+  "featured": true
 },
 {
   "id": 37,
   "slug": "danish-government-scholarship",
   "name": "Danish Government Scholarships",
   "amount": "Fully Funded",
+  "isFullScholarship": true,
+  "coverage": [
+    "Tuition",
+    "MonthlyStipend"
+  ],
+  "languages": [
+    "English"
+  ],
   "level": "Postgraduate",
   "field": "Various subjects",
   "deadline": "Varies by university",
   "location": "Denmark",
+  "countryCode": "DK",
+  "continent": "Europe",
   "description": "Danish Government scholarships offered through participating universities for highly qualified international students.",
   "eligibility": "Open to outstanding non-EU/EEA applicants applying for eligible Master's programmes at participating Danish universities.",
   "link": "https://studyindenmark.dk/",
-  "featured": true,
-  "isFullScholarship": true
+  "featured": true
 },
 {
   "id": 38,
   "slug": "iccr-scholarship",
   "name": "ICCR Scholarship",
   "amount": "Fully Funded",
+  "isFullScholarship": true,
+  "coverage": [
+    "Tuition",
+    "MonthlyStipend",
+    "Accommodation",
+    "HealthInsurance"
+  ],
+  "languages": [
+    "English"
+  ],
   "level": "International",
   "field": "Any subject",
   "deadline": "Varies annually",
   "location": "India",
+  "countryCode": "IN",
+  "continent": "Asia",
   "description": "A Government of India scholarship programme administered by the Indian Council for Cultural Relations (ICCR) for international students.",
   "eligibility": "Open to Thai citizens and applicants from other eligible countries applying through the ICCR Scholarship Portal or the Embassy of India.",
   "link": "https://a2ascholarships.iccr.gov.in/",
-  "featured": true,
-  "isFullScholarship": true
+  "featured": true
 }
 ]

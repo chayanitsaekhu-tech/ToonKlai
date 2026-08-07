@@ -60,21 +60,6 @@
   "isFullScholarship": true
 },
 {
-  "id": 10,
-  "slug": "ทุน-australia-awards",
-  "name": "ทุน Australia Awards",
-  "amount": "ทุนเต็มจำนวน",
-  "level": "International",
-  "field": "ทุกสาขาวิชา",
-  "deadline": "แตกต่างกันตามประเทศ",
-  "location": "ออสเตรเลีย",
-  "description": "ทุนเต็มจำนวนจากรัฐบาลออสเตรเลียสำหรับนักศึกษาจากประเทศที่มีสิทธิ์สมัคร เพื่อศึกษาต่อในมหาวิทยาลัยของออสเตรเลีย",
-  "eligibility": "เปิดรับผู้สมัครจากประเทศที่เข้าร่วมโครงการ ซึ่งมีคุณสมบัติตามข้อกำหนดด้านการศึกษาและภาษาอังกฤษ",
-  "link": "https://www.australiaawards.gov.au/",
-  "featured": true,
-  "isFullScholarship": true
-},
-{
   "id": 11,
   "slug": "ทุน-fulbright",
   "name": "ทุน Fulbright Foreign Student Program",
@@ -195,21 +180,6 @@
   "isFullScholarship": true
 },
 {
-  "id": 19,
-  "slug": "ทุนรัฐบาลเช็ก",
-  "name": "ทุนรัฐบาลสาธารณรัฐเช็ก",
-  "amount": "ทุนเต็มจำนวน",
-  "level": "Postgraduate",
-  "field": "สาขาที่กำหนด",
-  "deadline": "แตกต่างกันในแต่ละปี",
-  "location": "สาธารณรัฐเช็ก",
-  "description": "ทุนจากรัฐบาลสาธารณรัฐเช็กสำหรับนักศึกษาต่างชาติจากประเทศที่มีสิทธิ์ เพื่อศึกษาต่อในสถาบันอุดมศึกษาของเช็ก",
-  "eligibility": "เปิดรับผู้สมัครจากประเทศที่เข้าร่วมโครงการ สำหรับหลักสูตรที่กำหนดในระดับปริญญาตรี ปริญญาโท หรือปริญญาเอก",
-  "link": "https://www.studyin.cz/scholarships/",
-  "featured": true,
-  "isFullScholarship": true
-},
-{
   "id": 20,
   "slug": "ทุนรัฐบาลโรมาเนีย",
   "name": "ทุนรัฐบาลโรมาเนีย",
@@ -221,21 +191,6 @@
   "description": "ทุนรัฐบาลโรมาเนียสำหรับนักศึกษาต่างชาติที่ต้องการศึกษาระดับปริญญาตรี ปริญญาโท หรือปริญญาเอกในประเทศโรมาเนีย",
   "eligibility": "เปิดรับนักศึกษาต่างชาติจากประเทศที่มีสิทธิ์สมัครผ่านโครงการทุนรัฐบาลโรมาเนีย",
   "link": "https://studyinromania.gov.ro/scholarships",
-  "featured": true,
-  "isFullScholarship": true
-},
-{
-  "id": 21,
-  "slug": "ทุนสโลวาเกีย",
-  "name": "ทุนรัฐบาลสโลวาเกีย National Scholarship Programme",
-  "amount": "ทุนเต็มจำนวน",
-  "level": "Postgraduate",
-  "field": "งานวิจัยและการศึกษา",
-  "deadline": "แตกต่างกันตามภาคการศึกษา",
-  "location": "สโลวาเกีย",
-  "description": "ทุนสนับสนุนจากรัฐบาลสโลวาเกียสำหรับนักศึกษาต่างชาติ นักวิจัย และอาจารย์มหาวิทยาลัย",
-  "eligibility": "เปิดรับนักศึกษาและนักวิจัยต่างชาติที่สมัครโครงการศึกษาหรือวิจัยที่เข้าร่วม",
-  "link": "https://www.scholarships.sk/",
   "featured": true,
   "isFullScholarship": true
 },
@@ -375,21 +330,6 @@
   "isFullScholarship": true
 },
 {
-  "id": 31,
-  "slug": "ทุนประเทศนอร์เวย์",
-  "name": "ทุนการศึกษาประเทศนอร์เวย์",
-  "amount": "ทุนเต็มจำนวน",
-  "level": "Postgraduate",
-  "field": "ทุกสาขาวิชา",
-  "deadline": "แตกต่างกันตามสถาบัน",
-  "location": "นอร์เวย์",
-  "description": "โอกาสรับทุนสำหรับนักศึกษาต่างชาติและนักวิจัยที่ต้องการศึกษาต่อในสถาบันการศึกษาของนอร์เวย์",
-  "eligibility": "เปิดรับผู้สมัครต่างชาติสำหรับหลักสูตรและโครงการทุนที่กำหนด",
-  "link": "https://studyinnorway.no/",
-  "featured": true,
-  "isFullScholarship": true
-},
-{
   "id": 32,
   "slug": "ทุน-hubert-humphrey",
   "name": "ทุนรัฐบาลสหรัฐ Hubert H. Humphrey Fellowship",
@@ -450,17 +390,32 @@
   "isFullScholarship": true
 },
 {
-  "id": 36,
-  "slug": "ทุนรัฐบาลออสเตรีย",
-  "name": "ทุนรัฐบาลออสเตรีย OeAD Scholarships",
+  "id": 37,
+  "slug": "ทุนรัฐบาลเดนมาร์ก",
+  "name": "ทุนรัฐบาลเดนมาร์ก Danish Government Scholarships",
   "amount": "ทุนเต็มจำนวน",
   "level": "Postgraduate",
   "field": "หลากหลายสาขา",
-  "deadline": "แตกต่างกันตามโครงการ",
-  "location": "ออสเตรีย",
-  "description": "ทุนจากรัฐบาลออสเตรียสำหรับนักศึกษาต่างชาติและนักวิจัยที่ต้องการศึกษาต่อในประเทศออสเตรีย",
-  "eligibility": "เปิดรับนักศึกษาและนักวิจัยต่างชาติสำหรับโครงการที่กำหนด",
-  "link": "https://grants.at/en/",
+  "deadline": "แตกต่างกันตามมหาวิทยาลัย",
+  "location": "เดนมาร์ก",
+  "description": "ทุนรัฐบาลเดนมาร์กที่มอบผ่านมหาวิทยาลัยของรัฐให้กับนักศึกษาต่างชาติที่มีผลการเรียนดี",
+  "eligibility": "เปิดรับนักศึกษาต่างชาติจากนอก EU/EEA ที่สมัครหลักสูตรปริญญาโทในมหาวิทยาลัยที่เข้าร่วม",
+  "link": "https://studyindenmark.dk/",
+  "featured": true,
+  "isFullScholarship": true
+},
+{
+  "id": 38,
+  "slug": "ทุนรัฐบาลอินเดีย-iccr",
+  "name": "ทุนรัฐบาลอินเดีย ICCR Scholarship",
+  "amount": "ทุนเต็มจำนวน",
+  "level": "International",
+  "field": "ทุกสาขาวิชา",
+  "deadline": "แตกต่างกันในแต่ละปี",
+  "location": "อินเดีย",
+  "description": "ทุนรัฐบาลอินเดียภายใต้ Indian Council for Cultural Relations (ICCR) สำหรับนักศึกษาต่างชาติ รวมถึงผู้สมัครจากประเทศไทย",
+  "eligibility": "เปิดรับนักศึกษาชาวไทยและประเทศที่มีสิทธิ์สมัครผ่านระบบ ICCR หรือสถานเอกอัครราชทูตอินเดีย",
+  "link": "https://a2ascholarships.iccr.gov.in/",
   "featured": true,
   "isFullScholarship": true
 }
