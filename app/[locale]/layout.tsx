@@ -55,30 +55,30 @@ export default async function LocaleLayout({
     notFound();
   }
 
- return (
-  <html lang={locale}>
-    <body className="bg-slate-50 text-slate-900 antialiased">
-      <header className="border-b border-slate-200 bg-white">
-        <div className="mx-auto flex h-16 w-full max-w-6xl items-center px-5">
-          <Link
-            href={`/${locale}`}
-            aria-label="ToonKlai"
-            className="flex items-center"
-          >
-            <Image
-              src="/toonklai-logo.png"
-              alt="ToonKlai"
-              width={150}
-              height={45}
-              priority
-              className="h-10 w-auto object-contain"
-            />
-          </Link>
-        </div>
-      </header>
+  return (
+    <html lang={locale}>
+      <body className="bg-slate-50 text-slate-900 antialiased">
+        <header className="border-b border-slate-200 bg-white">
+          <div className="mx-auto flex h-20 w-full max-w-6xl items-center px-5">
+            <Link
+              href={`/${locale}`}
+              aria-label="ToonKlai"
+              className="flex items-center"
+            >
+              <Image
+                src="/toonklai-logo.png"
+                alt="ToonKlai"
+                width={240}
+                height={70}
+                priority
+                className="h-16 w-auto object-contain"
+              />
+            </Link>
+          </div>
+        </header>
 
-      {children}
-    </body>
-  </html>
-);
+        {children}
+      </body>
+    </html>
+  );
 }
