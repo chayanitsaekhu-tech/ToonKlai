@@ -725,5 +725,102 @@
   "eligibility": "เปิดรับผู้สมัครชาวไทยและผู้สมัครจากประเทศอื่นที่มีสิทธิ์ผ่านระบบ ICCR Scholarship Portal หรือสถานทูตอินเดีย",
   "link": "https://a2ascholarships.iccr.gov.in/",
   "featured": true
+},
+{
+  "id": 39,
+  "slug": "ทุน-great-scholarships",
+  "name": "ทุน GREAT Scholarships",
+  "amount": "สนับสนุนค่าเล่าเรียน £10,000",
+  "isFullScholarship": false,
+  "coverage": [
+    "Tuition"
+  ],
+  "languages": [
+    "English"
+  ],
+  "level": "Postgraduate",
+  "field": "หลากหลายสาขาวิชา",
+  "deadline": "แตกต่างกันตามมหาวิทยาลัย",
+  "location": "สหราชอาณาจักร",
+  "countryCode": "GB",
+  "continent": "Europe",
+  "description": "ทุนการศึกษาจากรัฐบาลสหราชอาณาจักรและ British Council มอบเงินสนับสนุนค่าเล่าเรียน £10,000 สำหรับนักศึกษาต่างชาติที่เข้าเรียนหลักสูตรปริญญาโทแบบสอนเป็นระยะเวลา 1 ปีในมหาวิทยาลัยที่เข้าร่วมโครงการ",
+  "eligibility": "เปิดรับนักศึกษาจากประเทศที่มีสิทธิ์ รวมถึงประเทศไทย โดยผู้สมัครต้องมีคุณสมบัติตามที่มหาวิทยาลัยกำหนดและสมัครหลักสูตรปริญญาโทแบบสอนที่เข้าร่วมโครงการ",
+  "link": "https://study-uk.britishcouncil.org/scholarships-funding/great-scholarships",
+  "featured": true
+},
+{
+  "id": 40,
+  "slug": "ทุน-france-excellence-eiffel",
+  "name": "ทุน France Excellence Eiffel",
+  "amount": "เงินสนับสนุนรายเดือน €1,200 สำหรับปริญญาโท",
+  "isFullScholarship": false,
+  "coverage": [
+    "MonthlyStipend",
+    "Airfare",
+    "HealthInsurance"
+  ],
+  "languages": [
+    "French",
+    "English"
+  ],
+  "level": "Postgraduate",
+  "field": "วิทยาศาสตร์ เทคโนโลยี มนุษยศาสตร์ และสังคมศาสตร์",
+  "deadline": "8 มกราคม 2027",
+  "location": "ฝรั่งเศส",
+  "countryCode": "FR",
+  "continent": "Europe",
+  "description": "ทุนรัฐบาลฝรั่งเศสอันทรงเกียรติสำหรับนักศึกษาต่างชาติที่มีความโดดเด่น เพื่อศึกษาต่อระดับปริญญาโทหรือปริญญาเอกในประเทศฝรั่งเศส",
+  "eligibility": "เปิดรับนักศึกษาต่างชาติที่มีคุณสมบัติตามเงื่อนไขของโครงการ และต้องได้รับการเสนอชื่อจากสถาบันอุดมศึกษาในฝรั่งเศสที่เข้าร่วมโครงการ โดยผู้สมัครไม่สามารถส่งใบสมัครไปยัง Campus France ด้วยตนเองได้",
+  "link": "https://www.campusfrance.org/en/the-france-excellence-eiffel-scholarship-program",
+  "featured": true
+},
+{
+  "id": 41,
+  "slug": "ทุน-australia-research-training-program",
+  "name": "ทุน Australia Research Training Program (RTP)",
+  "amount": "สนับสนุนค่าเล่าเรียนและเงินทุนดำรงชีพ",
+  "isFullScholarship": false,
+  "coverage": [
+    "Tuition",
+    "MonthlyStipend"
+  ],
+  "languages": [
+    "English"
+  ],
+  "level": "Postgraduate",
+  "field": "หลักสูตรที่เน้นการวิจัย",
+  "deadline": "แตกต่างกันตามมหาวิทยาลัย",
+  "location": "ออสเตรเลีย",
+  "countryCode": "AU",
+  "continent": "Oceania",
+  "description": "โครงการทุนที่ได้รับการสนับสนุนจากรัฐบาลออสเตรเลียสำหรับนักศึกษาในประเทศและนักศึกษาต่างชาติที่ศึกษาระดับปริญญาโทด้านการวิจัยหรือปริญญาเอกในมหาวิทยาลัยที่เข้าร่วมโครงการ",
+  "eligibility": "เปิดรับนักศึกษาในประเทศและนักศึกษาต่างชาติที่สมัครหรือกำลังศึกษาในหลักสูตรปริญญาโทด้านการวิจัยหรือปริญญาเอกที่เข้าเกณฑ์ โดยมหาวิทยาลัยแต่ละแห่งเป็นผู้ดำเนินการสมัครและคัดเลือกผู้รับทุน",
+  "link": "https://www.education.gov.au/research-block-grants/research-training-program",
+  "featured": true
+},
+{
+  "id": 42,
+  "slug": "ทุน-jasso-honors-scholarship",
+  "name": "ทุน JASSO Monbukagakusho Honors Scholarship",
+  "amount": "เงินสนับสนุน ¥48,000 ต่อเดือน",
+  "isFullScholarship": false,
+  "coverage": [
+    "MonthlyStipend"
+  ],
+  "languages": [
+    "Japanese",
+    "English"
+  ],
+  "level": "International",
+  "field": "หลากหลายสาขาวิชา",
+  "deadline": "แตกต่างกันตามสถาบันการศึกษา",
+  "location": "ญี่ปุ่น",
+  "countryCode": "JP",
+  "continent": "Asia",
+  "description": "ทุนสนับสนุนจาก JASSO สำหรับนักศึกษาต่างชาติที่ออกค่าใช้จ่ายด้วยตนเองและมีผลการเรียนดี รวมถึงมีความจำเป็นด้านการเงินในการศึกษาในสถาบันอุดมศึกษาของญี่ปุ่น",
+  "eligibility": "เปิดรับนักศึกษาต่างชาติที่ออกค่าใช้จ่ายด้วยตนเอง มีผลการเรียนดี มีความจำเป็นด้านการเงิน และมีคุณสมบัติตามเงื่อนไขของสถาบันการศึกษาที่เข้าร่วมโครงการ",
+  "link": "https://www.studyinjapan.go.jp/en/about/support-program.html",
+  "featured": true
 }
 ]

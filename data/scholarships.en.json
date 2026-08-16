@@ -725,5 +725,102 @@
   "eligibility": "Open to Thai citizens and applicants from other eligible countries applying through the ICCR Scholarship Portal or the Embassy of India.",
   "link": "https://a2ascholarships.iccr.gov.in/",
   "featured": true
+},
+{
+  "id": 39,
+  "slug": "great-scholarships",
+  "name": "GREAT Scholarships",
+  "amount": "£10,000 towards tuition fees",
+  "isFullScholarship": false,
+  "coverage": [
+    "Tuition"
+  ],
+  "languages": [
+    "English"
+  ],
+  "level": "Postgraduate",
+  "field": "Various subjects",
+  "deadline": "Varies by university",
+  "location": "United Kingdom",
+  "countryCode": "GB",
+  "continent": "Europe",
+  "description": "A UK Government and British Council scholarship offering £10,000 towards tuition fees for eligible international students studying one-year taught postgraduate courses at participating UK universities.",
+  "eligibility": "Open to students from eligible countries, including Thailand, who meet the requirements of participating universities and apply for an eligible one-year taught postgraduate course.",
+  "link": "https://study-uk.britishcouncil.org/scholarships-funding/great-scholarships",
+  "featured": true
+},
+{
+  "id": 40,
+  "slug": "france-excellence-eiffel",
+  "name": "France Excellence Eiffel Scholarship",
+  "amount": "€1,200 monthly allowance for Master's",
+  "isFullScholarship": false,
+  "coverage": [
+    "MonthlyStipend",
+    "Airfare",
+    "HealthInsurance"
+  ],
+  "languages": [
+    "French",
+    "English"
+  ],
+  "level": "Postgraduate",
+  "field": "Science, Technology, Humanities and Social Sciences",
+  "deadline": "8 January 2027",
+  "location": "France",
+  "countryCode": "FR",
+  "continent": "Europe",
+  "description": "A prestigious French Government scholarship supporting outstanding international students pursuing Master's and Doctoral studies in France.",
+  "eligibility": "Open to international students who meet the programme requirements and are nominated by an eligible French higher education institution. Students cannot submit an application directly to Campus France.",
+  "link": "https://www.campusfrance.org/en/the-france-excellence-eiffel-scholarship-program",
+  "featured": true
+},
+{
+  "id": 41,
+  "slug": "australia-research-training-program",
+  "name": "Australia Research Training Program (RTP)",
+  "amount": "Tuition fee offset and stipend",
+  "isFullScholarship": false,
+  "coverage": [
+    "Tuition",
+    "MonthlyStipend"
+  ],
+  "languages": [
+    "English"
+  ],
+  "level": "Postgraduate",
+  "field": "Research-based programmes",
+  "deadline": "Varies by university",
+  "location": "Australia",
+  "countryCode": "AU",
+  "continent": "Oceania",
+  "description": "An Australian Government-funded programme supporting domestic and international students undertaking research master's and doctoral degrees at eligible Australian universities.",
+  "eligibility": "Open to domestic and international students enrolled or applying for eligible research master's or doctoral degrees at participating Australian higher education providers. Applications and selection are handled by individual universities.",
+  "link": "https://www.education.gov.au/research-block-grants/research-training-program",
+  "featured": true
+},
+{
+  "id": 42,
+  "slug": "jasso-honors-scholarship",
+  "name": "JASSO Monbukagakusho Honors Scholarship",
+  "amount": "¥48,000 per month",
+  "isFullScholarship": false,
+  "coverage": [
+    "MonthlyStipend"
+  ],
+  "languages": [
+    "Japanese",
+    "English"
+  ],
+  "level": "International",
+  "field": "Various subjects",
+  "deadline": "Varies by institution",
+  "location": "Japan",
+  "countryCode": "JP",
+  "continent": "Asia",
+  "description": "A scholarship provided by JASSO for outstanding privately financed international students studying at Japanese higher education institutions.",
+  "eligibility": "Open to privately financed international students with strong academic performance and financial need who meet the requirements of participating Japanese institutions.",
+  "link": "https://www.studyinjapan.go.jp/en/about/support-program.html",
+  "featured": true
 }
 ]
