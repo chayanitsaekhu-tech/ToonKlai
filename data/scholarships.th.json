@@ -822,5 +822,658 @@
   "eligibility": "เปิดรับนักศึกษาต่างชาติที่ออกค่าใช้จ่ายด้วยตนเอง มีผลการเรียนดี มีความจำเป็นด้านการเงิน และมีคุณสมบัติตามเงื่อนไขของสถาบันการศึกษาที่เข้าร่วมโครงการ",
   "link": "https://www.studyinjapan.go.jp/en/about/support-program.html",
   "featured": true
-}
+},
+{
+  "id": 43,
+  "slug": "ทุน-gates-cambridge-scholarship",
+  "name": "ทุน Gates Cambridge Scholarship",
+  "amount": "ทุนเต็มจำนวน",
+  "isFullScholarship": true,
+  "coverage": [
+    "Tuition",
+    "MonthlyStipend",
+    "Airfare",
+    "HealthInsurance"
+  ],
+  "languages": [
+    "English"
+  ],
+  "level": "Postgraduate",
+  "field": "ทุกสาขาวิชา",
+  "deadline": "แตกต่างกันตามหลักสูตร",
+  "location": "สหราชอาณาจักร",
+  "countryCode": "GB",
+  "continent": "Europe",
+  "description": "ทุนการศึกษาเต็มจำนวนอันทรงเกียรติจาก University of Cambridge ครอบคลุมค่าใช้จ่ายในการศึกษาและให้การสนับสนุนทางการเงินสำหรับนักศึกษาต่างชาติระดับบัณฑิตศึกษา",
+  "eligibility": "เปิดรับผู้สมัครจากต่างประเทศที่สมัครหลักสูตรระดับบัณฑิตศึกษาที่เข้าร่วมโครงการของ University of Cambridge",
+  "link": "https://www.gatescambridge.org/",
+  "featured": true
+},
+{
+  "id": 44,
+  "slug": "ทุน-clarendon-fund-scholarship",
+  "name": "ทุน Clarendon Fund Scholarship",
+  "amount": "ทุนเต็มจำนวน",
+  "isFullScholarship": true,
+  "coverage": [
+    "Tuition",
+    "MonthlyStipend"
+  ],
+  "languages": [
+    "English"
+  ],
+  "level": "Postgraduate",
+  "field": "ทุกสาขาวิชา",
+  "deadline": "แตกต่างกันตามหลักสูตร",
+  "location": "สหราชอาณาจักร",
+  "countryCode": "GB",
+  "continent": "Europe",
+  "description": "ทุนการศึกษาที่มีการแข่งขันสูงจาก University of Oxford ครอบคลุมค่าเล่าเรียนเต็มจำนวนและมอบเงินสนับสนุนค่าครองชีพสำหรับนักศึกษาระดับบัณฑิตศึกษาที่มีความโดดเด่น",
+  "eligibility": "เปิดรับผู้สมัครทุกสัญชาติที่สมัครหลักสูตรปริญญาโทหรือปริญญาเอกที่เข้าร่วมโครงการของ University of Oxford",
+  "link": "https://www.ox.ac.uk/clarendon",
+  "featured": true
+},
+{
+  "id": 45,
+  "slug": "ทุน-knight-hennessy-scholars-program",
+  "name": "ทุน Knight-Hennessy Scholars Program",
+  "amount": "ทุนเต็มจำนวน",
+  "isFullScholarship": true,
+  "coverage": [
+    "Tuition",
+    "MonthlyStipend",
+    "Airfare"
+  ],
+  "languages": [
+    "English"
+  ],
+  "level": "Postgraduate",
+  "field": "ทุกสาขาวิชา",
+  "deadline": "แตกต่างกันในแต่ละปี",
+  "location": "สหรัฐอเมริกา",
+  "countryCode": "US",
+  "continent": "NorthAmerica",
+  "description": "ทุนการศึกษาระดับบัณฑิตศึกษาอันทรงเกียรติจาก Stanford University ให้การสนับสนุนค่าเล่าเรียน เงินสนับสนุนค่าครองชีพ และเงินทุนเพิ่มเติมสำหรับนักศึกษาระดับบัณฑิตศึกษาที่มีคุณสมบัติเหมาะสม",
+  "eligibility": "เปิดรับผู้สมัครทุกสัญชาติที่สมัครหลักสูตรระดับบัณฑิตศึกษาที่เข้าร่วมโครงการของ Stanford University",
+  "link": "https://knight-hennessy.stanford.edu/",
+  "featured": true
+},
+{
+  "id": 47,
+  "slug": "ทุน-australian-awards-scholarships",
+  "name": "ทุน Australia Awards Scholarships",
+  "amount": "ทุนเต็มจำนวน",
+  "isFullScholarship": true,
+  "coverage": [
+    "Tuition",
+    "MonthlyStipend",
+    "Airfare",
+    "HealthInsurance",
+    "Accommodation"
+  ],
+  "languages": [
+    "English"
+  ],
+  "level": "Postgraduate",
+  "field": "หลากหลายสาขาวิชา",
+  "deadline": "แตกต่างกันตามประเทศ",
+  "location": "ออสเตรเลีย",
+  "countryCode": "AU",
+  "continent": "Oceania",
+  "description": "ทุนการศึกษาจากรัฐบาลออสเตรเลียที่ให้การสนับสนุนทางการเงินอย่างครอบคลุมสำหรับนักศึกษาจากประเทศกำลังพัฒนาที่เข้าร่วมโครงการเพื่อศึกษาต่อในออสเตรเลีย",
+  "eligibility": "เปิดรับพลเมืองจากประเทศที่เข้าร่วมโครงการซึ่งมีคุณสมบัติตามเกณฑ์ด้านการศึกษา ประสบการณ์การทำงาน และการพัฒนาประเทศของโครงการ Australia Awards",
+  "link": "https://www.dfat.gov.au/people-to-people/australia-awards",
+  "featured": true
+},
+{
+  "id": 48,
+  "slug": "ทุน-commonwealth-masters-scholarship",
+  "name": "ทุน Commonwealth Master's Scholarship",
+  "amount": "ทุนเต็มจำนวน",
+  "isFullScholarship": true,
+  "coverage": [
+    "Tuition",
+    "MonthlyStipend",
+    "Airfare",
+    "HealthInsurance"
+  ],
+  "languages": [
+    "English"
+  ],
+  "level": "Postgraduate",
+  "field": "หลากหลายสาขาวิชา",
+  "deadline": "แตกต่างกันในแต่ละปี",
+  "location": "สหราชอาณาจักร",
+  "countryCode": "GB",
+  "continent": "Europe",
+  "description": "ทุนการศึกษาภายใต้โครงการ Commonwealth ของสหราชอาณาจักรที่สนับสนุนนักศึกษาที่มีความสามารถจากประเทศสมาชิกเครือจักรภพที่มีสิทธิ์ เพื่อศึกษาต่อระดับปริญญาโทในสหราชอาณาจักร",
+  "eligibility": "เปิดรับพลเมืองจากประเทศสมาชิกเครือจักรภพที่มีสิทธิ์และมีคุณสมบัติตามเกณฑ์ด้านการศึกษาและการพัฒนาของโครงการ",
+  "link": "https://cscuk.fcdo.gov.uk/scholarships/commonwealth-masters-scholarships/",
+  "featured": true
+},
+{
+  "id": 49,
+  "slug": "ทุน-global-wales-postgraduate-scholarship",
+  "name": "ทุน Global Wales Postgraduate Scholarship",
+  "amount": "สูงสุด £10,000 สำหรับค่าเล่าเรียน",
+  "isFullScholarship": false,
+  "coverage": [
+    "Tuition"
+  ],
+  "languages": [
+    "English"
+  ],
+  "level": "Postgraduate",
+  "field": "หลากหลายสาขาวิชา",
+  "deadline": "แตกต่างกันในแต่ละปี",
+  "location": "สหราชอาณาจักร",
+  "countryCode": "GB",
+  "continent": "Europe",
+  "description": "ทุนการศึกษาสำหรับนักศึกษาต่างชาติที่มีคุณสมบัติเหมาะสมเพื่อศึกษาต่อระดับบัณฑิตศึกษาในมหาวิทยาลัยที่เข้าร่วมโครงการในเวลส์",
+  "eligibility": "เปิดรับนักศึกษาต่างชาติที่มีคุณสมบัติเหมาะสมและสมัครหลักสูตรระดับบัณฑิตศึกษาที่มหาวิทยาลัยในเวลส์ที่เข้าร่วมโครงการ",
+  "link": "https://www.globalwales.com/",
+  "featured": true
+},
+{
+    "id": 50,
+    "slug": "ทุน-nus-science-technology-undergraduate-scholarship",
+    "name": "ทุน NUS Science & Technology Undergraduate Scholarship",
+    "amount": "ค่าเล่าเรียนที่ได้รับการอุดหนุนเต็มจำนวน + เงินช่วยเหลือค่าครองชีพและที่พัก",
+    "isFullScholarship": true,
+    "coverage": [
+      "Tuition",
+      "MonthlyStipend",
+      "Accommodation",
+      "ComputerAllowance"
+    ],
+    "languages": [
+      "English"
+    ],
+    "level": "Undergraduate",
+    "field": "คอมพิวเตอร์ วิศวกรรมศาสตร์ และวิทยาศาสตร์",
+    "deadline": "แตกต่างกันในแต่ละปี",
+    "location": "สิงคโปร์",
+    "countryCode": "SG",
+    "continent": "Asia",
+    "description": "ทุนการศึกษาจาก NUS สำหรับนักเรียนชาวเอเชียที่มีผลการเรียนโดดเด่น เพื่อศึกษาต่อระดับปริญญาตรีด้านคอมพิวเตอร์ วิศวกรรมศาสตร์ และสาขาวิทยาศาสตร์ที่เข้าร่วมโครงการ",
+    "eligibility": "เปิดรับนักเรียนจากประเทศในเอเชีย รวมถึงประเทศไทย ที่มีผลการเรียนและกิจกรรมนอกหลักสูตรโดดเด่น และสมัครเข้าเรียนหลักสูตรปริญญาตรีเต็มเวลาที่มีสิทธิ์ของ NUS",
+    "link": "https://www.nus.edu.sg/oam/scholarships/scholarships-for-freshmen-(international-students)/science-technology-undergraduate-scholarship",
+    "featured": true
+  },
+  {
+    "id": 51,
+    "slug": "ทุน-nus-asean-undergraduate-scholarship",
+    "name": "ทุน NUS ASEAN Undergraduate Scholarship",
+    "amount": "ค่าเล่าเรียนที่ได้รับการอุดหนุนเต็มจำนวน + เงินช่วยเหลือค่าครองชีพและที่พัก",
+    "isFullScholarship": true,
+    "coverage": [
+      "Tuition",
+      "MonthlyStipend",
+      "Accommodation",
+      "ComputerAllowance"
+    ],
+    "languages": [
+      "English"
+    ],
+    "level": "Undergraduate",
+    "field": "หลากหลายสาขา",
+    "deadline": "แตกต่างกันในแต่ละปี",
+    "location": "สิงคโปร์",
+    "countryCode": "SG",
+    "continent": "Asia",
+    "description": "ทุนการศึกษาจาก NUS สำหรับนักเรียนที่มีผลการเรียนโดดเด่นจากประเทศอาเซียน รวมถึงประเทศไทย เพื่อศึกษาต่อระดับปริญญาตรีในหลากหลายสาขา",
+    "eligibility": "เปิดรับพลเมืองจากประเทศอาเซียน รวมถึงประเทศไทย ที่มีผลการเรียนและกิจกรรมนอกหลักสูตรโดดเด่น และสมัครเรียนหลักสูตรปริญญาตรีเต็มเวลาที่ NUS",
+    "link": "https://www.nus.edu.sg/oam/scholarships/scholarships-for-freshmen-(international-students)/asean-undergraduate-scholarship",
+    "featured": true
+  },
+  {
+    "id": 52,
+    "slug": "ทุน-nus-international-undergraduate-scholarship",
+    "name": "ทุน NUS International Undergraduate Scholarship",
+    "amount": "ค่าเล่าเรียนที่ได้รับการอุดหนุนเต็มจำนวน + เงินช่วยเหลือค่าครองชีพ",
+    "isFullScholarship": true,
+    "coverage": [
+      "Tuition",
+      "MonthlyStipend"
+    ],
+    "languages": [
+      "English"
+    ],
+    "level": "Undergraduate",
+    "field": "หลากหลายสาขา",
+    "deadline": "แตกต่างกันในแต่ละปี",
+    "location": "สิงคโปร์",
+    "countryCode": "SG",
+    "continent": "Asia",
+    "description": "ทุนการศึกษาอันทรงเกียรติจาก NUS สำหรับนักศึกษาต่างชาติที่มีความโดดเด่นและต้องการศึกษาต่อระดับปริญญาตรี",
+    "eligibility": "เปิดรับผู้สมัครต่างชาติที่มีผลการเรียนโดดเด่นจากประเทศต่าง ๆ นอกสิงคโปร์ และสมัครหลักสูตรปริญญาตรีเต็มเวลาที่มีสิทธิ์ของ NUS",
+    "link": "https://www.nus.edu.sg/oam/scholarships/scholarships-for-freshmen-(international-students)/nus-international-undergraduate-scholarship",
+    "featured": true
+  },
+  {
+    "id": 53,
+    "slug": "ทุน-ntu-nanyang-merit-scholarship",
+    "name": "ทุน NTU Nanyang Merit Scholarship",
+    "amount": "ค่าเล่าเรียนที่ได้รับการอุดหนุนเต็มจำนวน + เงินช่วยเหลือค่าครองชีพ S$5,000 ต่อปี",
+    "isFullScholarship": true,
+    "coverage": [
+      "Tuition",
+      "MonthlyStipend",
+      "Airfare"
+    ],
+    "languages": [
+      "English"
+    ],
+    "level": "Undergraduate",
+    "field": "หลากหลายสาขา",
+    "deadline": "แตกต่างกันในแต่ละปี",
+    "location": "สิงคโปร์",
+    "countryCode": "SG",
+    "continent": "Asia",
+    "description": "ทุนการศึกษาที่มีการแข่งขันสูงจาก NTU สำหรับนักศึกษาต่างชาติที่มีผลการเรียนโดดเด่น โดยครอบคลุมค่าเล่าเรียนที่ได้รับการอุดหนุนและมีเงินช่วยเหลือค่าครองชีพและค่าเดินทาง",
+    "eligibility": "เปิดรับนักเรียนทุกสัญชาติที่มีผลการเรียนโดดเด่น มีศักยภาพด้านความเป็นผู้นำและมีกิจกรรมนอกหลักสูตรที่ดี เพื่อสมัครเรียนหลักสูตรปริญญาตรีเต็มเวลาที่ NTU",
+    "link": "https://www.ntu.edu.sg/admissions/undergraduate/scholarships/scholarship-opportunities/detail/college-scholarship",
+    "featured": true
+  },
+  {
+    "id": 54,
+    "slug": "ทุน-ntu-nanyang-global-scholarship",
+    "name": "ทุน NTU Nanyang Global Scholarship",
+    "amount": "ค่าเล่าเรียนที่ได้รับการอุดหนุนเต็มจำนวน + เงินช่วยเหลือค่าครองชีพ",
+    "isFullScholarship": true,
+    "coverage": [
+      "Tuition",
+      "MonthlyStipend",
+      "Accommodation",
+      "TravelAllowance"
+    ],
+    "languages": [
+      "English"
+    ],
+    "level": "Undergraduate",
+    "field": "หลากหลายสาขา",
+    "deadline": "แตกต่างกันในแต่ละปี",
+    "location": "สิงคโปร์",
+    "countryCode": "SG",
+    "continent": "Asia",
+    "description": "ทุนการศึกษาอันทรงเกียรติจาก NTU สำหรับนักศึกษาต่างชาติที่มีความโดดเด่น เพื่อศึกษาต่อระดับปริญญาตรีในหลากหลายสาขา",
+    "eligibility": "เปิดรับผู้สมัครต่างชาติที่มีผลการเรียนโดดเด่นและสมัครหลักสูตรปริญญาตรีเต็มเวลาที่มีสิทธิ์ของ NTU",
+    "link": "https://www.ntu.edu.sg/admissions/undergraduate/scholarships",
+    "featured": true
+  },
+  {
+    "id": 55,
+    "slug": "ทุน-ntu-cn-yang-scholars-programme-scholarship",
+    "name": "ทุน NTU CN Yang Scholars Programme",
+    "amount": "ค่าเล่าเรียนที่ได้รับการอุดหนุนเต็มจำนวน + เงินช่วยเหลือค่าครองชีพ S$6,500 ต่อปี",
+    "isFullScholarship": true,
+    "coverage": [
+      "Tuition",
+      "MonthlyStipend",
+      "ComputerAllowance"
+    ],
+    "languages": [
+      "English"
+    ],
+    "level": "Undergraduate",
+    "field": "วิทยาศาสตร์และวิศวกรรมศาสตร์",
+    "deadline": "แตกต่างกันในแต่ละปี",
+    "location": "สิงคโปร์",
+    "countryCode": "SG",
+    "continent": "Asia",
+    "description": "ทุนการศึกษาจาก NTU สำหรับนักเรียนที่มีศักยภาพโดดเด่นด้านวิทยาศาสตร์และวิศวกรรมศาสตร์ รวมถึงมีความสนใจและศักยภาพด้านการวิจัย",
+    "eligibility": "เปิดรับนักเรียนทุกสัญชาติที่มีผลการเรียนและกิจกรรมนอกหลักสูตรโดดเด่น และได้รับการพิจารณาเข้าสู่ CN Yang Scholars Programme",
+    "link": "https://www.ntu.edu.sg/admissions/undergraduate/scholarships",
+    "featured": true
+  },
+  {
+    "id": 56,
+    "slug": "ทุน-ntu-turing-ai-scholars-programme-scholarship",
+    "name": "ทุน NTU Turing AI Scholars Programme",
+    "amount": "ค่าเล่าเรียนที่ได้รับการอุดหนุนเต็มจำนวน + เงินช่วยเหลือค่าครองชีพ S$6,500 ต่อปี",
+    "isFullScholarship": true,
+    "coverage": [
+      "Tuition",
+      "MonthlyStipend",
+      "ComputerAllowance"
+    ],
+    "languages": [
+      "English"
+    ],
+    "level": "Undergraduate",
+    "field": "ปัญญาประดิษฐ์ วิทยาการคอมพิวเตอร์ และวิทยาการข้อมูล",
+    "deadline": "แตกต่างกันในแต่ละปี",
+    "location": "สิงคโปร์",
+    "countryCode": "SG",
+    "continent": "Asia",
+    "description": "ทุนการศึกษาจาก NTU สำหรับนักเรียนที่มีความสามารถโดดเด่นด้านปัญญาประดิษฐ์ วิทยาการคอมพิวเตอร์ และสาขาที่เกี่ยวข้องกับข้อมูล",
+    "eligibility": "เปิดรับผู้สมัครต่างชาติที่มีผลการเรียนโดดเด่นและสมัครหลักสูตรด้าน AI และคอมพิวเตอร์ที่มีสิทธิ์ของ NTU",
+    "link": "https://www.ntu.edu.sg/admissions/undergraduate/scholarships",
+    "featured": true
+  },
+  {
+    "id": 57,
+    "slug": "ทุน-kaist-international-undergraduate-scholarship",
+    "name": "ทุน KAIST International Undergraduate Scholarship",
+    "amount": "ค่าเล่าเรียนเต็มจำนวน + เงินช่วยเหลือ KRW 350,000 ต่อเดือน",
+    "isFullScholarship": true,
+    "coverage": [
+      "Tuition",
+      "MonthlyStipend",
+      "HealthInsurance"
+    ],
+    "languages": [
+      "English"
+    ],
+    "level": "Undergraduate",
+    "field": "วิทยาศาสตร์ เทคโนโลยี วิศวกรรมศาสตร์ และคณิตศาสตร์",
+    "deadline": "แตกต่างกันในแต่ละปี",
+    "location": "เกาหลีใต้",
+    "countryCode": "KR",
+    "continent": "Asia",
+    "description": "ทุนการศึกษาอันทรงเกียรติจาก KAIST สำหรับนักศึกษาต่างชาติที่ได้รับคัดเลือกให้เข้าศึกษาระดับปริญญาตรีในหนึ่งในมหาวิทยาลัยด้านวิทยาศาสตร์และวิศวกรรมศาสตร์ชั้นนำของเอเชีย",
+    "eligibility": "เปิดรับผู้สมัครต่างชาติที่สมัครผ่านระบบรับสมัครนักศึกษาต่างชาติระดับปริญญาตรีของ KAIST",
+    "link": "https://admission.kaist.ac.kr/intl-undergraduate/support/scholarships/kaist/",
+    "featured": true
+  },
+  {
+    "id": 58,
+    "slug": "ทุน-kaist-international-graduate-scholarship",
+    "name": "ทุน KAIST International Graduate Scholarship",
+    "amount": "ค่าเล่าเรียนเต็มจำนวน + เงินช่วยเหลือค่าครองชีพรายเดือน",
+    "isFullScholarship": true,
+    "coverage": [
+      "Tuition",
+      "MonthlyStipend",
+      "HealthInsurance"
+    ],
+    "languages": [
+      "English"
+    ],
+    "level": "Postgraduate",
+    "field": "วิทยาศาสตร์ เทคโนโลยี วิศวกรรมศาสตร์ และคณิตศาสตร์",
+    "deadline": "แตกต่างกันตามรอบรับสมัคร",
+    "location": "เกาหลีใต้",
+    "countryCode": "KR",
+    "continent": "Asia",
+    "description": "ทุนการศึกษาจาก KAIST สำหรับนักศึกษาต่างชาติระดับบัณฑิตศึกษา โดยครอบคลุมค่าเล่าเรียนเต็มจำนวนและมีเงินสนับสนุนค่าครองชีพ",
+    "eligibility": "เปิดรับผู้สมัครต่างชาติที่ได้รับการตอบรับเข้าศึกษาในหลักสูตรปริญญาโทหรือปริญญาเอกที่มีสิทธิ์ของ KAIST",
+    "link": "https://admission.kaist.ac.kr/intl-graduate/FinancialSupport/Scholarship/KAISTScholarship",
+    "featured": true
+  },
+  {
+    "id": 59,
+    "slug": "ทุน-lester-b-pearson-international-scholarship",
+    "name": "ทุน Lester B. Pearson International Scholarship",
+    "amount": "ทุนเต็มจำนวนตลอด 4 ปี",
+    "isFullScholarship": true,
+    "coverage": [
+      "Tuition",
+      "Accommodation",
+      "Books"
+    ],
+    "languages": [
+      "English"
+    ],
+    "level": "Undergraduate",
+    "field": "หลากหลายสาขา",
+    "deadline": "6 พฤศจิกายน 2026",
+    "location": "แคนาดา",
+    "countryCode": "CA",
+    "continent": "NorthAmerica",
+    "description": "ทุนการศึกษาระดับปริญญาตรีสำหรับนักศึกษาต่างชาติที่มีชื่อเสียงที่สุดทุนหนึ่งของ University of Toronto โดยให้การสนับสนุนทางการเงินอย่างครอบคลุมตลอด 4 ปี",
+    "eligibility": "เปิดรับนักศึกษาต่างชาติที่กำลังเข้าสู่การศึกษาระดับปริญญาตรีเป็นครั้งแรก โดยต้องได้รับการเสนอชื่อจากโรงเรียนมัธยมที่มีสิทธิ์ และมีผลการเรียน ความคิดสร้างสรรค์ และภาวะผู้นำที่โดดเด่น",
+    "link": "https://future.utoronto.ca/pearson-scholarships",
+    "featured": true
+  },
+  {
+    "id": 60,
+    "slug": "ทุน-ubc-international-scholars-program",
+    "name": "ทุน UBC International Scholars Program",
+    "amount": "สูงสุดถึงค่าใช้จ่ายด้านการศึกษาครบถ้วน",
+    "isFullScholarship": true,
+    "coverage": [
+      "Tuition",
+      "LivingCosts"
+    ],
+    "languages": [
+      "English"
+    ],
+    "level": "Undergraduate",
+    "field": "หลากหลายสาขา",
+    "deadline": "แตกต่างกันในแต่ละปี",
+    "location": "แคนาดา",
+    "countryCode": "CA",
+    "continent": "NorthAmerica",
+    "description": "โครงการทุนการศึกษาจาก University of British Columbia สำหรับนักศึกษาต่างชาติระดับปริญญาตรีที่มีความโดดเด่นและต้องการความช่วยเหลือด้านค่าใช้จ่าย",
+    "eligibility": "เปิดรับนักศึกษาต่างชาติที่กำลังเข้าสู่ระดับปริญญาตรีที่ UBC และมีผลการเรียนโดดเด่น มีภาวะผู้นำ และมีความต้องการความช่วยเหลือทางการเงินอย่างมีนัยสำคัญ",
+    "link": "https://you.ubc.ca/financial-planning/scholarships-awards-international-students/",
+    "featured": true
+  },
+  {
+    "id": 61,
+    "slug": "ทุน-eth-zurich-esop",
+    "name": "ทุน ETH Zurich Excellence Scholarship & Opportunity Programme (ESOP)",
+    "amount": "CHF 12,000 ต่อภาคการศึกษา + ยกเว้นค่าเล่าเรียนเต็มจำนวน",
+    "isFullScholarship": true,
+    "coverage": [
+      "Tuition",
+      "MonthlyStipend"
+    ],
+    "languages": [
+      "English"
+    ],
+    "level": "Postgraduate",
+    "field": "วิศวกรรมศาสตร์ วิทยาศาสตร์ เทคโนโลยี สถาปัตยกรรม และสาขาที่เกี่ยวข้อง",
+    "deadline": "30 พฤศจิกายน 2026",
+    "location": "สวิตเซอร์แลนด์",
+    "countryCode": "CH",
+    "continent": "Europe",
+    "description": "ทุนการศึกษาหลักของ ETH Zurich สำหรับนักศึกษาปริญญาโทต่างชาติที่มีผลการเรียนโดดเด่น โดยครอบคลุมค่าเล่าเรียนและให้เงินสนับสนุนค่าครองชีพ",
+    "eligibility": "เปิดรับผู้สมัครที่สมัครหลักสูตรปริญญาโทที่มีสิทธิ์ของ ETH Zurich และมีผลการเรียนโดดเด่น โดยทั่วไปผู้สมัครควรมีผลการเรียนอยู่ในกลุ่ม 10% แรกของรุ่นระดับปริญญาตรี",
+    "link": "https://ethz.ch/students/en/studies/financial/scholarships/excellencescholarship.html",
+    "featured": true
+  },
+  {
+    "id": 62,
+    "slug": "ทุน-epfl-excellence-fellowship",
+    "name": "ทุน EPFL Excellence Fellowship",
+    "amount": "CHF 10,000 ต่อภาคการศึกษา",
+    "isFullScholarship": false,
+    "coverage": [
+      "MonthlyStipend",
+      "Accommodation"
+    ],
+    "languages": [
+      "English"
+    ],
+    "level": "Postgraduate",
+    "field": "วิศวกรรมศาสตร์ วิทยาการคอมพิวเตอร์ วิทยาศาสตร์ และเทคโนโลยี",
+    "deadline": "แตกต่างกันในแต่ละปี",
+    "location": "สวิตเซอร์แลนด์",
+    "countryCode": "CH",
+    "continent": "Europe",
+    "description": "ทุนสนับสนุนจาก EPFL สำหรับนักศึกษาปริญญาโทต่างชาติที่มีผลการเรียนโดดเด่นในสาขาวิทยาศาสตร์ วิศวกรรมศาสตร์ และเทคโนโลยี",
+    "eligibility": "เปิดรับผู้สมัครทุกสัญชาติที่สมัครหลักสูตรปริญญาโทของ EPFL และมีผลการเรียนและแรงจูงใจที่โดดเด่น",
+    "link": "https://www.epfl.ch/education/master/master-excellence-fellowships/how-to-apply/",
+    "featured": true
+  },
+  {
+    "id": 63,
+    "slug": "ทุน-imperial-inspires-scholarship",
+    "name": "ทุน Imperial Inspires Scholarship",
+    "amount": "£15,000 ต่อปี",
+    "isFullScholarship": false,
+    "coverage": [
+      "Tuition",
+      "LivingCosts"
+    ],
+    "languages": [
+      "English"
+    ],
+    "level": "Undergraduate",
+    "field": "วิศวกรรมศาสตร์ แพทยศาสตร์ วิทยาศาสตร์ธรรมชาติ และธุรกิจ",
+    "deadline": "แตกต่างกันตามหลักสูตร",
+    "location": "สหราชอาณาจักร",
+    "countryCode": "GB",
+    "continent": "Europe",
+    "description": "ทุนการศึกษาจาก Imperial College London ที่ให้การสนับสนุนทางการเงินจำนวนมากแก่นักศึกษาต่างชาติที่มีผลการเรียนโดดเด่นในสาขาวิศวกรรมศาสตร์ แพทยศาสตร์ วิทยาศาสตร์ธรรมชาติ และธุรกิจ",
+    "eligibility": "เปิดรับนักศึกษาต่างชาติที่ชำระค่าเล่าเรียนในอัตรานักศึกษาต่างชาติและสมัครหลักสูตรเต็มเวลาที่มีสิทธิ์ของ Imperial College London",
+    "link": "https://www.imperial.ac.uk/study/fees-and-funding/imperial-inspires-scholarships/",
+    "featured": true
+  },
+  {
+    "id": 64,
+    "slug": "ทุน-ucl-research-excellence-scholarship",
+    "name": "ทุน UCL Research Excellence Scholarship",
+    "amount": "สนับสนุนค่าเล่าเรียนเต็มจำนวน + เงินสนับสนุนการวิจัย",
+    "isFullScholarship": true,
+    "coverage": [
+      "Tuition",
+      "MonthlyStipend"
+    ],
+    "languages": [
+      "English"
+    ],
+    "level": "Postgraduate",
+    "field": "แพทยศาสตร์ สุขภาพ วิทยาศาสตร์ชีวภาพ วิศวกรรมศาสตร์ วิทยาศาสตร์กายภาพ และคณิตศาสตร์",
+    "deadline": "1 ตุลาคม 2026",
+    "location": "สหราชอาณาจักร",
+    "countryCode": "GB",
+    "continent": "Europe",
+    "description": "ทุนปริญญาเอกจาก UCL สำหรับนักศึกษาวิจัยที่มีความโดดเด่น ครอบคลุมสาขาแพทยศาสตร์ สุขภาพ วิทยาศาสตร์ชีวภาพ วิศวกรรมศาสตร์ วิทยาศาสตร์กายภาพ และสาขาอื่น ๆ",
+    "eligibility": "เปิดรับผู้สมัครต่างชาติที่มีสิทธิ์สมัครหลักสูตรวิจัยของ UCL และมีคุณสมบัติทางวิชาการตามที่คณะหรือภาควิชากำหนด",
+    "link": "https://www.ucl.ac.uk/scholarships/research-excellence-scholarship",
+    "featured": true
+  },
+  {
+    "id": 65,
+    "slug": "ทุน-mccall-macbain-scholarship",
+    "name": "ทุน McCall MacBain Scholarship",
+    "amount": "ทุนเต็มจำนวน",
+    "isFullScholarship": true,
+    "coverage": [
+      "Tuition",
+      "MonthlyStipend",
+      "Accommodation"
+    ],
+    "languages": [
+      "English",
+      "French"
+    ],
+    "level": "Postgraduate",
+    "field": "หลากหลายสาขา",
+    "deadline": "แตกต่างกันในแต่ละปี",
+    "location": "แคนาดา",
+    "countryCode": "CA",
+    "continent": "NorthAmerica",
+    "description": "ทุนการศึกษาระดับบัณฑิตศึกษาที่มีชื่อเสียงจาก McGill University สำหรับผู้สมัครที่มีความโดดเด่นด้านภาวะผู้นำ บุคลิกภาพ และการสร้างประโยชน์ให้กับชุมชน",
+    "eligibility": "เปิดรับผู้สมัครต่างชาติที่มีคุณสมบัติตามเกณฑ์การศึกษาและการรับเข้าของหลักสูตรปริญญาโทหรือหลักสูตรวิชาชีพระดับบัณฑิตศึกษาที่มีสิทธิ์ของ McGill University",
+    "link": "https://mccallmacbainscholars.org/",
+    "featured": true
+  },
+  {
+    "id": 66,
+    "slug": "ทุน-rhodes-scholarship",
+    "name": "ทุน Rhodes Scholarship",
+    "amount": "ทุนเต็มจำนวน",
+    "isFullScholarship": true,
+    "coverage": [
+      "Tuition",
+      "MonthlyStipend",
+      "Accommodation",
+      "Airfare",
+      "Visa"
+    ],
+    "languages": [
+      "English"
+    ],
+    "level": "Postgraduate",
+    "field": "หลากหลายสาขา",
+    "deadline": "แตกต่างกันตามเขตหรือประเทศที่สมัคร",
+    "location": "สหราชอาณาจักร",
+    "countryCode": "GB",
+    "continent": "Europe",
+    "description": "หนึ่งในทุนการศึกษาระดับบัณฑิตศึกษาที่มีชื่อเสียงและแข่งขันสูงที่สุดในโลก โดยให้ทุนสนับสนุนอย่างครอบคลุมสำหรับการศึกษาที่ University of Oxford",
+    "eligibility": "เปิดรับผู้สมัครจากเขตหรือประเทศที่อยู่ในระบบ Rhodes Scholarships และต้องมีคุณสมบัติด้านการศึกษา ภาวะผู้นำ และอายุตามที่โครงการกำหนด",
+    "link": "https://www.rhodeshouse.ox.ac.uk/scholarships/",
+    "featured": true
+  },
+  {
+    "id": 67,
+    "slug": "ทุน-schwarzman-scholars-program",
+    "name": "ทุน Schwarzman Scholars Program",
+    "amount": "ทุนเต็มจำนวน",
+    "isFullScholarship": true,
+    "coverage": [
+      "Tuition",
+      "MonthlyStipend",
+      "Accommodation",
+      "Airfare",
+      "HealthInsurance"
+    ],
+    "languages": [
+      "English"
+    ],
+    "level": "Postgraduate",
+    "field": "กิจการระหว่างประเทศ เศรษฐศาสตร์ เทคโนโลยี และนโยบายสาธารณะ",
+    "deadline": "แตกต่างกันในแต่ละปี",
+    "location": "จีน",
+    "countryCode": "CN",
+    "continent": "Asia",
+    "description": "หลักสูตรปริญญาโทที่มีชื่อเสียงและให้ทุนเต็มจำนวนที่ Tsinghua University มุ่งเน้นด้านกิจการระหว่างประเทศ ภาวะผู้นำ เศรษฐศาสตร์ เทคโนโลยี และนโยบายสาธารณะ",
+    "eligibility": "เปิดรับผู้สมัครทุกสัญชาติที่มีคุณสมบัติตามเกณฑ์ด้านการศึกษา อายุ และภาษาอังกฤษของโครงการ Schwarzman Scholars",
+    "link": "https://www.schwarzmanscholars.org/",
+    "featured": true
+  },
+  {
+    "id": 68,
+    "slug": "ทุน-hkust-international-undergraduate-scholarship",
+    "name": "ทุน HKUST International Undergraduate Scholarships",
+    "amount": "สูงสุดถึงค่าเล่าเรียนเต็มจำนวนและเงินสนับสนุนค่าครองชีพ",
+    "isFullScholarship": true,
+    "coverage": [
+      "Tuition",
+      "MonthlyStipend"
+    ],
+    "languages": [
+      "English"
+    ],
+    "level": "Undergraduate",
+    "field": "วิศวกรรมศาสตร์ วิทยาศาสตร์ วิทยาการคอมพิวเตอร์ ธุรกิจ และสาขาที่เกี่ยวข้อง",
+    "deadline": "แตกต่างกันในแต่ละปี",
+    "location": "ฮ่องกง",
+    "countryCode": "HK",
+    "continent": "Asia",
+    "description": "ทุนการศึกษาสำหรับนักศึกษาต่างชาติระดับปริญญาตรีจาก Hong Kong University of Science and Technology โดยเฉพาะผู้ที่มีความโดดเด่นด้านวิทยาศาสตร์ วิศวกรรมศาสตร์ และเทคโนโลยี",
+    "eligibility": "เปิดรับผู้สมัครต่างชาติที่มีผลการเรียนโดดเด่นและสมัครหลักสูตรปริญญาตรีที่มีสิทธิ์ของ HKUST",
+    "link": "https://join.ust.hk/fees-and-scholarships/",
+    "featured": true
+  },
+  {
+    "id": 69,
+    "slug": "ทุน-nus-goh-keng-swee-scholarship",
+    "name": "ทุน Goh Keng Swee Scholarship",
+    "amount": "ทุนการศึกษาแบบครอบคลุม",
+    "isFullScholarship": true,
+    "coverage": [
+      "Tuition",
+      "MonthlyStipend",
+      "Accommodation",
+      "Airfare"
+    ],
+    "languages": [
+      "English"
+    ],
+    "level": "Undergraduate",
+    "field": "หลากหลายสาขา",
+    "deadline": "แตกต่างกันในแต่ละปี",
+    "location": "สิงคโปร์",
+    "countryCode": "SG",
+    "continent": "Asia",
+    "description": "ทุนการศึกษาอันทรงเกียรติที่บริหารโดย NUS สำหรับนักเรียนที่มีผลการเรียนโดดเด่นจากประเทศในภูมิภาคเอเชียแปซิฟิกที่เข้าร่วมโครงการ รวมถึงประเทศไทย",
+    "eligibility": "เปิดรับนักเรียนที่มีผลการเรียนโดดเด่นจากประเทศในเอเชียแปซิฟิกที่มีสิทธิ์ รวมถึงประเทศไทย เพื่อสมัครศึกษาต่อระดับปริญญาตรีที่ NUS",
+    "link": "https://www.nus.edu.sg/oam/scholarships/scholarships-for-current-nus-undergraduates/list-of-named-scholarships",
+    "featured": true
+  }
 ]

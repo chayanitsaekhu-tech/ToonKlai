@@ -822,5 +822,658 @@
   "eligibility": "Open to privately financed international students with strong academic performance and financial need who meet the requirements of participating Japanese institutions.",
   "link": "https://www.studyinjapan.go.jp/en/about/support-program.html",
   "featured": true
-}
+},
+{
+  "id": 43,
+  "slug": "gates-cambridge-scholarship",
+  "name": "Gates Cambridge Scholarship",
+  "amount": "Fully Funded",
+  "isFullScholarship": true,
+  "coverage": [
+    "Tuition",
+    "MonthlyStipend",
+    "Airfare",
+    "HealthInsurance"
+  ],
+  "languages": [
+    "English"
+  ],
+  "level": "Postgraduate",
+  "field": "Any subject",
+  "deadline": "Varies by course",
+  "location": "United Kingdom",
+  "countryCode": "GB",
+  "continent": "Europe",
+  "description": "A prestigious fully funded scholarship at the University of Cambridge covering the full cost of study and providing financial support for international postgraduate students.",
+  "eligibility": "Open to international applicants applying for eligible postgraduate programmes at the University of Cambridge.",
+  "link": "https://www.gatescambridge.org/",
+  "featured": true
+},
+{
+  "id": 44,
+  "slug": "clarendon-fund-scholarship",
+  "name": "Clarendon Fund Scholarship",
+  "amount": "Fully Funded",
+  "isFullScholarship": true,
+  "coverage": [
+    "Tuition",
+    "MonthlyStipend"
+  ],
+  "languages": [
+    "English"
+  ],
+  "level": "Postgraduate",
+  "field": "Any subject",
+  "deadline": "Varies by course",
+  "location": "United Kingdom",
+  "countryCode": "GB",
+  "continent": "Europe",
+  "description": "A highly competitive University of Oxford scholarship providing full tuition fee coverage and a grant towards living costs for outstanding graduate students.",
+  "eligibility": "Open to applicants from all nationalities applying for eligible master's or doctoral programmes at the University of Oxford.",
+  "link": "https://www.ox.ac.uk/clarendon",
+  "featured": true
+},
+{
+  "id": 45,
+  "slug": "knight-hennessy-scholars-program",
+  "name": "Knight-Hennessy Scholars Program",
+  "amount": "Fully Funded",
+  "isFullScholarship": true,
+  "coverage": [
+    "Tuition",
+    "MonthlyStipend",
+    "Airfare"
+  ],
+  "languages": [
+    "English"
+  ],
+  "level": "Postgraduate",
+  "field": "Any subject",
+  "deadline": "Varies annually",
+  "location": "United States",
+  "countryCode": "US",
+  "continent": "NorthAmerica",
+  "description": "A prestigious graduate scholarship at Stanford University providing tuition support, living stipend, and additional funding for eligible graduate students.",
+  "eligibility": "Open to applicants of all nationalities applying to eligible Stanford graduate degree programmes.",
+  "link": "https://knight-hennessy.stanford.edu/",
+  "featured": true
+},
+{
+  "id": 47,
+  "slug": "australian-awards-scholarships",
+  "name": "Australia Awards Scholarships",
+  "amount": "Fully Funded",
+  "isFullScholarship": true,
+  "coverage": [
+    "Tuition",
+    "MonthlyStipend",
+    "Airfare",
+    "HealthInsurance",
+    "Accommodation"
+  ],
+  "languages": [
+    "English"
+  ],
+  "level": "Postgraduate",
+  "field": "Various subjects",
+  "deadline": "Varies by country",
+  "location": "Australia",
+  "countryCode": "AU",
+  "continent": "Oceania",
+  "description": "A prestigious Australian Government scholarship providing comprehensive financial support for eligible students from participating developing countries to undertake study in Australia.",
+  "eligibility": "Open to citizens of participating countries who meet the academic, professional, and development-related requirements of the Australia Awards programme.",
+  "link": "https://www.dfat.gov.au/people-to-people/australia-awards",
+  "featured": true
+},
+{
+  "id": 48,
+  "slug": "commonwealth-masters-scholarship",
+  "name": "Commonwealth Master's Scholarship",
+  "amount": "Fully Funded",
+  "isFullScholarship": true,
+  "coverage": [
+    "Tuition",
+    "MonthlyStipend",
+    "Airfare",
+    "HealthInsurance"
+  ],
+  "languages": [
+    "English"
+  ],
+  "level": "Postgraduate",
+  "field": "Various subjects",
+  "deadline": "Varies annually",
+  "location": "United Kingdom",
+  "countryCode": "GB",
+  "continent": "Europe",
+  "description": "A UK Commonwealth scholarship supporting talented students from eligible Commonwealth countries to undertake master's study in the United Kingdom.",
+  "eligibility": "Open to citizens of eligible Commonwealth countries who meet the academic and development criteria of the scholarship programme.",
+  "link": "https://cscuk.fcdo.gov.uk/scholarships/commonwealth-masters-scholarships/",
+  "featured": true
+},
+{
+  "id": 49,
+  "slug": "global-wales-postgraduate-scholarship",
+  "name": "Global Wales Postgraduate Scholarship",
+  "amount": "Up to £10,000 towards tuition fees",
+  "isFullScholarship": false,
+  "coverage": [
+    "Tuition"
+  ],
+  "languages": [
+    "English"
+  ],
+  "level": "Postgraduate",
+  "field": "Various subjects",
+  "deadline": "Varies annually",
+  "location": "United Kingdom",
+  "countryCode": "GB",
+  "continent": "Europe",
+  "description": "A scholarship supporting eligible international students pursuing postgraduate study at participating universities in Wales.",
+  "eligibility": "Open to eligible international students applying for postgraduate programmes at participating Welsh universities.",
+  "link": "https://www.globalwales.com/",
+  "featured": true
+},
+  {
+    "id": 50,
+    "slug": "nus-science-technology-undergraduate-scholarship",
+    "name": "NUS Science & Technology Undergraduate Scholarship",
+    "amount": "Full subsidised tuition + living and accommodation allowances",
+    "isFullScholarship": true,
+    "coverage": [
+      "Tuition",
+      "MonthlyStipend",
+      "Accommodation",
+      "ComputerAllowance"
+    ],
+    "languages": [
+      "English"
+    ],
+    "level": "Undergraduate",
+    "field": "Computing, Engineering and Science",
+    "deadline": "Varies annually",
+    "location": "Singapore",
+    "countryCode": "SG",
+    "continent": "Asia",
+    "description": "A prestigious NUS scholarship for outstanding Asian students pursuing undergraduate studies in computing, engineering and selected science programmes.",
+    "eligibility": "Open to outstanding students from Asian countries, including Thailand, applying for eligible full-time undergraduate programmes at NUS.",
+    "link": "https://www.nus.edu.sg/oam/scholarships/scholarships-for-freshmen-(international-students)/science-technology-undergraduate-scholarship",
+    "featured": true
+  },
+  {
+    "id": 51,
+    "slug": "nus-asean-undergraduate-scholarship",
+    "name": "NUS ASEAN Undergraduate Scholarship",
+    "amount": "Full subsidised tuition + living and accommodation allowances",
+    "isFullScholarship": true,
+    "coverage": [
+      "Tuition",
+      "MonthlyStipend",
+      "Accommodation",
+      "ComputerAllowance"
+    ],
+    "languages": [
+      "English"
+    ],
+    "level": "Undergraduate",
+    "field": "Various subjects",
+    "deadline": "Varies annually",
+    "location": "Singapore",
+    "countryCode": "SG",
+    "continent": "Asia",
+    "description": "A major NUS scholarship supporting outstanding students from ASEAN countries, including Thailand, across a wide range of undergraduate programmes.",
+    "eligibility": "Open to citizens of ASEAN countries, including Thailand, with outstanding academic and extracurricular achievements applying for full-time undergraduate study at NUS.",
+    "link": "https://www.nus.edu.sg/oam/scholarships/scholarships-for-freshmen-(international-students)/asean-undergraduate-scholarship",
+    "featured": true
+  },
+  {
+    "id": 52,
+    "slug": "nus-international-undergraduate-scholarship",
+    "name": "NUS International Undergraduate Scholarship",
+    "amount": "Full subsidised tuition + living allowance",
+    "isFullScholarship": true,
+    "coverage": [
+      "Tuition",
+      "MonthlyStipend"
+    ],
+    "languages": [
+      "English"
+    ],
+    "level": "Undergraduate",
+    "field": "Various subjects",
+    "deadline": "Varies annually",
+    "location": "Singapore",
+    "countryCode": "SG",
+    "continent": "Asia",
+    "description": "A prestigious NUS scholarship for exceptional international students from around the world pursuing undergraduate study.",
+    "eligibility": "Open to exceptional international applicants from countries outside Singapore applying for eligible full-time undergraduate programmes at NUS.",
+    "link": "https://www.nus.edu.sg/oam/scholarships/scholarships-for-freshmen-(international-students)/nus-international-undergraduate-scholarship",
+    "featured": true
+  },
+  {
+    "id": 53,
+    "slug": "ntu-nanyang-merit-scholarship",
+    "name": "NTU Nanyang Merit Scholarship",
+    "amount": "Full subsidised tuition + S$5,000 annual living allowance",
+    "isFullScholarship": true,
+    "coverage": [
+      "Tuition",
+      "MonthlyStipend",
+      "Airfare"
+    ],
+    "languages": [
+      "English"
+    ],
+    "level": "Undergraduate",
+    "field": "Various subjects",
+    "deadline": "Varies annually",
+    "location": "Singapore",
+    "countryCode": "SG",
+    "continent": "Asia",
+    "description": "A highly competitive NTU scholarship for outstanding international freshmen covering subsidised tuition and providing substantial living and travel support.",
+    "eligibility": "Open to students of all nationalities with outstanding academic achievements, leadership potential and extracurricular records applying for full-time undergraduate study at NTU.",
+    "link": "https://www.ntu.edu.sg/admissions/undergraduate/scholarships/scholarship-opportunities/detail/college-scholarship",
+    "featured": true
+  },
+  {
+    "id": 54,
+    "slug": "ntu-nanyang-global-scholarship",
+    "name": "NTU Nanyang Global Scholarship",
+    "amount": "Full subsidised tuition + living allowance",
+    "isFullScholarship": true,
+    "coverage": [
+      "Tuition",
+      "MonthlyStipend",
+      "Accommodation",
+      "TravelAllowance"
+    ],
+    "languages": [
+      "English"
+    ],
+    "level": "Undergraduate",
+    "field": "Various subjects",
+    "deadline": "Varies annually",
+    "location": "Singapore",
+    "countryCode": "SG",
+    "continent": "Asia",
+    "description": "A prestigious NTU scholarship designed to attract outstanding international students to undergraduate programmes across the university.",
+    "eligibility": "Open to outstanding international applicants applying for eligible full-time undergraduate programmes at NTU.",
+    "link": "https://www.ntu.edu.sg/admissions/undergraduate/scholarships",
+    "featured": true
+  },
+  {
+    "id": 55,
+    "slug": "ntu-cn-yang-scholars-programme-scholarship",
+    "name": "NTU CN Yang Scholars Programme Scholarship",
+    "amount": "Full subsidised tuition + S$6,500 annual living allowance",
+    "isFullScholarship": true,
+    "coverage": [
+      "Tuition",
+      "MonthlyStipend",
+      "ComputerAllowance"
+    ],
+    "languages": [
+      "English"
+    ],
+    "level": "Undergraduate",
+    "field": "Science and Engineering",
+    "deadline": "Varies annually",
+    "location": "Singapore",
+    "countryCode": "SG",
+    "continent": "Asia",
+    "description": "A prestigious NTU scholarship for exceptional students entering science and engineering programmes with strong research potential.",
+    "eligibility": "Open to students of all nationalities with outstanding academic and extracurricular achievements who are admitted to the CN Yang Scholars Programme.",
+    "link": "https://www.ntu.edu.sg/admissions/undergraduate/scholarships",
+    "featured": true
+  },
+  {
+    "id": 56,
+    "slug": "ntu-turing-ai-scholars-programme-scholarship",
+    "name": "NTU Turing AI Scholars Programme Scholarship",
+    "amount": "Full subsidised tuition + S$6,500 annual living allowance",
+    "isFullScholarship": true,
+    "coverage": [
+      "Tuition",
+      "MonthlyStipend",
+      "ComputerAllowance"
+    ],
+    "languages": [
+      "English"
+    ],
+    "level": "Undergraduate",
+    "field": "Artificial Intelligence, Computer Science and Data Science",
+    "deadline": "Varies annually",
+    "location": "Singapore",
+    "countryCode": "SG",
+    "continent": "Asia",
+    "description": "A prestigious NTU scholarship supporting outstanding students pursuing advanced studies in artificial intelligence, computer science and data-related fields.",
+    "eligibility": "Open to international applicants of eligible nationalities with exceptional academic achievements applying to eligible AI and computing programmes at NTU.",
+    "link": "https://www.ntu.edu.sg/admissions/undergraduate/scholarships",
+    "featured": true
+  },
+  {
+    "id": 57,
+    "slug": "kaist-international-undergraduate-scholarship",
+    "name": "KAIST International Undergraduate Scholarship",
+    "amount": "Full tuition + KRW 350,000 monthly stipend",
+    "isFullScholarship": true,
+    "coverage": [
+      "Tuition",
+      "MonthlyStipend",
+      "HealthInsurance"
+    ],
+    "languages": [
+      "English"
+    ],
+    "level": "Undergraduate",
+    "field": "Science, Technology, Engineering and Mathematics",
+    "deadline": "Varies annually",
+    "location": "South Korea",
+    "countryCode": "KR",
+    "continent": "Asia",
+    "description": "A highly prestigious scholarship automatically available to selected international students admitted to KAIST, one of Asia's leading science and engineering universities.",
+    "eligibility": "Open to international applicants applying through KAIST international undergraduate admission.",
+    "link": "https://admission.kaist.ac.kr/intl-undergraduate/support/scholarships/kaist/",
+    "featured": true
+  },
+  {
+    "id": 58,
+    "slug": "kaist-international-graduate-scholarship",
+    "name": "KAIST International Graduate Scholarship",
+    "amount": "Full tuition + monthly stipend",
+    "isFullScholarship": true,
+    "coverage": [
+      "Tuition",
+      "MonthlyStipend",
+      "HealthInsurance"
+    ],
+    "languages": [
+      "English"
+    ],
+    "level": "Postgraduate",
+    "field": "Science, Technology, Engineering and Mathematics",
+    "deadline": "Varies by admission round",
+    "location": "South Korea",
+    "countryCode": "KR",
+    "continent": "Asia",
+    "description": "A generous KAIST scholarship for international graduate students covering full tuition and providing financial support for living expenses.",
+    "eligibility": "Open to international applicants admitted to eligible master's or doctoral programmes at KAIST.",
+    "link": "https://admission.kaist.ac.kr/intl-graduate/FinancialSupport/Scholarship/KAISTScholarship",
+    "featured": true
+  },
+  {
+    "id": 59,
+    "slug": "lester-b-pearson-international-scholarship",
+    "name": "Lester B. Pearson International Scholarship",
+    "amount": "Fully Funded for 4 years",
+    "isFullScholarship": true,
+    "coverage": [
+      "Tuition",
+      "Accommodation",
+      "Books"
+    ],
+    "languages": [
+      "English"
+    ],
+    "level": "Undergraduate",
+    "field": "Various subjects",
+    "deadline": "6 November 2026",
+    "location": "Canada",
+    "countryCode": "CA",
+    "continent": "NorthAmerica",
+    "description": "The University of Toronto's most prestigious international undergraduate scholarship, providing comprehensive financial support for four years.",
+    "eligibility": "Open to international students entering their first undergraduate degree who are nominated by an eligible secondary school and demonstrate exceptional academic achievement, creativity and leadership.",
+    "link": "https://future.utoronto.ca/pearson-scholarships",
+    "featured": true
+  },
+  {
+    "id": 60,
+    "slug": "ubc-international-scholars-program",
+    "name": "UBC International Scholars Program",
+    "amount": "Up to the full cost of the educational programme",
+    "isFullScholarship": true,
+    "coverage": [
+      "Tuition",
+      "LivingCosts"
+    ],
+    "languages": [
+      "English"
+    ],
+    "level": "Undergraduate",
+    "field": "Various subjects",
+    "deadline": "Varies annually",
+    "location": "Canada",
+    "countryCode": "CA",
+    "continent": "NorthAmerica",
+    "description": "A major University of British Columbia scholarship programme supporting outstanding international undergraduate students with significant financial support.",
+    "eligibility": "Open to international students entering undergraduate study at UBC who demonstrate exceptional academic achievement, leadership and significant financial need.",
+    "link": "https://you.ubc.ca/financial-planning/scholarships-awards-international-students/",
+    "featured": true
+  },
+  {
+    "id": 61,
+    "slug": "eth-zurich-esop",
+    "name": "ETH Zurich Excellence Scholarship & Opportunity Programme (ESOP)",
+    "amount": "CHF 12,000 per semester + full tuition fee waiver",
+    "isFullScholarship": true,
+    "coverage": [
+      "Tuition",
+      "MonthlyStipend"
+    ],
+    "languages": [
+      "English"
+    ],
+    "level": "Postgraduate",
+    "field": "Engineering, Science, Technology, Architecture and related fields",
+    "deadline": "30 November 2026",
+    "location": "Switzerland",
+    "countryCode": "CH",
+    "continent": "Europe",
+    "description": "ETH Zurich's flagship excellence scholarship covering full study and living costs for exceptional international Master's students.",
+    "eligibility": "Open to outstanding applicants applying for eligible Master's programmes at ETH Zurich, normally requiring results in the top 10% of the Bachelor's degree.",
+    "link": "https://ethz.ch/students/en/studies/financial/scholarships/excellencescholarship.html",
+    "featured": true
+  },
+  {
+    "id": 62,
+    "slug": "epfl-excellence-fellowship",
+    "name": "EPFL Excellence Fellowship",
+    "amount": "CHF 10,000 per semester",
+    "isFullScholarship": false,
+    "coverage": [
+      "MonthlyStipend",
+      "Accommodation"
+    ],
+    "languages": [
+      "English"
+    ],
+    "level": "Postgraduate",
+    "field": "Engineering, Computer Science, Science and Technology",
+    "deadline": "Varies annually",
+    "location": "Switzerland",
+    "countryCode": "CH",
+    "continent": "Europe",
+    "description": "A prestigious EPFL fellowship for outstanding international Master's applicants in science, engineering and technology fields.",
+    "eligibility": "Open to applicants of any nationality applying for an EPFL Master's programme who demonstrate exceptional academic excellence and motivation.",
+    "link": "https://www.epfl.ch/education/master/master-excellence-fellowships/how-to-apply/",
+    "featured": true
+  },
+  {
+    "id": 63,
+    "slug": "imperial-inspires-scholarship",
+    "name": "Imperial Inspires Scholarship",
+    "amount": "£15,000 per year",
+    "isFullScholarship": false,
+    "coverage": [
+      "Tuition",
+      "LivingCosts"
+    ],
+    "languages": [
+      "English"
+    ],
+    "level": "Undergraduate",
+    "field": "Engineering, Medicine, Natural Sciences and Business",
+    "deadline": "Varies by programme",
+    "location": "United Kingdom",
+    "countryCode": "GB",
+    "continent": "Europe",
+    "description": "A major Imperial College London scholarship providing substantial financial support to outstanding international students in engineering, medicine, natural sciences and business.",
+    "eligibility": "Open to international students paying overseas tuition fees applying to eligible full-time undergraduate or selected postgraduate taught courses at Imperial College London.",
+    "link": "https://www.imperial.ac.uk/study/fees-and-funding/imperial-inspires-scholarships/",
+    "featured": true
+  },
+  {
+    "id": 64,
+    "slug": "ucl-research-excellence-scholarship",
+    "name": "UCL Research Excellence Scholarship",
+    "amount": "Full tuition fee support + research stipend",
+    "isFullScholarship": true,
+    "coverage": [
+      "Tuition",
+      "MonthlyStipend"
+    ],
+    "languages": [
+      "English"
+    ],
+    "level": "Postgraduate",
+    "field": "Medicine, Health, Life Sciences, Engineering, Physical Sciences and Mathematics",
+    "deadline": "1 October 2026",
+    "location": "United Kingdom",
+    "countryCode": "GB",
+    "continent": "Europe",
+    "description": "A competitive UCL doctoral scholarship supporting outstanding research students across medicine, health, life sciences, engineering, physical sciences and other disciplines.",
+    "eligibility": "Open to eligible international applicants applying for research degree programmes at UCL and meeting the academic requirements of the relevant department.",
+    "link": "https://www.ucl.ac.uk/scholarships/research-excellence-scholarship",
+    "featured": true
+  },
+  {
+    "id": 65,
+    "slug": "mcgill-macbain-scholarship",
+    "name": "McCall MacBain Scholarship",
+    "amount": "Fully Funded",
+    "isFullScholarship": true,
+    "coverage": [
+      "Tuition",
+      "MonthlyStipend",
+      "Accommodation"
+    ],
+    "languages": [
+      "English",
+      "French"
+    ],
+    "level": "Postgraduate",
+    "field": "Various subjects",
+    "deadline": "Varies annually",
+    "location": "Canada",
+    "countryCode": "CA",
+    "continent": "NorthAmerica",
+    "description": "A prestigious fully funded graduate scholarship at McGill University designed for exceptional students demonstrating leadership, character and community impact.",
+    "eligibility": "Open to international applicants meeting the programme's degree and admission requirements for eligible Master's or professional graduate programmes at McGill University.",
+    "link": "https://mccallmacbainscholars.org/",
+    "featured": true
+  },
+  {
+    "id": 66,
+    "slug": "rhodes-scholarship",
+    "name": "Rhodes Scholarship",
+    "amount": "Fully Funded",
+    "isFullScholarship": true,
+    "coverage": [
+      "Tuition",
+      "MonthlyStipend",
+      "Accommodation",
+      "Airfare",
+      "Visa"
+    ],
+    "languages": [
+      "English"
+    ],
+    "level": "Postgraduate",
+    "field": "Various subjects",
+    "deadline": "Varies by constituency",
+    "location": "United Kingdom",
+    "countryCode": "GB",
+    "continent": "Europe",
+    "description": "One of the world's most prestigious postgraduate scholarships, providing comprehensive funding for study at the University of Oxford.",
+    "eligibility": "Open to applicants from eligible Rhodes constituencies who meet the academic, leadership and age requirements.",
+    "link": "https://www.rhodeshouse.ox.ac.uk/scholarships/",
+    "featured": true
+  },
+  {
+    "id": 67,
+    "slug": "schwarzman-scholars-program",
+    "name": "Schwarzman Scholars Program",
+    "amount": "Fully Funded",
+    "isFullScholarship": true,
+    "coverage": [
+      "Tuition",
+      "MonthlyStipend",
+      "Accommodation",
+      "Airfare",
+      "HealthInsurance"
+    ],
+    "languages": [
+      "English"
+    ],
+    "level": "Postgraduate",
+    "field": "Global Affairs, Economics, Technology and Public Policy",
+    "deadline": "Varies annually",
+    "location": "China",
+    "countryCode": "CN",
+    "continent": "Asia",
+    "description": "A highly prestigious fully funded Master's programme at Tsinghua University focusing on global affairs, leadership, economics, technology and public policy.",
+    "eligibility": "Open to applicants from all nationalities who meet the academic, age and English-language requirements for the Schwarzman Scholars programme.",
+    "link": "https://www.schwarzmanscholars.org/",
+    "featured": true
+  },
+  {
+    "id": 68,
+    "slug": "hkust-international-undergraduate-scholarship",
+    "name": "HKUST International Undergraduate Scholarships",
+    "amount": "Up to full tuition and living support",
+    "isFullScholarship": true,
+    "coverage": [
+      "Tuition",
+      "MonthlyStipend"
+    ],
+    "languages": [
+      "English"
+    ],
+    "level": "Undergraduate",
+    "field": "Engineering, Science, Computer Science, Business and related fields",
+    "deadline": "Varies annually",
+    "location": "Hong Kong",
+    "countryCode": "HK",
+    "continent": "Asia",
+    "description": "Competitive scholarships at the Hong Kong University of Science and Technology for outstanding international undergraduate students, particularly strong in science, engineering and technology.",
+    "eligibility": "Open to international applicants with outstanding academic achievements applying for eligible undergraduate programmes at HKUST.",
+    "link": "https://join.ust.hk/fees-and-scholarships/",
+    "featured": true
+  },
+  {
+    "id": 69,
+    "slug": "nus-goh-keng-swee-scholarship",
+    "name": "Goh Keng Swee Scholarship",
+    "amount": "Comprehensive scholarship package",
+    "isFullScholarship": true,
+    "coverage": [
+      "Tuition",
+      "MonthlyStipend",
+      "Accommodation",
+      "Airfare"
+    ],
+    "languages": [
+      "English"
+    ],
+    "level": "Undergraduate",
+    "field": "Various subjects",
+    "deadline": "Varies annually",
+    "location": "Singapore",
+    "countryCode": "SG",
+    "continent": "Asia",
+    "description": "A prestigious scholarship administered by NUS for outstanding students from selected Asia-Pacific economies, including Thailand.",
+    "eligibility": "Open to outstanding students from eligible Asia-Pacific economies, including Thailand, applying for undergraduate study at NUS.",
+    "link": "https://www.nus.edu.sg/oam/scholarships/scholarships-for-current-nus-undergraduates/list-of-named-scholarships",
+    "featured": true
+  }
 ]
