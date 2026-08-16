@@ -1475,5 +1475,496 @@
     "eligibility": "เปิดรับนักเรียนที่มีผลการเรียนโดดเด่นจากประเทศในเอเชียแปซิฟิกที่มีสิทธิ์ รวมถึงประเทศไทย เพื่อสมัครศึกษาต่อระดับปริญญาตรีที่ NUS",
     "link": "https://www.nus.edu.sg/oam/scholarships/scholarships-for-current-nus-undergraduates/list-of-named-scholarships",
     "featured": true
+  },
+  {
+    "id": 70,
+    "slug": "ทุน-reach-oxford",
+    "name": "ทุน Reach Oxford Scholarship",
+    "amount": "ทุนเต็มจำนวน",
+    "isFullScholarship": true,
+    "coverage": [
+      "Tuition",
+      "MonthlyStipend",
+      "Airfare"
+    ],
+    "languages": [
+      "English"
+    ],
+    "level": "Undergraduate",
+    "field": "หลากหลายสาขา ยกเว้นแพทยศาสตร์",
+    "deadline": "แตกต่างกันในแต่ละปี",
+    "location": "สหราชอาณาจักร",
+    "countryCode": "GB",
+    "continent": "Europe",
+    "description": "ทุนการศึกษาเต็มจำนวนจากมหาวิทยาลัยออกซฟอร์ดสำหรับนักศึกษาจากประเทศที่มีรายได้ต่ำที่มีผลการเรียนโดดเด่น โดยครอบคลุมค่าเล่าเรียน ค่าครองชีพ และค่าเดินทางกลับประเทศเป็นประจำทุกปี",
+    "eligibility": "เปิดรับผู้สมัครจากประเทศที่มีรายได้ต่ำที่อยู่ในรายชื่อที่กำหนด รวมถึงผู้สมัครที่มีสัญชาติไทย ซึ่งได้รับการตอบรับเข้าศึกษาในหลักสูตรระดับปริญญาตรีที่มีสิทธิ์และมีคุณสมบัติตามเกณฑ์ด้านวิชาการและการเงินของทุน",
+    "link": "https://www.ox.ac.uk/admissions/undergraduate/fees-and-funding/oxford-bursaries-and-scholarships/reach-oxford",
+    "featured": true
+  },
+  {
+    "id": 71,
+    "slug": "ทุน-cambridge-trust-international-scholarships",
+    "name": "ทุน Cambridge Trust International Scholarships",
+    "amount": "มีทุนเต็มจำนวนสำหรับบางโครงการระดับบัณฑิตศึกษา",
+    "isFullScholarship": true,
+    "coverage": [
+      "Tuition",
+      "MonthlyStipend",
+      "HealthInsurance"
+    ],
+    "languages": [
+      "English"
+    ],
+    "level": "Postgraduate",
+    "field": "หลากหลายสาขา",
+    "deadline": "แตกต่างกันตามหลักสูตร",
+    "location": "สหราชอาณาจักร",
+    "countryCode": "GB",
+    "continent": "Europe",
+    "description": "กลุ่มทุน Cambridge Trust สำหรับนักศึกษาต่างชาติที่มีผลการเรียนโดดเด่นเพื่อศึกษาต่อที่มหาวิทยาลัยเคมบริดจ์ โดยบางทุนครอบคลุมค่าเล่าเรียนสำหรับนักศึกษาต่างชาติและค่าใช้จ่ายในการดำรงชีพ",
+    "eligibility": "เปิดรับผู้สมัครต่างชาติที่สมัครหลักสูตรระดับบัณฑิตศึกษาที่มีสิทธิ์ของมหาวิทยาลัยเคมบริดจ์ โดยคุณสมบัติและระดับการสนับสนุนแตกต่างกันไปตามแต่ละทุน",
+    "link": "https://www.student-funding.cam.ac.uk/",
+    "featured": true
+  },
+  {
+    "id": 72,
+    "slug": "ทุน-jardine-cambridge-graduate",
+    "name": "ทุน Jardine Cambridge Graduate Scholarship",
+    "amount": "ทุนเต็มจำนวน",
+    "isFullScholarship": true,
+    "coverage": [
+      "Tuition",
+      "MonthlyStipend",
+      "Airfare",
+      "Visa",
+      "HealthInsurance"
+    ],
+    "languages": [
+      "English"
+    ],
+    "level": "Postgraduate",
+    "field": "หลากหลายสาขา",
+    "deadline": "แตกต่างกันในแต่ละปี",
+    "location": "สหราชอาณาจักร",
+    "countryCode": "GB",
+    "continent": "Europe",
+    "description": "ทุนการศึกษาเต็มจำนวนอันทรงเกียรติสำหรับนักศึกษาระดับบัณฑิตศึกษาจากประเทศในเอเชียที่เข้าร่วมโครงการ รวมถึงประเทศไทย เพื่อศึกษาต่อที่มหาวิทยาลัยเคมบริดจ์",
+    "eligibility": "เปิดรับผู้สมัครจากประเทศไทยและประเทศในเอเชียที่มีสิทธิ์สมัคร ซึ่งสมัครหลักสูตรปริญญาโทหรือปริญญาเอกที่มหาวิทยาลัยเคมบริดจ์ และมีผลการเรียนโดดเด่น มีศักยภาพด้านภาวะผู้นำ และมีความมุ่งมั่นในการทำประโยชน์ต่อสังคม",
+    "link": "https://www.cambridgetrust.org/scholarships/jardine-cambridge-graduate-scholarship",
+    "featured": true
+  },
+  {
+    "id": 73,
+    "slug": "ทุนมหาวิทยาลัยโตรอนโตสำหรับนักศึกษาต่างชาติ",
+    "name": "ทุนการศึกษาสำหรับนักศึกษาต่างชาติของ University of Toronto",
+    "amount": "สูงสุดครอบคลุมค่าใช้จ่ายทั้งหมด",
+    "isFullScholarship": true,
+    "coverage": [
+      "Tuition",
+      "Accommodation",
+      "LivingCosts"
+    ],
+    "languages": [
+      "English"
+    ],
+    "level": "Undergraduate",
+    "field": "หลากหลายสาขา",
+    "deadline": "แตกต่างกันตามทุน",
+    "location": "แคนาดา",
+    "countryCode": "CA",
+    "continent": "NorthAmerica",
+    "description": "กลุ่มทุนการศึกษาหลักของ University of Toronto สำหรับนักศึกษาต่างชาติระดับปริญญาตรีที่มีผลการเรียนโดดเด่น รวมถึงทุนที่ให้การสนับสนุนทางการเงินในระดับสูงหรือเต็มจำนวน",
+    "eligibility": "เปิดรับนักศึกษาต่างชาติที่มีคุณสมบัติตามเกณฑ์และสมัครหลักสูตรระดับปริญญาตรีของ University of Toronto โดยทุนแต่ละประเภทอาจมีเงื่อนไขด้านผลการเรียนและการเสนอชื่อที่แตกต่างกัน",
+    "link": "https://future.utoronto.ca/finances/awards/",
+    "featured": true
+  },
+  {
+    "id": 74,
+    "slug": "ทุน-ubc-international-scholars-program",
+    "name": "ทุน UBC International Scholars Program",
+    "amount": "สูงสุดครอบคลุมค่าใช้จ่ายด้านการศึกษาทั้งหมด",
+    "isFullScholarship": true,
+    "coverage": [
+      "Tuition",
+      "LivingCosts"
+    ],
+    "languages": [
+      "English"
+    ],
+    "level": "Undergraduate",
+    "field": "หลากหลายสาขา",
+    "deadline": "แตกต่างกันในแต่ละปี",
+    "location": "แคนาดา",
+    "countryCode": "CA",
+    "continent": "NorthAmerica",
+    "description": "โครงการทุนการศึกษาหลักของ University of British Columbia ที่ให้การสนับสนุนทางการเงินอย่างมากแก่นักศึกษาต่างชาติระดับปริญญาตรีที่มีผลการเรียนโดดเด่นและมีความจำเป็นด้านการเงิน",
+    "eligibility": "เปิดรับนักศึกษาต่างชาติที่กำลังเข้าศึกษาระดับปริญญาตรีที่ UBC ซึ่งมีผลการเรียนโดดเด่น มีศักยภาพด้านภาวะผู้นำ และมีความจำเป็นด้านการเงินอย่างมีนัยสำคัญ",
+    "link": "https://you.ubc.ca/financial-planning/scholarships-awards-international-students/",
+    "featured": true
+  },
+  {
+    "id": 75,
+    "slug": "ทุน-mccall-macbain",
+    "name": "ทุน McCall MacBain Scholarship",
+    "amount": "ทุนเต็มจำนวน",
+    "isFullScholarship": true,
+    "coverage": [
+      "Tuition",
+      "MonthlyStipend",
+      "Accommodation"
+    ],
+    "languages": [
+      "English",
+      "French"
+    ],
+    "level": "Postgraduate",
+    "field": "หลากหลายสาขา",
+    "deadline": "แตกต่างกันในแต่ละปี",
+    "location": "แคนาดา",
+    "countryCode": "CA",
+    "continent": "NorthAmerica",
+    "description": "ทุนการศึกษาเต็มจำนวนอันทรงเกียรติที่ McGill University สำหรับนักศึกษาระดับบัณฑิตศึกษาที่มีความโดดเด่น มีภาวะผู้นำ มีคุณธรรม และมีความมุ่งมั่นในการสร้างประโยชน์ต่อสังคม",
+    "eligibility": "เปิดรับผู้สมัครต่างชาติที่มีคุณสมบัติตามเกณฑ์และสมัครหลักสูตรปริญญาโทหรือหลักสูตรระดับบัณฑิตศึกษาวิชาชีพที่เข้าร่วมโครงการของ McGill University",
+    "link": "https://mccallmacbainscholars.org/",
+    "featured": true
+  },
+  {
+    "id": 76,
+    "slug": "ทุน-eth-zurich-excellence-scholarship",
+    "name": "ทุน ETH Zurich Excellence Scholarship & Opportunity Programme",
+    "amount": "CHF 12,000 ต่อภาคการศึกษา + ยกเว้นค่าเล่าเรียนเต็มจำนวน",
+    "isFullScholarship": true,
+    "coverage": [
+      "Tuition",
+      "MonthlyStipend"
+    ],
+    "languages": [
+      "English"
+    ],
+    "level": "Postgraduate",
+    "field": "วิศวกรรมศาสตร์ วิทยาศาสตร์ เทคโนโลยี สถาปัตยกรรม และสาขาที่เกี่ยวข้อง",
+    "deadline": "30 พฤศจิกายน 2026",
+    "location": "สวิตเซอร์แลนด์",
+    "countryCode": "CH",
+    "continent": "Europe",
+    "description": "ทุนการศึกษาหลักของ ETH Zurich สำหรับนักศึกษาปริญญาโทต่างชาติที่มีผลการเรียนยอดเยี่ยม โดยให้การสนับสนุนค่าเล่าเรียนเต็มจำนวนและเงินสนับสนุนค่าครองชีพจำนวนมาก",
+    "eligibility": "เปิดรับผู้สมัครต่างชาติที่สมัครหลักสูตรปริญญาโทที่มีสิทธิ์ของ ETH Zurich โดยทั่วไปต้องมีผลการเรียนอยู่ในระดับ 10% แรกของชั้นเรียนในระดับปริญญาตรี",
+    "link": "https://ethz.ch/students/en/studies/financial/scholarships/excellencescholarship.html",
+    "featured": true
+  },
+  {
+    "id": 77,
+    "slug": "ทุน-epfl-excellence-fellowship",
+    "name": "ทุน EPFL Excellence Fellowship",
+    "amount": "CHF 10,000 ต่อภาคการศึกษา",
+    "isFullScholarship": false,
+    "coverage": [
+      "MonthlyStipend",
+      "Accommodation"
+    ],
+    "languages": [
+      "English"
+    ],
+    "level": "Postgraduate",
+    "field": "วิศวกรรมศาสตร์ วิทยาการคอมพิวเตอร์ วิทยาศาสตร์ และเทคโนโลยี",
+    "deadline": "แตกต่างกันในแต่ละปี",
+    "location": "สวิตเซอร์แลนด์",
+    "countryCode": "CH",
+    "continent": "Europe",
+    "description": "ทุนสนับสนุนจาก EPFL สำหรับนักศึกษาปริญญาโทต่างชาติที่มีผลการเรียนโดดเด่นในสาขาวิทยาศาสตร์ วิศวกรรมศาสตร์ และเทคโนโลยี โดยให้การสนับสนุนทางการเงินจำนวนมากตลอดระยะเวลาการศึกษา",
+    "eligibility": "เปิดรับผู้สมัครทุกสัญชาติที่สมัครหลักสูตรปริญญาโทของ EPFL และมีผลการเรียนโดดเด่น รวมถึงมีแรงจูงใจและศักยภาพทางวิชาการสูง",
+    "link": "https://www.epfl.ch/education/master/master-excellence-fellowships/how-to-apply/",
+    "featured": true
+  },
+  {
+    "id": 78,
+    "slug": "ทุน-imperial-college-london-international-scholarships",
+    "name": "ทุน Imperial College London International Scholarships",
+    "amount": "สูงสุดครอบคลุมค่าเล่าเรียนทั้งหมดและมีเงินสนับสนุนค่าครองชีพจำนวนมาก",
+    "isFullScholarship": true,
+    "coverage": [
+      "Tuition",
+      "LivingCosts"
+    ],
+    "languages": [
+      "English"
+    ],
+    "level": "International",
+    "field": "วิศวกรรมศาสตร์ แพทยศาสตร์ วิทยาศาสตร์ธรรมชาติ วิทยาการคอมพิวเตอร์ และบริหารธุรกิจ",
+    "deadline": "แตกต่างกันตามทุน",
+    "location": "สหราชอาณาจักร",
+    "countryCode": "GB",
+    "continent": "Europe",
+    "description": "กลุ่มทุนการศึกษาของ Imperial College London สำหรับนักศึกษาต่างชาติที่มีผลการเรียนโดดเด่น โดยมีทุนที่ให้การสนับสนุนทางการเงินจำนวนมากในสาขาวิศวกรรมศาสตร์ แพทยศาสตร์ วิทยาศาสตร์ธรรมชาติ วิทยาการคอมพิวเตอร์ และบริหารธุรกิจ",
+    "eligibility": "เปิดรับผู้สมัครต่างชาติที่มีคุณสมบัติตามเกณฑ์และสมัครหลักสูตรที่เข้าร่วมโครงการของ Imperial College London โดยคุณสมบัติและจำนวนเงินสนับสนุนแตกต่างกันตามประเภทของทุน",
+    "link": "https://www.imperial.ac.uk/study/fees-and-funding/",
+    "featured": true
+  },
+  {
+    "id": 79,
+    "slug": "ทุน-ucl-research-excellence",
+    "name": "ทุน UCL Research Excellence Scholarship",
+    "amount": "สนับสนุนค่าเล่าเรียนเต็มจำนวน + เงินสนับสนุนการวิจัย",
+    "isFullScholarship": true,
+    "coverage": [
+      "Tuition",
+      "MonthlyStipend"
+    ],
+    "languages": [
+      "English"
+    ],
+    "level": "Postgraduate",
+    "field": "แพทยศาสตร์ สุขภาพ วิทยาศาสตร์ชีวภาพ วิศวกรรมศาสตร์ วิทยาศาสตร์กายภาพ และคณิตศาสตร์",
+    "deadline": "แตกต่างกันในแต่ละปี",
+    "location": "สหราชอาณาจักร",
+    "countryCode": "GB",
+    "continent": "Europe",
+    "description": "ทุนระดับปริญญาเอกของ UCL สำหรับนักศึกษาวิจัยที่มีผลการเรียนโดดเด่น ครอบคลุมสาขาแพทยศาสตร์ สุขภาพ วิทยาศาสตร์ชีวภาพ วิศวกรรมศาสตร์ วิทยาศาสตร์กายภาพ และคณิตศาสตร์",
+    "eligibility": "เปิดรับผู้สมัครต่างชาติที่มีคุณสมบัติตามเกณฑ์และสมัครหลักสูตรวิจัยระดับบัณฑิตศึกษาที่ UCL โดยต้องผ่านเกณฑ์ทางวิชาการของคณะหรือภาควิชาที่เกี่ยวข้อง",
+    "link": "https://www.ucl.ac.uk/scholarships/research-excellence-scholarship",
+    "featured": true
+  },
+  {
+    "id": 80,
+    "slug": "university-of-macau-international-student-scholarship",
+    "name": "ทุนการศึกษาสำหรับนักศึกษาต่างชาติ มหาวิทยาลัยมาเก๊า",
+    "amount": "ค่าเล่าเรียนเต็มจำนวน + ที่พัก",
+    "isFullScholarship": true,
+    "coverage": [
+      "ค่าเล่าเรียน",
+      "ที่พัก"
+    ],
+    "languages": [
+      "English",
+      "Chinese"
+    ],
+    "level": "International",
+    "field": "หลากหลายสาขา",
+    "deadline": "แตกต่างกันตามรอบรับสมัคร",
+    "location": "มาเก๊า",
+    "countryCode": "MO",
+    "continent": "Asia",
+    "description": "ทุนการศึกษาสำหรับนักศึกษาต่างชาติที่ได้รับการตอบรับเข้าศึกษาที่ University of Macau โดยมอบการสนับสนุนค่าเล่าเรียนและที่พักสำหรับหลักสูตรระดับปริญญาตรีและปริญญาโทที่เข้าเกณฑ์",
+    "eligibility": "เปิดรับผู้สมัครต่างชาติที่ถือหนังสือเดินทางต่างประเทศและมีคุณสมบัติตามเกณฑ์การรับเข้าศึกษาของหลักสูตรที่กำหนด โดยผู้สมัครที่มีสิทธิ์จะได้รับการพิจารณาทุนระหว่างกระบวนการสมัครเข้าเรียน",
+    "link": "https://gao.um.edu.mo/international-admission/scholarship-assistantship-academic-prizes/admission-scholarship/",
+    "featured": true
+  },
+  {
+    "id": 81,
+    "slug": "macau-university-of-science-and-technology-international-scholarships",
+    "name": "ทุนการศึกษาสำหรับนักศึกษาต่างชาติ มหาวิทยาลัยวิทยาศาสตร์และเทคโนโลยีมาเก๊า",
+    "amount": "ยกเว้นค่าเล่าเรียนบางส่วนถึงเต็มจำนวน",
+    "isFullScholarship": false,
+    "coverage": [
+      "ค่าเล่าเรียน"
+    ],
+    "languages": [
+      "English",
+      "Chinese"
+    ],
+    "level": "International",
+    "field": "หลากหลายสาขา",
+    "deadline": "แตกต่างกันตามรอบรับสมัคร",
+    "location": "มาเก๊า",
+    "countryCode": "MO",
+    "continent": "Asia",
+    "description": "ทุนการศึกษาจาก Macau University of Science and Technology สำหรับนักศึกษาต่างชาติที่สมัครหลักสูตรระดับปริญญาตรีและบัณฑิตศึกษา โดยทุนอาจครอบคลุมค่าเล่าเรียนบางส่วนหรือจำนวนมากตามประเภททุน",
+    "eligibility": "เปิดรับผู้สมัครต่างชาติที่มีคุณสมบัติตามเกณฑ์การรับเข้าศึกษาของหลักสูตรที่กำหนด โดยการพิจารณาทุนขึ้นอยู่กับผลการสมัครและเงื่อนไขของแต่ละทุน",
+    "link": "https://www.must.edu.mo/",
+    "featured": true
+  },
+  {
+    "id": 82,
+    "slug": "taiwan-government-scholarship",
+    "name": "ทุนรัฐบาลไต้หวัน",
+    "amount": "สนับสนุนค่าเล่าเรียน + เบี้ยเลี้ยงรายเดือน",
+    "isFullScholarship": false,
+    "coverage": [
+      "ค่าเล่าเรียน",
+      "เบี้ยเลี้ยงรายเดือน"
+    ],
+    "languages": [
+      "Chinese",
+      "English"
+    ],
+    "level": "International",
+    "field": "หลากหลายสาขา",
+    "deadline": "แตกต่างกันตามประเทศและโครงการ",
+    "location": "ไต้หวัน",
+    "countryCode": "TW",
+    "continent": "Asia",
+    "description": "ทุนจากรัฐบาลไต้หวันที่สนับสนุนนักศึกษาต่างชาติในการศึกษาระดับปริญญาหรือหลักสูตรภาษาจีนในไต้หวัน",
+    "eligibility": "เปิดรับนักศึกษาต่างชาติที่มีคุณสมบัติตามเงื่อนไขของโครงการทุนที่เกี่ยวข้องและสมัครผ่านหน่วยงานไต้หวันหรือมหาวิทยาลัยที่กำหนด",
+    "link": "https://www.studyintaiwan.org/",
+    "featured": true
+  },
+  {
+    "id": 83,
+    "slug": "taiwan-moe-scholarship",
+    "name": "ทุน Taiwan MOE Scholarship",
+    "amount": "สูงสุด NT$40,000 ต่อภาคการศึกษา + เบี้ยเลี้ยงรายเดือน",
+    "isFullScholarship": false,
+    "coverage": [
+      "ค่าเล่าเรียน",
+      "เบี้ยเลี้ยงรายเดือน"
+    ],
+    "languages": [
+      "Chinese",
+      "English"
+    ],
+    "level": "International",
+    "field": "หลากหลายสาขา",
+    "deadline": "แตกต่างกันตามประเทศ",
+    "location": "ไต้หวัน",
+    "countryCode": "TW",
+    "continent": "Asia",
+    "description": "ทุนจากกระทรวงศึกษาธิการไต้หวันที่สนับสนุนนักศึกษาต่างชาติที่ต้องการศึกษาระดับปริญญาตรี ปริญญาโท หรือปริญญาเอกในมหาวิทยาลัยของไต้หวัน",
+    "eligibility": "เปิดรับนักศึกษาต่างชาติจากประเทศที่เข้าเกณฑ์และมีคุณสมบัติตามเงื่อนไขของทุนและมหาวิทยาลัยที่สมัคร",
+    "link": "https://english.moe.gov.tw/",
+    "featured": true
+  },
+  {
+    "id": 84,
+    "slug": "korea-university-international-scholarship",
+    "name": "ทุนการศึกษาสำหรับนักศึกษาต่างชาติ Korea University",
+    "amount": "ยกเว้นค่าเล่าเรียนบางส่วนถึงเต็มจำนวน",
+    "isFullScholarship": false,
+    "coverage": [
+      "ค่าเล่าเรียน"
+    ],
+    "languages": [
+      "English",
+      "Korean"
+    ],
+    "level": "International",
+    "field": "หลากหลายสาขา",
+    "deadline": "แตกต่างกันตามรอบรับสมัคร",
+    "location": "เกาหลีใต้",
+    "countryCode": "KR",
+    "continent": "Asia",
+    "description": "ทุนการศึกษาสำหรับนักศึกษาต่างชาติของ Korea University โดยมีทุนที่มอบส่วนลดหรือยกเว้นค่าเล่าเรียนตามผลการเรียนและผลการสมัครเข้าเรียน",
+    "eligibility": "เปิดรับผู้สมัครต่างชาติที่มีคุณสมบัติตามเกณฑ์การรับเข้าศึกษาของ Korea University โดยผู้สมัครที่ผ่านเกณฑ์อาจได้รับการพิจารณาทุนตามประเภททุนที่กำหนด",
+    "link": "https://oia.korea.ac.kr/",
+    "featured": true
+  },
+  {
+    "id": 85,
+    "slug": "yonsei-university-international-scholarships",
+    "name": "ทุนการศึกษาสำหรับนักศึกษาต่างชาติ Yonsei University",
+    "amount": "สนับสนุนค่าเล่าเรียนบางส่วนถึงเต็มจำนวน",
+    "isFullScholarship": false,
+    "coverage": [
+      "ค่าเล่าเรียน"
+    ],
+    "languages": [
+      "English",
+      "Korean"
+    ],
+    "level": "International",
+    "field": "หลากหลายสาขา",
+    "deadline": "แตกต่างกันตามรอบรับสมัคร",
+    "location": "เกาหลีใต้",
+    "countryCode": "KR",
+    "continent": "Asia",
+    "description": "ทุนการศึกษาของ Yonsei University สำหรับนักศึกษาต่างชาติในระดับปริญญาตรีและบัณฑิตศึกษา โดยทุนขึ้นอยู่กับผลการเรียนและเงื่อนไขของแต่ละหลักสูตร",
+    "eligibility": "เปิดรับผู้สมัครต่างชาติที่มีคุณสมบัติตามเกณฑ์ของ Yonsei University และหลักสูตรที่สมัคร โดยรายละเอียดและระดับเงินทุนแตกต่างกันตามประเภททุน",
+    "link": "https://oia.yonsei.ac.kr/",
+    "featured": true
+  },
+  {
+    "id": 86,
+    "slug": "hanyang-university-international-scholarship",
+    "name": "ทุนการศึกษาสำหรับนักศึกษาต่างชาติ Hanyang University",
+    "amount": "ยกเว้นค่าเล่าเรียนบางส่วนถึงเต็มจำนวน",
+    "isFullScholarship": false,
+    "coverage": [
+      "ค่าเล่าเรียน"
+    ],
+    "languages": [
+      "English",
+      "Korean"
+    ],
+    "level": "International",
+    "field": "หลากหลายสาขา",
+    "deadline": "แตกต่างกันตามรอบรับสมัคร",
+    "location": "เกาหลีใต้",
+    "countryCode": "KR",
+    "continent": "Asia",
+    "description": "ทุนการศึกษาสำหรับนักศึกษาต่างชาติของ Hanyang University ซึ่งมีทุนลดหรือยกเว้นค่าเล่าเรียนตามผลการเรียนและผลการสมัคร",
+    "eligibility": "เปิดรับผู้สมัครต่างชาติที่มีคุณสมบัติตามเกณฑ์การรับเข้าศึกษาของหลักสูตรที่กำหนด",
+    "link": "https://www.hanyang.ac.kr/",
+    "featured": true
+  },
+  {
+    "id": 87,
+    "slug": "malaysia-university-scholarships-international-students",
+    "name": "ทุนมหาวิทยาลัยมาเลเซียสำหรับนักศึกษาต่างชาติ",
+    "amount": "ยกเว้นค่าเล่าเรียนและการสนับสนุนทางการเงิน",
+    "isFullScholarship": false,
+    "coverage": [
+      "ค่าเล่าเรียน"
+    ],
+    "languages": [
+      "English"
+    ],
+    "level": "International",
+    "field": "หลากหลายสาขา",
+    "deadline": "แตกต่างกันตามมหาวิทยาลัย",
+    "location": "มาเลเซีย",
+    "countryCode": "MY",
+    "continent": "Asia",
+    "description": "กลุ่มทุนจากมหาวิทยาลัยในมาเลเซียสำหรับนักศึกษาต่างชาติ ตั้งแต่ส่วนลดค่าเล่าเรียนไปจนถึงทุนที่ครอบคลุมค่าเล่าเรียนในสัดส่วนสูง",
+    "eligibility": "เปิดรับนักศึกษาต่างชาติที่มีคุณสมบัติตามเกณฑ์ด้านการศึกษาและการรับเข้าของมหาวิทยาลัยที่เข้าร่วม",
+    "link": "https://educationmalaysia.gov.my/",
+    "featured": true
+  },
+  {
+    "id": 88,
+    "slug": "japan-university-recommendation-scholarships",
+    "name": "ทุนแนะนำโดยมหาวิทยาลัยในญี่ปุ่นสำหรับนักศึกษาต่างชาติ",
+    "amount": "สนับสนุนค่าเล่าเรียน + เบี้ยเลี้ยงรายเดือน",
+    "isFullScholarship": false,
+    "coverage": [
+      "ค่าเล่าเรียน",
+      "เบี้ยเลี้ยงรายเดือน"
+    ],
+    "languages": [
+      "Japanese",
+      "English"
+    ],
+    "level": "International",
+    "field": "หลากหลายสาขา",
+    "deadline": "แตกต่างกันตามมหาวิทยาลัย",
+    "location": "ญี่ปุ่น",
+    "countryCode": "JP",
+    "continent": "Asia",
+    "description": "ทุนการศึกษาที่มหาวิทยาลัยในญี่ปุ่นแนะนำหรือดำเนินการสำหรับนักศึกษาต่างชาติ โดยอาจให้การยกเว้นค่าเล่าเรียนและเงินสนับสนุนรายเดือน",
+    "eligibility": "เปิดรับผู้สมัครต่างชาติที่ได้รับการตอบรับจากมหาวิทยาลัยที่เข้าร่วมและมีคุณสมบัติตามเงื่อนไขของทุนแต่ละประเภท",
+    "link": "https://www.studyinjapan.go.jp/en/planning/scholarships/",
+    "featured": true
+  },
+  {
+    "id": 90,
+    "slug": "hong-kong-university-international-scholarships",
+    "name": "ทุนการศึกษามหาวิทยาลัยฮ่องกงสำหรับนักศึกษาต่างชาติ",
+    "amount": "สนับสนุนค่าเล่าเรียนบางส่วนถึงเต็มจำนวน",
+    "isFullScholarship": false,
+    "coverage": [
+      "ค่าเล่าเรียน",
+      "ค่าครองชีพ"
+    ],
+    "languages": [
+      "English"
+    ],
+    "level": "International",
+    "field": "หลากหลายสาขา",
+    "deadline": "แตกต่างกันตามหลักสูตร",
+    "location": "ฮ่องกง",
+    "countryCode": "HK",
+    "continent": "Asia",
+    "description": "โอกาสทุนการศึกษาสำหรับนักศึกษาต่างชาติที่สมัครมหาวิทยาลัยในฮ่องกง โดยบางทุนสามารถให้การสนับสนุนค่าเล่าเรียนและค่าครองชีพในระดับสูง",
+    "eligibility": "เปิดรับผู้สมัครต่างชาติที่มีผลการเรียนดีและมีคุณสมบัติตามเกณฑ์การรับเข้าของมหาวิทยาลัยที่เข้าร่วม",
+    "link": "https://www.studyinhongkong.edu.hk/",
+    "featured": true
   }
 ]

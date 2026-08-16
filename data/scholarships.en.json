@@ -1475,5 +1475,495 @@
     "eligibility": "Open to outstanding students from eligible Asia-Pacific economies, including Thailand, applying for undergraduate study at NUS.",
     "link": "https://www.nus.edu.sg/oam/scholarships/scholarships-for-current-nus-undergraduates/list-of-named-scholarships",
     "featured": true
+  },
+  {
+    "id": 70,
+    "slug": "reach-oxford-scholarship",
+    "name": "Reach Oxford Scholarship",
+    "amount": "Fully Funded",
+    "isFullScholarship": true,
+    "coverage": [
+      "Tuition",
+      "MonthlyStipend",
+      "Airfare"
+    ],
+    "languages": [
+      "English"
+    ],
+    "level": "Undergraduate",
+    "field": "Various subjects except Medicine",
+    "deadline": "Varies annually",
+    "location": "United Kingdom",
+    "countryCode": "GB",
+    "continent": "Europe",
+    "description": "A highly competitive fully funded scholarship at the University of Oxford for outstanding students from eligible low-income countries, covering course fees, living costs and annual return airfare.",
+    "eligibility": "Open to nationals of eligible low-income countries, including Thailand, who have received an offer for an eligible undergraduate course at Oxford and meet the scholarship's academic, financial and social criteria.",
+    "link": "https://www.ox.ac.uk/admissions/undergraduate/fees-and-funding/oxford-bursaries-and-scholarships/reach-oxford",
+    "featured": true
+  },
+  {
+    "id": 71,
+    "slug": "cambridge-trust-international-scholarships",
+    "name": "Cambridge Trust International Scholarships",
+    "amount": "Full funding available for selected postgraduate awards",
+    "isFullScholarship": true,
+    "coverage": [
+      "Tuition",
+      "MonthlyStipend",
+      "HealthInsurance"
+    ],
+    "languages": [
+      "English"
+    ],
+    "level": "Postgraduate",
+    "field": "Various subjects",
+    "deadline": "Varies by course",
+    "location": "United Kingdom",
+    "countryCode": "GB",
+    "continent": "Europe",
+    "description": "A group of Cambridge Trust scholarships supporting outstanding international postgraduate students at the University of Cambridge, including awards that cover international fees and maintenance costs.",
+    "eligibility": "Open to international applicants applying for eligible postgraduate programmes at the University of Cambridge. Specific eligibility and funding levels vary by award.",
+    "link": "https://www.student-funding.cam.ac.uk/",
+    "featured": true
+  },
+  {
+    "id": 72,
+    "slug": "jardine-cambridge-graduate-scholarship",
+    "name": "Jardine Cambridge Graduate Scholarship",
+    "amount": "Fully Funded",
+    "isFullScholarship": true,
+    "coverage": [
+      "Tuition",
+      "MonthlyStipend",
+      "Airfare",
+      "Visa",
+      "HealthInsurance"
+    ],
+    "languages": [
+      "English"
+    ],
+    "level": "Postgraduate",
+    "field": "Various subjects",
+    "deadline": "Varies annually",
+    "location": "United Kingdom",
+    "countryCode": "GB",
+    "continent": "Europe",
+    "description": "A prestigious fully funded scholarship for outstanding postgraduate students from selected Asian countries, including Thailand, to study at the University of Cambridge.",
+    "eligibility": "Open to eligible applicants from Thailand and selected Asian countries applying for Master's or PhD programmes at Cambridge who demonstrate academic excellence, leadership potential and commitment to community service.",
+    "link": "https://www.cambridgetrust.org/scholarships/jardine-cambridge-graduate-scholarship",
+    "featured": true
+  },
+  {
+    "id": 73,
+    "slug": "university-of-toronto-international-scholarships",
+    "name": "University of Toronto International Scholarships",
+    "amount": "Up to full funding",
+    "isFullScholarship": true,
+    "coverage": [
+      "Tuition",
+      "Accommodation",
+      "LivingCosts"
+    ],
+    "languages": [
+      "English"
+    ],
+    "level": "Undergraduate",
+    "field": "Various subjects",
+    "deadline": "Varies by scholarship",
+    "location": "Canada",
+    "countryCode": "CA",
+    "continent": "NorthAmerica",
+    "description": "A collection of major University of Toronto scholarships supporting outstanding international undergraduate students, including highly competitive awards with substantial or full financial support.",
+    "eligibility": "Open to eligible international students applying for undergraduate programmes at the University of Toronto. Individual scholarships have different academic and nomination requirements.",
+    "link": "https://future.utoronto.ca/finances/awards/",
+    "featured": true
+  },
+  {
+    "id": 74,
+    "slug": "ubc-international-scholars-program",
+    "name": "UBC International Scholars Program",
+    "amount": "Up to the full cost of the educational programme",
+    "isFullScholarship": true,
+    "coverage": [
+      "Tuition",
+      "LivingCosts"
+    ],
+    "languages": [
+      "English"
+    ],
+    "level": "Undergraduate",
+    "field": "Various subjects",
+    "deadline": "Varies annually",
+    "location": "Canada",
+    "countryCode": "CA",
+    "continent": "NorthAmerica",
+    "description": "A major University of British Columbia scholarship programme providing substantial financial support to outstanding international undergraduate students with demonstrated financial need.",
+    "eligibility": "Open to international students entering undergraduate study at UBC who demonstrate exceptional academic achievement, leadership and significant financial need.",
+    "link": "https://you.ubc.ca/financial-planning/scholarships-awards-international-students/",
+    "featured": true
+  },
+  {
+    "id": 75,
+    "slug": "mccall-macbain-scholarship",
+    "name": "McCall MacBain Scholarship",
+    "amount": "Fully Funded",
+    "isFullScholarship": true,
+    "coverage": [
+      "Tuition",
+      "MonthlyStipend",
+      "Accommodation"
+    ],
+    "languages": [
+      "English",
+      "French"
+    ],
+    "level": "Postgraduate",
+    "field": "Various subjects",
+    "deadline": "Varies annually",
+    "location": "Canada",
+    "countryCode": "CA",
+    "continent": "NorthAmerica",
+    "description": "A prestigious fully funded graduate scholarship at McGill University supporting exceptional students with leadership potential, strong character and a commitment to community impact.",
+    "eligibility": "Open to eligible international applicants applying for qualifying Master's or professional graduate programmes at McGill University.",
+    "link": "https://mccallmacbainscholars.org/",
+    "featured": true
+  },
+  {
+    "id": 76,
+    "slug": "eth-zurich-excellence-scholarship",
+    "name": "ETH Zurich Excellence Scholarship & Opportunity Programme",
+    "amount": "CHF 12,000 per semester + full tuition fee waiver",
+    "isFullScholarship": true,
+    "coverage": [
+      "Tuition",
+      "MonthlyStipend"
+    ],
+    "languages": [
+      "English"
+    ],
+    "level": "Postgraduate",
+    "field": "Engineering, Science, Technology, Architecture and related fields",
+    "deadline": "30 November 2026",
+    "location": "Switzerland",
+    "countryCode": "CH",
+    "continent": "Europe",
+    "description": "ETH Zurich's flagship excellence scholarship providing full tuition support and a substantial living allowance for outstanding international Master's students.",
+    "eligibility": "Open to outstanding international applicants applying for eligible Master's programmes at ETH Zurich, normally requiring academic results in the top 10% of their Bachelor's degree.",
+    "link": "https://ethz.ch/students/en/studies/financial/scholarships/excellencescholarship.html",
+    "featured": true
+  },
+  {
+    "id": 77,
+    "slug": "epfl-excellence-fellowship",
+    "name": "EPFL Excellence Fellowship",
+    "amount": "CHF 10,000 per semester",
+    "isFullScholarship": false,
+    "coverage": [
+      "MonthlyStipend",
+      "Accommodation"
+    ],
+    "languages": [
+      "English"
+    ],
+    "level": "Postgraduate",
+    "field": "Engineering, Computer Science, Science and Technology",
+    "deadline": "Varies annually",
+    "location": "Switzerland",
+    "countryCode": "CH",
+    "continent": "Europe",
+    "description": "A prestigious EPFL fellowship for outstanding international Master's students in science, engineering and technology, providing substantial financial support during their studies.",
+    "eligibility": "Open to applicants of any nationality applying for an EPFL Master's programme who demonstrate exceptional academic excellence and motivation.",
+    "link": "https://www.epfl.ch/education/master/master-excellence-fellowships/how-to-apply/",
+    "featured": true
+  },
+  {
+    "id": 78,
+    "slug": "imperial-college-london-international-scholarships",
+    "name": "Imperial College London International Scholarships",
+    "amount": "Up to full tuition and substantial living support",
+    "isFullScholarship": true,
+    "coverage": [
+      "Tuition",
+      "LivingCosts"
+    ],
+    "languages": [
+      "English"
+    ],
+    "level": "International",
+    "field": "Engineering, Medicine, Natural Sciences, Computing and Business",
+    "deadline": "Varies by scholarship",
+    "location": "United Kingdom",
+    "countryCode": "GB",
+    "continent": "Europe",
+    "description": "A collection of competitive Imperial College London scholarships providing substantial financial support to outstanding international students across engineering, medicine, natural sciences, computing and business.",
+    "eligibility": "Open to eligible international applicants applying to qualifying Imperial College London programmes. Specific eligibility and funding vary by scholarship.",
+    "link": "https://www.imperial.ac.uk/study/fees-and-funding/",
+    "featured": true
+  },
+  {
+    "id": 79,
+    "slug": "ucl-research-excellence-scholarship",
+    "name": "UCL Research Excellence Scholarship",
+    "amount": "Full tuition fee support + research stipend",
+    "isFullScholarship": true,
+    "coverage": [
+      "Tuition",
+      "MonthlyStipend"
+    ],
+    "languages": [
+      "English"
+    ],
+    "level": "Postgraduate",
+    "field": "Medicine, Health, Life Sciences, Engineering, Physical Sciences and Mathematics",
+    "deadline": "Varies annually",
+    "location": "United Kingdom",
+    "countryCode": "GB",
+    "continent": "Europe",
+    "description": "A competitive UCL doctoral scholarship supporting outstanding research students across medicine, health, life sciences, engineering, physical sciences and mathematics.",
+    "eligibility": "Open to eligible international applicants applying for research degree programmes at UCL and meeting the academic requirements of the relevant department.",
+    "link": "https://www.ucl.ac.uk/scholarships/research-excellence-scholarship",
+    "featured": true
+  },
+  {
+    "id": 80,
+    "slug": "university-of-macau-international-student-scholarship",
+    "name": "University of Macau International Student Scholarship",
+    "amount": "Full tuition + accommodation",
+    "isFullScholarship": true,
+    "coverage": [
+      "Tuition",
+      "Accommodation"
+    ],
+    "languages": [
+      "English"
+    ],
+    "level": "International",
+    "field": "Various subjects",
+    "deadline": "Varies by admission cycle",
+    "location": "Macau",
+    "countryCode": "MO",
+    "continent": "Asia",
+    "description": "A scholarship for international students admitted to the University of Macau, offering full or partial tuition and accommodation support for eligible Bachelor's and Master's programmes.",
+    "eligibility": "Open to international applicants holding a valid foreign passport who meet the admission requirements of eligible full-time Bachelor's or Master's programmes at the University of Macau. Eligible applicants are automatically considered for the scholarship during admission.",
+    "link": "https://gao.um.edu.mo/international-admission/scholarship-assistantship-academic-prizes/admission-scholarship/",
+    "featured": true
+  },
+  {
+    "id": 81,
+    "slug": "macau-university-of-science-and-technology-international-scholarships",
+    "name": "Macau University of Science and Technology International Scholarships",
+    "amount": "Tuition fee waiver",
+    "isFullScholarship": false,
+    "coverage": [
+      "Tuition"
+    ],
+    "languages": [
+      "English",
+      "Chinese"
+    ],
+    "level": "International",
+    "field": "Various subjects",
+    "deadline": "Varies by admission cycle",
+    "location": "Macau",
+    "countryCode": "MO",
+    "continent": "Asia",
+    "description": "University scholarships for international students applying to undergraduate and postgraduate programmes at Macau University of Science and Technology.",
+    "eligibility": "Open to international students who meet the academic and admission requirements of eligible programmes. Scholarship consideration is generally linked to the admission application.",
+    "link": "https://www.must.edu.mo/",
+    "featured": true
+  },
+  {
+    "id": 82,
+    "slug": "taiwan-government-scholarship",
+    "name": "Taiwan Government Scholarships",
+    "amount": "Tuition support + monthly stipend",
+    "isFullScholarship": false,
+    "coverage": [
+      "Tuition",
+      "MonthlyStipend"
+    ],
+    "languages": [
+      "Chinese",
+      "English"
+    ],
+    "level": "International",
+    "field": "Various subjects",
+    "deadline": "Varies by country and programme",
+    "location": "Taiwan",
+    "countryCode": "TW",
+    "continent": "Asia",
+    "description": "Government-funded scholarship opportunities supporting international students pursuing degree programmes or Mandarin language study in Taiwan.",
+    "eligibility": "Open to international students who meet the requirements of the relevant Taiwan scholarship programme and apply through the designated Taiwan overseas mission or university.",
+    "link": "https://www.studyintaiwan.org/",
+    "featured": true
+  },
+  {
+    "id": 83,
+    "slug": "taiwan-moe-scholarship",
+    "name": "Taiwan MOE Scholarship",
+    "amount": "Up to NT$40,000 per semester + monthly allowance",
+    "isFullScholarship": false,
+    "coverage": [
+      "Tuition",
+      "MonthlyStipend"
+    ],
+    "languages": [
+      "Chinese",
+      "English"
+    ],
+    "level": "International",
+    "field": "Various subjects",
+    "deadline": "Varies by country",
+    "location": "Taiwan",
+    "countryCode": "TW",
+    "continent": "Asia",
+    "description": "A Taiwan Ministry of Education scholarship supporting international students studying undergraduate, master's or doctoral programmes at Taiwanese universities.",
+    "eligibility": "Open to international students from eligible countries who satisfy the scholarship and university admission requirements.",
+    "link": "https://english.moe.gov.tw/",
+    "featured": true
+  },
+  {
+    "id": 84,
+    "slug": "korea-university-international-scholarship",
+    "name": "Korea University International Student Scholarships",
+    "amount": "Partial to full tuition waiver",
+    "isFullScholarship": false,
+    "coverage": [
+      "Tuition"
+    ],
+    "languages": [
+      "English",
+      "Korean"
+    ],
+    "level": "International",
+    "field": "Various subjects",
+    "deadline": "Varies by admission cycle",
+    "location": "South Korea",
+    "countryCode": "KR",
+    "continent": "Asia",
+    "description": "University scholarships for international students admitted to undergraduate programmes at Korea University, including substantial tuition waivers based on academic achievement.",
+    "eligibility": "Open to international applicants who meet Korea University's admission requirements. Scholarship consideration may be automatic for eligible admitted students depending on the award.",
+    "link": "https://oia.korea.ac.kr/",
+    "featured": true
+  },
+  {
+    "id": 85,
+    "slug": "yonsei-university-international-scholarships",
+    "name": "Yonsei University International Student Scholarships",
+    "amount": "Partial to full tuition support",
+    "isFullScholarship": false,
+    "coverage": [
+      "Tuition"
+    ],
+    "languages": [
+      "English",
+      "Korean"
+    ],
+    "level": "International",
+    "field": "Various subjects",
+    "deadline": "Varies by admission cycle",
+    "location": "South Korea",
+    "countryCode": "KR",
+    "continent": "Asia",
+    "description": "Scholarship opportunities offered by Yonsei University for international students across undergraduate and postgraduate programmes.",
+    "eligibility": "Open to qualified international applicants admitted to eligible Yonsei University programmes. Scholarship selection depends on academic performance and programme-specific requirements.",
+    "link": "https://oia.yonsei.ac.kr/",
+    "featured": true
+  },
+  {
+    "id": 86,
+    "slug": "hanyang-university-international-scholarship",
+    "name": "Hanyang University International Scholarships",
+    "amount": "Partial to full tuition waiver",
+    "isFullScholarship": false,
+    "coverage": [
+      "Tuition"
+    ],
+    "languages": [
+      "English",
+      "Korean"
+    ],
+    "level": "International",
+    "field": "Various subjects",
+    "deadline": "Varies by admission cycle",
+    "location": "South Korea",
+    "countryCode": "KR",
+    "continent": "Asia",
+    "description": "Scholarships for international students at Hanyang University, including tuition reductions based on academic performance and admission results.",
+    "eligibility": "Open to international applicants who meet the admission requirements for eligible undergraduate or postgraduate programmes.",
+    "link": "https://www.hanyang.ac.kr/",
+    "featured": true
+  },
+  {
+    "id": 87,
+    "slug": "malaysia-university-scholarships-international-students",
+    "name": "Malaysian University International Scholarships",
+    "amount": "Tuition fee waiver and financial support",
+    "isFullScholarship": false,
+    "coverage": [
+      "Tuition"
+    ],
+    "languages": [
+      "English"
+    ],
+    "level": "International",
+    "field": "Various subjects",
+    "deadline": "Varies by university",
+    "location": "Malaysia",
+    "countryCode": "MY",
+    "continent": "Asia",
+    "description": "Scholarship opportunities offered directly by Malaysian universities to international students, with awards varying from tuition discounts to substantial tuition fee waivers.",
+    "eligibility": "Open to international applicants meeting the academic and admission requirements of participating Malaysian universities.",
+    "link": "https://educationmalaysia.gov.my/",
+    "featured": true
+  },
+  {
+    "id": 88,
+    "slug": "japan-university-recommendation-scholarships",
+    "name": "Japan University Recommendation Scholarships",
+    "amount": "Tuition support + monthly stipend",
+    "isFullScholarship": false,
+    "coverage": [
+      "Tuition",
+      "MonthlyStipend"
+    ],
+    "languages": [
+      "Japanese",
+      "English"
+    ],
+    "level": "International",
+    "field": "Various subjects",
+    "deadline": "Varies by university",
+    "location": "Japan",
+    "countryCode": "JP",
+    "continent": "Asia",
+    "description": "Scholarship opportunities recommended or administered by Japanese universities for international students, including tuition reductions and monthly financial support.",
+    "eligibility": "Open to international applicants admitted to participating Japanese universities who satisfy the requirements of individual scholarship schemes.",
+    "link": "https://www.studyinjapan.go.jp/en/planning/scholarships/",
+    "featured": true
+  },
+  {
+    "id": 90,
+    "slug": "hong-kong-university-international-scholarships",
+    "name": "Hong Kong University International Scholarships",
+    "amount": "Partial to full tuition support",
+    "isFullScholarship": false,
+    "coverage": [
+      "Tuition",
+      "LivingCosts"
+    ],
+    "languages": [
+      "English"
+    ],
+    "level": "International",
+    "field": "Various subjects",
+    "deadline": "Varies by programme",
+    "location": "Hong Kong",
+    "countryCode": "HK",
+    "continent": "Asia",
+    "description": "Scholarship opportunities for international students applying to undergraduate programmes at universities in Hong Kong, with some awards providing substantial tuition and living support.",
+    "eligibility": "Open to international applicants with strong academic achievements who meet the admission requirements of participating Hong Kong universities.",
+    "link": "https://www.studyinhongkong.edu.hk/",
+    "featured": true
   }
 ]
