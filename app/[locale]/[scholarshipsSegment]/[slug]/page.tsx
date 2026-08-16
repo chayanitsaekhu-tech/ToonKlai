@@ -25,8 +25,6 @@ import {
   getScholarshipPath,
 } from "@/i18n/routes";
 
-export const dynamicParams = false;
-
 export function generateStaticParams() {
   return locales.flatMap((locale) => {
     const scholarships =
