@@ -2,11 +2,7 @@ import ScholarshipCard from "@/components/ScholarshipCard";
 
 import type { Locale } from "@/i18n/config";
 
-import type {
-  Scholarship,
-  ScholarshipLanguage,
-  ScholarshipContinent,
-} from "@/types/scholarship";
+import type { Scholarship } from "@/types/scholarship";
 
 type ScholarshipDictionary = {
   heading: string;
@@ -24,10 +20,7 @@ type ScholarshipDictionary = {
   deadline: string;
   view: string;
   language: string;
-  languageOptions: Record<
-    ScholarshipLanguage,
-    string
-  >;
+  languageOptions: Record<string, string>;
   location: string;
 };
 
@@ -40,22 +33,6 @@ type FilterDictionary = {
   undergraduate: string;
   postgraduate: string;
   international: string;
-
-  language: string;
-  country: string;
-  continent: string;
-
-  all: string;
-
-  languageOptions: Record<
-    ScholarshipLanguage,
-    string
-  >;
-
-  continentOptions: Record<
-    ScholarshipContinent,
-    string
-  >;
 };
 
 type ScholarshipListProps = {
