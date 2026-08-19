@@ -167,15 +167,6 @@ export default async function ScholarshipPage({
         ← {dictionary.scholarships.back}
       </Link>
 
-    <div className="mb-6 flex justify-end">
-        <ScholarshipLanguageSwitcher
-        locale={locale}
-        scholarshipId={
-        scholarship.id
-        }
-        />
-    </div>
-
       <article className="mt-8 overflow-hidden rounded-3xl border border-slate-200 bg-white shadow-sm">
         <header className="bg-slate-900 px-6 py-10 text-white sm:px-10">
           <div className="flex flex-wrap items-start justify-between gap-4">
