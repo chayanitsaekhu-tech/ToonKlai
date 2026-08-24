@@ -63,12 +63,12 @@ export default async function LocaleLayout({
         <div className="mx-auto flex h-20 w-full max-w-6xl items-center px-5">
           <Link
             href={`/${locale}`}
-            aria-label="ToonKlai"
+            aria-label="ToonKnok"
             className="flex items-center"
           >
             <Image
-              src="/toonklai-logo.png"
-              alt="ToonKlai"
+              src="/toonnok-logo.png"
+              alt="Toonnok"
               width={240}
               height={70}
               priority

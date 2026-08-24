@@ -1,6 +1,6 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "toonklai",
+  "name": "toonknok",
   "main": ".open-next/worker.js",
   "compatibility_date": "2026-08-16",
   "compatibility_flags": [
@@ -13,7 +13,7 @@
   "services": [
     {
       "binding": "WORKER_SELF_REFERENCE",
-      "service": "toonklai"
+      "service": "toonknok"
     }
   ]
 }
