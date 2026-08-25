@@ -1,9 +1,10 @@
+"use client";
+
 import type {
   ScholarshipContinent,
-  ScholarshipContinentFilter,
 } from "@/types/scholarship";
 
-type FilterDictionary = {
+type ContinentFilterDictionary = {
   label: string;
   all: string;
   continentOptions: Record<
@@ -12,16 +13,15 @@ type FilterDictionary = {
   >;
 };
 
-type ContinentFilterButtonsProps = {
-  selectedContinent: ScholarshipContinentFilter;
-  onContinentChange: (
-    continent: ScholarshipContinentFilter,
+type ContinentFilterProps = {
+  selectedContinents: ScholarshipContinent[];
+  onContinentsChange: (
+    continents: ScholarshipContinent[],
   ) => void;
-  dictionary: FilterDictionary;
+  dictionary: ContinentFilterDictionary;
 };
 
-const continents: ScholarshipContinentFilter[] = [
-  "All",
+const continents: ScholarshipContinent[] = [
   "Europe",
   "Asia",
   "NorthAmerica",
@@ -32,47 +32,82 @@ const continents: ScholarshipContinentFilter[] = [
 ];
 
 export default function ContinentFilterButtons({
-  selectedContinent,
-  onContinentChange,
+  selectedContinents,
+  onContinentsChange,
   dictionary,
-}: ContinentFilterButtonsProps) {
+}: ContinentFilterProps) {
+  function toggleContinent(
+    continent: ScholarshipContinent,
+  ) {
+    if (
+      selectedContinents.includes(continent)
+    ) {
+      onContinentsChange(
+        selectedContinents.filter(
+          (item) => item !== continent,
+        ),
+      );
+    } else {
+      onContinentsChange([
+        ...selectedContinents,
+        continent,
+      ]);
+    }
+  }
+
+  function clearContinents() {
+    onContinentsChange([]);
+  }
+
   return (
-    <fieldset>
-      <legend className="text-sm font-semibold text-slate-900">
+    <div>
+      <h3 className="mb-3 font-bold text-slate-900">
         {dictionary.label}
-      </legend>
+      </h3>
 
-      <div className="mt-3 flex flex-wrap gap-2">
+      <div className="flex flex-wrap gap-2">
+        <button
+          type="button"
+          onClick={clearContinents}
+          className={`rounded-lg border px-3 py-2 text-sm font-semibold transition ${
+            selectedContinents.length === 0
+              ? "border-slate-900 bg-slate-900 text-white"
+              : "border-slate-300 bg-white text-slate-700 hover:bg-slate-50"
+          }`}
+        >
+          {dictionary.all}
+        </button>
+
         {continents.map((continent) => {
-          const isSelected =
-            selectedContinent === continent;
-
-          const label =
-            continent === "All"
-              ? dictionary.all
-              : dictionary.continentOptions[
-                  continent
-                ];
+          const selected =
+            selectedContinents.includes(
+              continent,
+            );
 
           return (
             <button
               key={continent}
               type="button"
-              aria-pressed={isSelected}
               onClick={() =>
-                onContinentChange(continent)
+                toggleContinent(continent)
               }
-              className={`rounded-full border px-4 py-2 text-sm font-semibold transition ${
-                isSelected
-                  ? "border-slate-900 bg-slate-900 text-white"
+              className={`rounded-lg border px-3 py-2 text-sm font-semibold transition ${
+                selected
+                  ? "border-sky-600 bg-sky-600 text-white"
                   : "border-slate-300 bg-white text-slate-700 hover:bg-slate-50"
               }`}
             >
-              {label}
+              {selected && "✓ "}
+              {
+                dictionary
+                  .continentOptions[
+                    continent
+                  ]
+              }
             </button>
           );
         })}
       </div>
-    </fieldset>
+    </div>
   );
 }

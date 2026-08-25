@@ -17,8 +17,8 @@ import type {
   Scholarship,
   ScholarshipLevelFilter,
   ScholarshipFundingFilter,
-  ScholarshipLanguageFilter,
-  ScholarshipContinentFilter,
+  ScholarshipLanguage,
+  ScholarshipContinent,
 } from "@/types/scholarship";
 
 type ScholarshipExplorerProps = {
@@ -47,23 +47,20 @@ export default function ScholarshipExplorer({
   ] =
     useState<ScholarshipFundingFilter>("All");
 
-  const [
-    selectedLanguage,
-    setSelectedLanguage,
-  ] =
-    useState<ScholarshipLanguageFilter>("All");
+const [
+  selectedLanguages,
+  setSelectedLanguages,
+] = useState<ScholarshipLanguage[]>([]);
 
-  const [
-    selectedCountry,
-    setSelectedCountry,
-  ] =
-    useState<string>("All");
+const [
+  selectedCountries,
+  setSelectedCountries,
+] = useState<string[]>([]);
 
-  const [
-    selectedContinent,
-    setSelectedContinent,
-  ] =
-    useState<ScholarshipContinentFilter>("All");
+const [
+  selectedContinents,
+  setSelectedContinents,
+] = useState<ScholarshipContinent[]>([]);
 
   const [showFilters, setShowFilters] =
     useState(false);
@@ -120,21 +117,23 @@ export default function ScholarshipExplorer({
         (selectedFunding === "Partial" &&
           !scholarship.isFullScholarship);
 
-      const matchesLanguage =
-        selectedLanguage === "All" ||
-        scholarship.languages.includes(
-          selectedLanguage,
-        );
+    const matchesLanguage =
+  selectedLanguages.length === 0 ||
+  selectedLanguages.some((language) =>
+    scholarship.languages.includes(language),
+  );
 
-      const matchesCountry =
-        selectedCountry === "All" ||
-        scholarship.countryCode ===
-          selectedCountry;
+const matchesCountry =
+  selectedCountries.length === 0 ||
+  selectedCountries.includes(
+    scholarship.countryCode,
+  );
 
-      const matchesContinent =
-        selectedContinent === "All" ||
-        scholarship.continent ===
-          selectedContinent;
+const matchesContinent =
+  selectedContinents.length === 0 ||
+  selectedContinents.includes(
+    scholarship.continent,
+  );
 
       return (
         matchesSearch &&
@@ -147,21 +146,21 @@ export default function ScholarshipExplorer({
     });
 
   const hasActiveFilters =
-    searchTerm.trim() !== "" ||
-    selectedLevel !== "All" ||
-    selectedFunding !== "All" ||
-    selectedLanguage !== "All" ||
-    selectedCountry !== "All" ||
-    selectedContinent !== "All";
+  searchTerm.trim() !== "" ||
+  selectedLevel !== "All" ||
+  selectedFunding !== "All" ||
+  selectedLanguages.length > 0 ||
+  selectedCountries.length > 0 ||
+  selectedContinents.length > 0;
 
   function clearFilters() {
-    setSearchTerm("");
-    setSelectedLevel("All");
-    setSelectedFunding("All");
-    setSelectedLanguage("All");
-    setSelectedCountry("All");
-    setSelectedContinent("All");
-  }
+  setSearchTerm("");
+  setSelectedLevel("All");
+  setSelectedFunding("All");
+  setSelectedLanguages([]);
+  setSelectedCountries([]);
+  setSelectedContinents([]);
+}
 
   return (
     <div>
@@ -237,70 +236,68 @@ export default function ScholarshipExplorer({
               />
 
               {/* Language */}
-              <LanguageFilterButtons
-                selectedLanguage={
-                  selectedLanguage
-                }
-                onLanguageChange={
-                  setSelectedLanguage
-                }
-                dictionary={{
-                  label:
-                    dictionary.filters
-                      .language,
-                  all:
-                    dictionary.filters
-                      .all,
-                  languageOptions:
-                    dictionary.scholarships
-                      .languageOptions,
-                }}
-                availableLanguages={
-                  availableLanguages
-                }
-              />
+<LanguageFilterButtons
+  selectedLanguages={
+    selectedLanguages
+  }
+  onLanguagesChange={
+    setSelectedLanguages
+  }
+  dictionary={{
+    label:
+      dictionary.filters
+        .language,
+    all:
+      dictionary.filters
+        .all,
+    languageOptions:
+      dictionary.scholarships
+        .languageOptions,
+  }}
+  availableLanguages={
+    availableLanguages
+  }
+/>
 
-              {/* Country */}
-              <CountryFilterButtons
-                selectedCountry={
-                  selectedCountry
-                }
-                onCountryChange={
-                  setSelectedCountry
-                }
-                dictionary={{
-                  label:
-                    dictionary.filters
-                      .country,
-                  all:
-                    dictionary.filters
-                      .all,
-                }}
-                countries={
-                  availableCountries
-                }
-              />
+{/* Country */}
+<CountryFilterButtons
+  selectedCountries={
+    selectedCountries
+  }
+  onCountriesChange={
+    setSelectedCountries
+  }
+  dictionary={{
+    label:
+      dictionary.filters.country,
+    all:
+      dictionary.filters.all,
+  }}
+  countries={
+    availableCountries
+  }
+/>
 
-              {/* Continent */}
-              <ContinentFilterButtons
-                selectedContinent={
-                  selectedContinent
-                }
-                onContinentChange={
-                  setSelectedContinent
-                }
-                dictionary={{
-                  label:
-                    dictionary.filters
-                      .continent,
-                  all:
-                    dictionary.filters
-                      .all,
-                  continentOptions:
-                    dictionary.filters
-                      .continentOptions,
-                }}
-              />
+{/* Continent */}
+<ContinentFilterButtons
+  selectedContinents={
+    selectedContinents
+  }
+  onContinentsChange={
+    setSelectedContinents
+  }
+  dictionary={{
+    label:
+      dictionary.filters
+        .continent,
+    all:
+      dictionary.filters
+        .all,
+    continentOptions:
+      dictionary.filters
+        .continentOptions,
+  }}
+/>
 
               {/* Clear */}
               {hasActiveFilters && (

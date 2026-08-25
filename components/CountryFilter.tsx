@@ -1,45 +1,62 @@
-type CountryOption = {
+"use client";
+
+type Country = {
   code: string;
   name: string;
 };
 
-type FilterDictionary = {
+type CountryFilterDictionary = {
   label: string;
   all: string;
 };
 
-type CountryFilterButtonsProps = {
-  selectedCountry: string;
-  onCountryChange: (
-    country: string,
+type CountryFilterProps = {
+  selectedCountries: string[];
+  onCountriesChange: (
+    countries: string[],
   ) => void;
-  dictionary: FilterDictionary;
-  countries: CountryOption[];
+  dictionary: CountryFilterDictionary;
+  countries: Country[];
 };
 
 export default function CountryFilterButtons({
-  selectedCountry,
-  onCountryChange,
+  selectedCountries,
+  onCountriesChange,
   dictionary,
   countries,
-}: CountryFilterButtonsProps) {
-  return (
-    <fieldset>
-      <legend className="text-sm font-semibold text-slate-900">
-        {dictionary.label}
-      </legend>
+}: CountryFilterProps) {
+  function toggleCountry(code: string) {
+    if (selectedCountries.includes(code)) {
+      onCountriesChange(
+        selectedCountries.filter(
+          (country) => country !== code,
+        ),
+      );
+    } else {
+      onCountriesChange([
+        ...selectedCountries,
+        code,
+      ]);
+    }
+  }
 
-      <div className="mt-3 flex flex-wrap gap-2">
+  function clearCountries() {
+    onCountriesChange([]);
+  }
+
+  return (
+    <div>
+      <h3 className="mb-3 font-bold text-slate-900">
+        {dictionary.label}
+      </h3>
+
+      <div className="flex flex-wrap gap-2">
+        {/* All */}
         <button
           type="button"
-          aria-pressed={
-            selectedCountry === "All"
-          }
-          onClick={() =>
-            onCountryChange("All")
-          }
-          className={`rounded-full border px-4 py-2 text-sm font-semibold transition ${
-            selectedCountry === "All"
+          onClick={clearCountries}
+          className={`rounded-lg border px-3 py-2 text-sm font-semibold transition ${
+            selectedCountries.length === 0
               ? "border-slate-900 bg-slate-900 text-white"
               : "border-slate-300 bg-white text-slate-700 hover:bg-slate-50"
           }`}
@@ -47,29 +64,32 @@ export default function CountryFilterButtons({
           {dictionary.all}
         </button>
 
+        {/* Countries */}
         {countries.map((country) => {
-          const isSelected =
-            selectedCountry === country.code;
+          const selected =
+            selectedCountries.includes(
+              country.code,
+            );
 
           return (
             <button
               key={country.code}
               type="button"
-              aria-pressed={isSelected}
               onClick={() =>
-                onCountryChange(country.code)
+                toggleCountry(country.code)
               }
-              className={`rounded-full border px-4 py-2 text-sm font-semibold transition ${
-                isSelected
-                  ? "border-slate-900 bg-slate-900 text-white"
+              className={`rounded-lg border px-3 py-2 text-sm font-semibold transition ${
+                selected
+                  ? "border-sky-600 bg-sky-600 text-white"
                   : "border-slate-300 bg-white text-slate-700 hover:bg-slate-50"
               }`}
             >
+              {selected && "✓ "}
               {country.name}
             </button>
           );
         })}
       </div>
-    </fieldset>
+    </div>
   );
 }

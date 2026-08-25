@@ -1,9 +1,10 @@
+"use client";
+
 import type {
   ScholarshipLanguage,
-  ScholarshipLanguageFilter,
 } from "@/types/scholarship";
 
-type FilterDictionary = {
+type LanguageFilterDictionary = {
   label: string;
   all: string;
   languageOptions: Record<
@@ -12,61 +13,94 @@ type FilterDictionary = {
   >;
 };
 
-type LanguageFilterButtonsProps = {
-  selectedLanguage: ScholarshipLanguageFilter;
-  onLanguageChange: (
-    language: ScholarshipLanguageFilter,
+type LanguageFilterProps = {
+  selectedLanguages: ScholarshipLanguage[];
+  onLanguagesChange: (
+    languages: ScholarshipLanguage[],
   ) => void;
-  dictionary: FilterDictionary;
+  dictionary: LanguageFilterDictionary;
   availableLanguages: ScholarshipLanguage[];
 };
 
 export default function LanguageFilterButtons({
-  selectedLanguage,
-  onLanguageChange,
+  selectedLanguages,
+  onLanguagesChange,
   dictionary,
   availableLanguages,
-}: LanguageFilterButtonsProps) {
-  const languages: ScholarshipLanguageFilter[] = [
-    "All",
-    ...availableLanguages,
-  ];
+}: LanguageFilterProps) {
+  function toggleLanguage(
+    language: ScholarshipLanguage,
+  ) {
+    if (
+      selectedLanguages.includes(language)
+    ) {
+      onLanguagesChange(
+        selectedLanguages.filter(
+          (item) => item !== language,
+        ),
+      );
+    } else {
+      onLanguagesChange([
+        ...selectedLanguages,
+        language,
+      ]);
+    }
+  }
+
+  function clearLanguages() {
+    onLanguagesChange([]);
+  }
 
   return (
-    <fieldset>
-      <legend className="text-sm font-semibold text-slate-900">
+    <div>
+      <h3 className="mb-3 font-bold text-slate-900">
         {dictionary.label}
-      </legend>
+      </h3>
 
-      <div className="mt-3 flex flex-wrap gap-2">
-        {languages.map((language) => {
-          const isSelected =
-            selectedLanguage === language;
+      <div className="flex flex-wrap gap-2">
+        <button
+          type="button"
+          onClick={clearLanguages}
+          className={`rounded-lg border px-3 py-2 text-sm font-semibold transition ${
+            selectedLanguages.length === 0
+              ? "border-slate-900 bg-slate-900 text-white"
+              : "border-slate-300 bg-white text-slate-700 hover:bg-slate-50"
+          }`}
+        >
+          {dictionary.all}
+        </button>
 
-          const label =
-            language === "All"
-              ? dictionary.all
-              : dictionary.languageOptions[language];
+        {availableLanguages.map(
+          (language) => {
+            const selected =
+              selectedLanguages.includes(
+                language,
+              );
 
-          return (
-            <button
-              key={language}
-              type="button"
-              aria-pressed={isSelected}
-              onClick={() =>
-                onLanguageChange(language)
-              }
-              className={`rounded-full border px-4 py-2 text-sm font-semibold transition ${
-                isSelected
-                  ? "border-slate-900 bg-slate-900 text-white"
-                  : "border-slate-300 bg-white text-slate-700 hover:bg-slate-50"
-              }`}
-            >
-              {label}
-            </button>
-          );
-        })}
+            return (
+              <button
+                key={language}
+                type="button"
+                onClick={() =>
+                  toggleLanguage(language)
+                }
+                className={`rounded-lg border px-3 py-2 text-sm font-semibold transition ${
+                  selected
+                    ? "border-sky-600 bg-sky-600 text-white"
+                    : "border-slate-300 bg-white text-slate-700 hover:bg-slate-50"
+                }`}
+              >
+                {selected && "✓ "}
+                {
+                  dictionary.languageOptions[
+                    language
+                  ]
+                }
+              </button>
+            );
+          },
+        )}
       </div>
-    </fieldset>
+    </div>
   );
 }
