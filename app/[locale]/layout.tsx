@@ -40,9 +40,11 @@ export async function generateMetadata({
     description: dictionary.metadata.description,
 
     icons: {
-      icon: "/toonnok-favicon.png",
-      shortcut: "/toonnok-favicon.png",
-      apple: "/toonnok-favicon.png",
+      icon: [ 
+        {
+          url: "/toonnok-icon.svg"
+        }
+      ]
     },
   };
 }
@@ -71,7 +73,7 @@ export default async function LocaleLayout({
           <div className="mx-auto flex h-20 w-full max-w-6xl items-center px-5">
             <Link
               href={`/${locale}`}
-              aria-label="ToonKnok"
+              aria-label="Toonnok"
               className="flex items-center"
             >
               <Image
