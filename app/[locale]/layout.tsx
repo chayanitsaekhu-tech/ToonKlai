@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import LanguageSwitcher from "@/components/LanguageSwitcher";
+import TopNav from "@/components/TopNav";
 
 import {
   isLocale,
@@ -59,30 +60,32 @@ export default async function LocaleLayout({
   return (
     <html lang={locale}>
       <body className="bg-slate-50 text-slate-900 antialiased">
-      <header className="border-b border-slate-200 bg-white">
-        <div className="mx-auto flex h-20 w-full max-w-6xl items-center px-5">
-          <Link
-            href={`/${locale}`}
-            aria-label="ToonKnok"
-            className="flex items-center"
-          >
-            <Image
-              src="/toonnok-logo.png"
-              alt="Toonnok"
-              width={240}
-              height={70}
-              priority
-              className="h-16 w-auto object-contain"
-            />
-          </Link>
+     <header className="border-b border-slate-200 bg-white">
+  <div className="mx-auto flex h-20 w-full max-w-6xl items-center px-5">
+    <Link
+      href={`/${locale}`}
+      aria-label="ToonKnok"
+      className="flex items-center"
+    >
+      <Image
+        src="/toonnok-logo.png"
+        alt="Toonnok"
+        width={240}
+        height={70}
+        priority
+        className="h-16 w-auto object-contain"
+      />
+    </Link>
 
-          <div className="ml-auto">
-            <LanguageSwitcher locale={locale} />
-          </div>
-        </div>
-      </header>
+    <div className="ml-auto">
+      <LanguageSwitcher locale={locale} />
+    </div>
+  </div>
+</header>
 
-        {children}
+<TopNav locale={locale} />
+
+{children}
       </body>
     </html>
   );

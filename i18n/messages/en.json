@@ -10,6 +10,11 @@
 "description": "Search scholarships that can help support your education and future career."
 },
 
+"navigation": {
+  "examPreparation": "Scholarship Preparation",
+  "englishTutoring": "English Tutoring"
+},
+
 "search": {
 "label": "Search scholarships",
 "placeholder": "Search by name, subject, or keyword"
