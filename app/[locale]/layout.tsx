@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import LanguageSwitcher from "@/components/LanguageSwitcher";
 import TopNav from "@/components/TopNav";
+import GoogleAnalytics from "@/components/GoogleAnalytics";
 
 import {
   isLocale,
@@ -68,6 +69,8 @@ export default async function LocaleLayout({
   return (
     <html lang={locale}>
       <body className="bg-slate-50 text-slate-900 antialiased">
+
+        <GoogleAnalytics />
 
         <header className="border-b border-slate-200 bg-white">
           <div className="mx-auto flex h-20 w-full max-w-6xl items-center px-5">
