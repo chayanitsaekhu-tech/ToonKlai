@@ -12,7 +12,8 @@
 
 "navigation": {
   "examPreparation": "Scholarship Preparation",
-  "englishTutoring": "English Tutoring"
+  "englishTutoring": "English Tutoring",
+  "contact": "Contact Us"
 },
 
 "search": {
@@ -133,6 +134,6 @@
 },
 
 "footer": {
-"text": "Scholarship Finder."
+"text": "Toonnok Scholarship Finder Website"
 }
 }

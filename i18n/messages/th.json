@@ -12,7 +12,8 @@
 
 "navigation": {
   "examPreparation": "เตรียมสอบทุน",
-  "englishTutoring": "ติวภาษาอังกฤษ"
+  "englishTutoring": "ติวภาษาอังกฤษ",
+  "contact": "ติดต่อเรา"
 },
 
 "search": {
@@ -132,6 +133,6 @@
 },
 
 "footer": {
-"text": "ค้นหาทุนการศึกษา"
+"text": "ทุนนอก เว็บเพื่อหาทุนการศึกษา"
 }
 }
