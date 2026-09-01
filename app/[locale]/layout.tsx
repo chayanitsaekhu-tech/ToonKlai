@@ -84,7 +84,7 @@ export default async function LocaleLayout({
               className="flex shrink-0 items-center"
             >
               <Image
-                src="/toonnok-logo.png"
+                src="/toonnok-logo.svg"
                 alt="Toonnok"
                 width={240}
                 height={70}
