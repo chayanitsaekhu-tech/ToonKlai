@@ -12,7 +12,7 @@ export type ScholarshipFundingFilter =
   | "Full"
   | "Partial";
 
-  export type ScholarshipLanguageFilter =
+export type ScholarshipLanguageFilter =
   | "All"
   | ScholarshipLanguage;
 
@@ -24,7 +24,7 @@ export type ScholarshipCountryFilter =
   | "All"
   | string;
 
-  export type ScholarshipLanguage =
+export type ScholarshipLanguage =
   | "English"
   | "Japanese"
   | "German"
@@ -46,7 +46,7 @@ export type ScholarshipCountryFilter =
   | "Malay"
   | "Arabic";
 
-  export type ScholarshipCoverage =
+export type ScholarshipCoverage =
   | "Tuition"
   | "MonthlyStipend"
   | "Airfare"
@@ -55,7 +55,7 @@ export type ScholarshipCountryFilter =
   | "Accommodation"
   | "ResearchGrant";
 
-  export type ScholarshipContinent =
+export type ScholarshipContinent =
   | "Europe"
   | "Asia"
   | "NorthAmerica"
@@ -68,24 +68,21 @@ export type Scholarship = {
   id: number;
   slug: string;
   name: string;
-
   amount: string;
   isFullScholarship: boolean;
   coverage: ScholarshipCoverage[];
-
   languages: ScholarshipLanguage[];
-
   level: ScholarshipLevel;
   field: string;
   deadline: string;
   location: string;
   countryCode: string;
   continent: ScholarshipContinent;
-
   description: string;
   eligibility: string;
-
   link: string;
-
   featured: boolean;
+
+  addedAt?: string;
+  views?: number;
 };
