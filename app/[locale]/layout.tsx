@@ -93,16 +93,21 @@ export default async function LocaleLayout({
               />
             </Link>
 
-            {/* Navigation + Language */}
-            <div className="ml-auto flex shrink-0 items-center gap-2 sm:gap-4">
+            {/* Desktop Navigation */}
+            <div className="ml-auto hidden items-center md:flex">
 
               <TopNav locale={locale} />
 
-              {/* Language Switcher */}
-              <div className="shrink-0">
+              {/* Desktop Language Switcher */}
+              <div className="ml-8 shrink-0 border-l border-slate-200 pl-6">
                 <LanguageSwitcher locale={locale} />
               </div>
 
+            </div>
+
+            {/* Mobile Navigation */}
+            <div className="ml-auto md:hidden">
+              <TopNav locale={locale} />
             </div>
 
           </div>

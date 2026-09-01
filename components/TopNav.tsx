@@ -5,6 +5,7 @@ import Link from "next/link";
 
 import type { Locale } from "@/i18n/config";
 import { getDictionary } from "@/i18n/dictionaries";
+import LanguageSwitcher from "@/components/LanguageSwitcher";
 
 type TopNavProps = {
   locale: Locale;
@@ -24,12 +25,12 @@ export default function TopNav({
   };
 
   return (
-    <div className="flex items-center">
+    <div className="relative">
 
       {/* Desktop Navigation */}
-      <div className="hidden items-center gap-6 md:flex">
+      <div className="hidden items-center gap-8 md:flex">
 
-        {/* Exam Preparation */}
+        {/* Scholarship Preparation */}
         <div className="relative">
           <button
             type="button"
@@ -74,7 +75,7 @@ export default function TopNav({
           </div>
         </div>
 
-        {/* About */}
+        {/* About Us */}
         <Link
           href={`/${locale}/about`}
           className="py-3 text-sm font-semibold text-slate-700 transition hover:text-sky-600"
@@ -84,7 +85,7 @@ export default function TopNav({
             : "About Us"}
         </Link>
 
-        {/* Contact */}
+        {/* Contact Us */}
         <Link
           href={`/${locale}/contact`}
           className="py-3 text-sm font-semibold text-slate-700 transition hover:text-sky-600"
@@ -109,9 +110,9 @@ export default function TopNav({
           </span>
         </button>
 
-        {/* Mobile menu */}
+        {/* Mobile Menu */}
         <div
-          className={`absolute left-0 right-0 top-20 z-50 border-b border-slate-200 bg-white shadow-md transition-all duration-200 ${
+          className={`fixed left-0 right-0 top-20 z-50 border-b border-slate-200 bg-white shadow-md transition-all duration-200 ${
             isOpen
               ? "visible translate-y-0 opacity-100"
               : "invisible -translate-y-2 opacity-0"
@@ -119,7 +120,7 @@ export default function TopNav({
         >
           <div className="mx-auto max-w-6xl px-5 py-3">
 
-            {/* Exam Preparation */}
+            {/* Scholarship Preparation */}
             <button
               type="button"
               onClick={() =>
@@ -145,7 +146,7 @@ export default function TopNav({
               </span>
             </button>
 
-            {/* Exam submenu */}
+            {/* Scholarship submenu */}
             <div
               className={`overflow-hidden transition-all duration-200 ${
                 isExamOpen
@@ -165,7 +166,7 @@ export default function TopNav({
               </Link>
             </div>
 
-            {/* About */}
+            {/* About Us */}
             <Link
               href={`/${locale}/about`}
               onClick={closeMenu}
@@ -176,7 +177,7 @@ export default function TopNav({
                 : "About Us"}
             </Link>
 
-            {/* Contact */}
+            {/* Contact Us */}
             <Link
               href={`/${locale}/contact`}
               onClick={closeMenu}
@@ -184,6 +185,13 @@ export default function TopNav({
             >
               {dictionary.navigation.contact}
             </Link>
+
+            {/* Language */}
+            <div className="mt-2 border-t border-slate-200 pt-3">
+              <LanguageSwitcher
+                locale={locale}
+              />
+            </div>
 
           </div>
         </div>
