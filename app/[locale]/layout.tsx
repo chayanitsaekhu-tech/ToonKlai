@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
+
 import LanguageSwitcher from "@/components/LanguageSwitcher";
 import TopNav from "@/components/TopNav";
 import GoogleAnalytics from "@/components/GoogleAnalytics";
@@ -41,11 +42,11 @@ export async function generateMetadata({
     description: dictionary.metadata.description,
 
     icons: {
-      icon: [ 
+      icon: [
         {
-          url: "/toonnok-icon.svg"
-        }
-      ]
+          url: "/toonnok-icon.svg",
+        },
+      ],
     },
   };
 }
@@ -72,12 +73,15 @@ export default async function LocaleLayout({
 
         <GoogleAnalytics />
 
-        <header className="border-b border-slate-200 bg-white">
+        {/* Top Header */}
+        <header className="relative z-50 border-b border-slate-200 bg-white">
           <div className="mx-auto flex h-20 w-full max-w-6xl items-center px-5">
+
+            {/* Logo */}
             <Link
               href={`/${locale}`}
               aria-label="Toonnok"
-              className="flex items-center"
+              className="flex shrink-0 items-center"
             >
               <Image
                 src="/toonnok-logo.png"
@@ -85,17 +89,24 @@ export default async function LocaleLayout({
                 width={240}
                 height={70}
                 priority
-                className="h-16 w-auto object-contain"
+                className="h-12 w-auto object-contain sm:h-16"
               />
             </Link>
 
-            <div className="ml-auto">
-              <LanguageSwitcher locale={locale} />
+            {/* Navigation + Language */}
+            <div className="ml-auto flex shrink-0 items-center gap-2 sm:gap-4">
+
+              <TopNav locale={locale} />
+
+              {/* Language Switcher */}
+              <div className="shrink-0">
+                <LanguageSwitcher locale={locale} />
+              </div>
+
             </div>
+
           </div>
         </header>
-
-        <TopNav locale={locale} />
 
         {children}
 
