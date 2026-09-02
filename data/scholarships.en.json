@@ -2219,5 +2219,30 @@
     "eligibility": "Open to local and international students applying for eligible full-time graduate research programmes at NTU. Applicants must meet the academic and admission requirements of the relevant programme.",
     "link": "https://www.ntu.edu.sg/admissions/graduate/financialmatters/scholarships/rss",
     "featured": true
-  }
+  },
+  {
+  "id": 98,
+  "slug": "slovakia-scholarships-for-talented-international-students",
+  "name": "Slovakia Scholarships for Talented International Students",
+  "amount": "Up to €15,000",
+  "isFullScholarship": false,
+  "addedAt": "2026-09-03",
+  "coverage": [
+    "Tuition",
+    "MonthlyStipend"
+  ],
+  "languages": [
+    "English"
+  ],
+  "level": "Undergraduate",
+  "field": "Natural Sciences, Technical Sciences, Medicine, Agriculture, Social Sciences, Humanities, and Arts",
+  "deadline": "8 September 2026",
+  "location": "Slovakia",
+  "countryCode": "SK",
+  "continent": "Europe",
+  "description": "A scholarship programme for talented international students pursuing eligible bachelor's or master's degree programmes in Slovakia. The scholarship provides financial support of up to €15,000, including a monthly stipend.",
+  "eligibility": "Open to talented international students from around the world who meet the eligibility requirements and are admitted to an eligible study programme in Slovakia. Applicants must meet the required academic criteria and scholarship conditions.",
+  "link": "https://grants.saia.sk/Pages/ProgramDetail.aspx?Program=778",
+  "featured": false
+}
 ]

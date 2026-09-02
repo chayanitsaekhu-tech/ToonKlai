@@ -2221,5 +2221,30 @@
     "eligibility": "เปิดรับนักศึกษาในประเทศและนักศึกษาต่างชาติที่สมัครหลักสูตร Graduate Research แบบเต็มเวลาที่มีสิทธิ์ของ NTU โดยผู้สมัครต้องมีคุณสมบัติด้านการศึกษาและผ่านเกณฑ์การรับเข้าของหลักสูตร",
     "link": "https://www.ntu.edu.sg/admissions/graduate/financialmatters/scholarships/rss",
     "featured": true
-  }
+  },
+  {
+  "id": 98,
+  "slug": "ทุนสโลวาเกีย-สำหรับนักศึกษาต่างชาติที่มีความสามารถ",
+  "name": "ทุน Slovakia Scholarships for Talented International Students",
+  "amount": "สูงสุด €15,000",
+  "isFullScholarship": false,
+  "addedAt": "2026-09-03",
+  "coverage": [
+    "Tuition",
+    "MonthlyStipend"
+  ],
+  "languages": [
+    "English"
+  ],
+  "level": "Undergraduate",
+  "field": "วิทยาศาสตร์ธรรมชาติ, วิทยาศาสตร์เทคนิค, แพทยศาสตร์, เกษตรศาสตร์, สังคมศาสตร์, มนุษยศาสตร์ และศิลปศาสตร์",
+  "deadline": "8 กันยายน 2026",
+  "location": "สโลวาเกีย",
+  "countryCode": "SK",
+  "continent": "Europe",
+  "description": "ทุนสำหรับนักศึกษาต่างชาติที่มีความสามารถและต้องการศึกษาระดับปริญญาตรีหรือปริญญาโทในหลักสูตรที่เข้าร่วมในประเทศสโลวาเกีย โดยทุนสนับสนุนค่าใช้จ่ายสูงสุด €15,000 รวมถึงเงินทุนรายเดือน",
+  "eligibility": "เปิดรับนักศึกษาต่างชาติจากทั่วโลกที่มีคุณสมบัติตามเกณฑ์และได้รับการตอบรับเข้าศึกษาในหลักสูตรที่มีสิทธิ์ในประเทศสโลวาเกีย ผู้สมัครต้องมีคุณสมบัติทางการศึกษาและเป็นไปตามเงื่อนไขของทุน",
+  "link": "https://grants.saia.sk/Pages/ProgramDetail.aspx?Program=778",
+  "featured": false
+}
 ]
