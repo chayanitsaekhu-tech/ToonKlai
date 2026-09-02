@@ -2042,5 +2042,187 @@
     "eligibility": "Open to international applicants with strong academic achievements who meet the admission requirements of participating Hong Kong universities.",
     "link": "https://www.studyinhongkong.edu.hk/",
     "featured": true
+  },
+  {
+    "id": 91,
+    "slug": "postech-international-undergraduate-scholarship",
+    "name": "POSTECH International Undergraduate Scholarship",
+    "amount": "Full tuition waiver + living allowance",
+    "isFullScholarship": true,
+    "addedAt": "2026-09-02",
+    "coverage": [
+      "Tuition",
+      "MonthlyStipend",
+      "LivingCosts"
+    ],
+    "languages": [
+      "English"
+    ],
+    "level": "Undergraduate",
+    "field": "Science, Engineering, Technology, and related subjects",
+    "deadline": "Varies annually",
+    "location": "South Korea",
+    "countryCode": "KR",
+    "continent": "Asia",
+    "description": "Scholarship support for international undergraduate students admitted to POSTECH. All admitted international undergraduate students receive a full tuition waiver, with additional financial support such as a monthly living allowance available to international students.",
+    "eligibility": "Open to international students applying through POSTECH's international undergraduate admission track. Continued tuition support for up to eight regular semesters is subject to POSTECH's academic requirements, including maintaining the required GPA.",
+    "link": "https://adm-iu.postech.ac.kr/",
+    "featured": true
+  },
+  {
+    "id": 92,
+    "slug": "smu-asean-undergraduate-scholarship",
+    "name": "SMU ASEAN Undergraduate Scholarship",
+    "amount": "100% subsidised tuition + living and accommodation allowances",
+    "isFullScholarship": true,
+    "addedAt": "2026-09-02",
+    "coverage": [
+      "Tuition",
+      "MonthlyStipend",
+      "Accommodation",
+      "LivingCosts",
+      "ComputerAllowance"
+    ],
+    "languages": [
+      "English"
+    ],
+    "level": "Undergraduate",
+    "field": "Various subjects",
+    "deadline": "Varies annually",
+    "location": "Singapore",
+    "countryCode": "SG",
+    "continent": "Asia",
+    "description": "A scholarship for outstanding students from ASEAN countries, including Thailand, who are applying for a full-time undergraduate degree at Singapore Management University. The scholarship covers 100% of subsidised undergraduate tuition fees after the MOE Tuition Grant and provides living, accommodation, and computer allowances.",
+    "eligibility": "Open to citizens of ASEAN member countries including Thailand. Applicants should demonstrate strong academic performance, leadership potential, and good co-curricular activity records. International recipients must accept the MOE Tuition Grant, which carries a three-year work obligation in Singapore after graduation.",
+    "link": "https://admissions.smu.edu.sg/financial-aid/asean-undergraduate-scholarship",
+    "featured": true
+  },
+  {
+    "id": 93,
+    "slug": "cityuhk-entrance-scholarship-scheme",
+    "name": "CityUHK Entrance Scholarship Scheme",
+    "amount": "Full tuition scholarship + up to HKD 60,000 annual living allowance",
+    "isFullScholarship": true,
+    "addedAt": "2026-09-02",
+    "coverage": [
+      "Tuition",
+      "LivingCosts",
+      "Accommodation"
+    ],
+    "languages": [
+      "English"
+    ],
+    "level": "Undergraduate",
+    "field": "Various subjects",
+    "deadline": "Varies by admission round",
+    "location": "Hong Kong",
+    "countryCode": "HK",
+    "continent": "Asia",
+    "description": "Entrance scholarships for international students admitted to full-time government-funded bachelor's degree programmes at City University of Hong Kong. The scheme includes a Full Tuition Scholarship and a Top Scholarship providing renewable full tuition plus an annual living allowance of up to HKD 60,000.",
+    "eligibility": "Open to international students with strong academic performance who are admitted to eligible full-time government-funded bachelor's degree programmes at CityUHK. Students are automatically considered for the appropriate scholarship level based on merit and must meet the required academic standard to renew the award.",
+    "link": "https://www.cityu.edu.hk/admo/entrance-scholarship-international-students",
+    "featured": true
+  },
+  {
+    "id": 94,
+    "slug": "ucl-global-undergraduate-scholarship",
+    "name": "UCL Global Undergraduate Scholarship",
+    "amount": "Full tuition fees + maintenance allowance for selected awards",
+    "isFullScholarship": true,
+    "addedAt": "2026-09-02",
+    "coverage": [
+      "Tuition",
+      "LivingCosts"
+    ],
+    "languages": [
+      "English"
+    ],
+    "level": "Undergraduate",
+    "field": "Various subjects",
+    "deadline": "Varies annually",
+    "location": "United Kingdom",
+    "countryCode": "GB",
+    "continent": "Europe",
+    "description": "Scholarships designed to support international students from low-income backgrounds studying full-time undergraduate programmes at University College London. Selected awards cover full tuition fees and provide a maintenance allowance, while other awards cover full tuition fees only.",
+    "eligibility": "Open to students from any country outside the UK who are eligible for overseas tuition fees, come from a low-income background, and have submitted an admission application for an eligible full-time undergraduate programme at UCL.",
+    "link": "https://www.ucl.ac.uk/scholarships/ucl-global-undergraduate-scholarship",
+    "featured": true
+  },
+  {
+    "id": 95,
+    "slug": "hrh-princess-sirindhorn-university-of-liverpool-scholarship",
+    "name": "HRH Princess Sirindhorn University of Liverpool Scholarship",
+    "amount": "Full tuition fees + £9,000 living stipend",
+    "isFullScholarship": true,
+    "addedAt": "2026-09-02",
+    "coverage": [
+      "Tuition",
+      "LivingCosts"
+    ],
+    "languages": [
+      "English"
+    ],
+    "level": "Master's",
+    "field": "Various subjects",
+    "deadline": "19 June 2026",
+    "location": "United Kingdom",
+    "countryCode": "GB",
+    "continent": "Europe",
+    "description": "A scholarship specifically for students from Thailand who are starting a one-year taught master's programme at the University of Liverpool. The award provides full tuition fees and a £9,000 living stipend.",
+    "eligibility": "Open to new postgraduate taught master's students from Thailand studying any one-year taught master's programme at the University of Liverpool. Priority may be given to subjects associated with HRH Princess Sirindhorn, including science, IT, medicine, arts, geography, history, and languages.",
+    "link": "https://www.liverpool.ac.uk/study/fees-and-funding/scholarships-and-bursaries/masters/hrh-princess-sirindhorn-scholarship-thailand/",
+    "featured": true
+  },
+  {
+    "id": 96,
+    "slug": "university-of-melbourne-graduate-research-scholarships",
+    "name": "University of Melbourne Graduate Research Scholarships",
+    "amount": "100% fee remission + AUD 39,500 annual living allowance",
+    "isFullScholarship": true,
+    "addedAt": "2026-09-02",
+    "coverage": [
+      "Tuition",
+      "MonthlyStipend",
+      "LivingCosts"
+    ],
+    "languages": [
+      "English"
+    ],
+    "level": "Master's",
+    "field": "Various research fields",
+    "deadline": "Varies annually",
+    "location": "Australia",
+    "countryCode": "AU",
+    "continent": "Oceania",
+    "description": "Graduate research scholarships for domestic and international students undertaking a Master's by Research or doctoral degree at the University of Melbourne. The scholarship can provide full fee remission and a living allowance of AUD 39,500 per year at the 2026 full-time rate.",
+    "eligibility": "Open to domestic and international students applying for eligible graduate research degrees. Applicants are considered based on academic achievement and admission requirements for the relevant research degree.",
+    "link": "https://scholarships.unimelb.edu.au/awards/graduate-research-scholarships",
+    "featured": true
+  },
+  {
+    "id": 97,
+    "slug": "ntu-research-scholarship",
+    "name": "NTU Research Scholarship",
+    "amount": "Tuition fees + monthly stipend",
+    "isFullScholarship": true,
+    "addedAt": "2026-09-02",
+    "coverage": [
+      "Tuition",
+      "MonthlyStipend",
+      "LivingCosts"
+    ],
+    "languages": [
+      "English"
+    ],
+    "level": "Master's",
+    "field": "Various research fields",
+    "deadline": "Varies by programme",
+    "location": "Singapore",
+    "countryCode": "SG",
+    "continent": "Asia",
+    "description": "A research scholarship for local and international graduate students pursuing full-time graduate research programmes at Nanyang Technological University. The scholarship provides tuition support and a monthly stipend and may be renewable subject to satisfactory progress and available funding.",
+    "eligibility": "Open to local and international students applying for eligible full-time graduate research programmes at NTU. Applicants are generally expected to have at least an Honours degree at Distinction level or an equivalent qualification.",
+    "link": "https://www.ntu.edu.sg/admissions/graduate/financialmatters/scholarships/rss",
+    "featured": true
   }
 ]
